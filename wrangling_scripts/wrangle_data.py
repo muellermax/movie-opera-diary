@@ -123,16 +123,14 @@ def return_figures():
     graph_one.append(
         go.Bar(
             x=x_val,
-            y=y_val,
-            name='Confirmed cases',
-            hovertemplate='%{y:,.2}'
+            y=y_val
         )
     )
 
-    layout_one = dict(title='Daily increase of confirmed cases of Covid-19 in Chile',
-                      xaxis=dict(title='Date'),
-                      yaxis=dict(title='Confirmed cases'),
-                      )
+    #layout_one = dict(title='Daily increase of confirmed cases of Covid-19 in Chile',
+     #                 xaxis=dict(title='Date'),
+      #                yaxis=dict(title='Confirmed cases'),
+       #               )
 
 
     # second chart plots daily increase of Covid-19 deaths in Chile and rolling average.
