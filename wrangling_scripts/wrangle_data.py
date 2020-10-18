@@ -97,7 +97,7 @@ def show_items_over_time(df, since, input_var):
     # Rename columns
     df_grouped.columns = ['month', input_var, 'count']
 
-    return items_over_time_df
+    return df_grouped
 
 
 def return_figures():
