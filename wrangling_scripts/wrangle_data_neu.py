@@ -30,7 +30,7 @@ def show_items_over_time(df, since, input_var):
 
 
 def return_figures():
-    """Creates plotly visualizations
+    """Creates four plotly visualizations
 
     Args:
         None
@@ -40,7 +40,8 @@ def return_figures():
 
     """
 
-
+    # first chart plots daily increase of Covid-19 infections in Chile and rolling average.
+    # as a line chart
 
     # First plot
     graph_one = []
@@ -51,20 +52,18 @@ def return_figures():
     graph_one.append(
         go.Bar(
             x=x_val,
-            y=y_val,
-            name='Confirmed cases',
-            hovertemplate='%{y:,.2}'
+            y=y_val
         )
     )
-
-
 
     layout_one = dict(title='Daily increase of confirmed cases of Covid-19 in Chile',
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Confirmed cases'),
+                      barmode='stack'
                       )
 
-# second chart plots daily increase of Covid-19 deaths in Chile and rolling average.
+
+    # second chart plots daily increase of Covid-19 deaths in Chile and rolling average.
     graph_two = []
     df = country_daily('Chile', csse_deaths_all)
     x_val = df.date.tolist()
@@ -184,6 +183,5 @@ def return_figures():
     figures.append(dict(data=graph_four, layout=layout_four))
     figures.append(dict(data=graph_five))
     figures.append(dict(data=graph_six))
-
 
     return figures
