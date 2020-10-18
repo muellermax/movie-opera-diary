@@ -130,6 +130,7 @@ def return_figures():
     layout_one = dict(title='Daily increase of confirmed cases of Covid-19 in Chile',
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Confirmed cases'),
+                      barmode='stack'
                       )
 
 
