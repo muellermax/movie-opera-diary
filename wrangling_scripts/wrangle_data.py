@@ -127,10 +127,10 @@ def return_figures():
         )
     )
 
-    #layout_one = dict(title='Daily increase of confirmed cases of Covid-19 in Chile',
-     #                 xaxis=dict(title='Date'),
-      #                yaxis=dict(title='Confirmed cases'),
-       #               )
+    layout_one = dict(title='Daily increase of confirmed cases of Covid-19 in Chile',
+                      xaxis=dict(title='Date'),
+                      yaxis=dict(title='Confirmed cases'),
+                      )
 
 
     # second chart plots daily increase of Covid-19 deaths in Chile and rolling average.
