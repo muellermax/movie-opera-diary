@@ -14,6 +14,9 @@ latin_america = ['Argentina', 'Bolivia', 'Brazil', 'Chile', 'Colombia', 'Ecuador
                  'Guyana Paraguay', 'Peru', 'Suriname', 'Uruguay', 'Venezuela']
 
 
+# Read in the data from the movie opera diary.
+diary_mov_op = pd.read_csv('input.csv')
+
 # Function to retrieve data for a single country from the CSSE data.
 def single_country(country, df):
     """
@@ -71,6 +74,32 @@ def country_daily(country, df, days=7):
     return country_df.fillna(0)
 
 
+
+def show_items_over_time(df, since, input_var):
+    """
+    Function to show the count of different input_vars over time. 
+    
+    Input: 
+        df (DataFrame): The movie opera diary DataFrame
+        since (string): Specify the start date
+        input_var (string): Specify the item: 'category', 'place', 'creator'
+    
+    Output: 
+        A plotly plot
+    """
+    
+    # Select DataFrame since a specific date
+    df = df[df['date'] >= since]
+
+    # Groupby month and the input_var
+    df_grouped = df.groupby(['month', input_var])['title'].count().reset_index()
+
+    # Rename columns
+    df_grouped.columns = ['month', input_var, 'count']
+
+    return items_over_time_df
+
+
 def return_figures():
     """Creates four plotly visualizations
 
@@ -85,10 +114,11 @@ def return_figures():
     # first chart plots daily increase of Covid-19 infections in Chile and rolling average.
     # as a line chart
 
+    # First plot
     graph_one = []
-    df = country_daily('Chile', csse_cases_all)
-    x_val = df.date.tolist()
-    y_val = df['daily increase'].tolist()
+    df = show_items_over_time(diary_mov_op, '2017-01-01', 'category')
+    x_val = df['month'].tolist()
+    y_val = df['count'].tolist()
 
     graph_one.append(
         go.Bar(
@@ -99,22 +129,11 @@ def return_figures():
         )
     )
 
-    y_val2 = df.rolling_avg.tolist()
-
-    graph_one.append(
-        go.Scatter(
-            x=x_val,
-            y=y_val2,
-            mode='lines',
-            name='Rolling Average',
-            hovertemplate='%{y:,.2r}'
-        )
-    )
-
     layout_one = dict(title='Daily increase of confirmed cases of Covid-19 in Chile',
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Confirmed cases'),
                       )
+
 
     # second chart plots daily increase of Covid-19 deaths in Chile and rolling average.
     graph_two = []
