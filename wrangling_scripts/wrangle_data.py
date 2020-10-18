@@ -15,7 +15,7 @@ latin_america = ['Argentina', 'Bolivia', 'Brazil', 'Chile', 'Colombia', 'Ecuador
 
 
 # Read in the data from the movie opera diary.
-diary_mov_op = pd.read_csv('input.csv')
+diary_mov_op = pd.read_csv('./wrangling_scripts/input.csv')
 
 # Function to retrieve data for a single country from the CSSE data.
 def single_country(country, df):
