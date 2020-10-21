@@ -46,6 +46,6 @@ show_items_over_time(diary_mov_op, '2017-01-01', 'category')
 
 
 #### Idee: JSON Grafiken erstellen und dann in index file inkludieren. 
-https://www.reddit.com/r/flask/comments/gghoak/does_anyone_have_any_experience_or_examples_with/
-https://github.com/vega/vega-embed/blob/master/README.md
-https://github.com/dushyantkhosla/flasked-altair
+# https://www.reddit.com/r/flask/comments/gghoak/does_anyone_have_any_experience_or_examples_with/
+# https://github.com/vega/vega-embed/blob/master/README.md
+# https://github.com/dushyantkhosla/flasked-altair
