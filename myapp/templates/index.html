@@ -86,7 +86,15 @@
             </script>
         </div>
 
-
+        <div id="vis"></div>
+        <p>Hallo</p>
+        <script type="text/javascript">
+          var spec = "https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/myapp/static/titles_over_time.json";
+          vegaEmbed('#vis', spec).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+          }).catch(console.error);
+        </script>
+        </div>
 
 <!--footer section-->
 <div id="footer" class="container">
