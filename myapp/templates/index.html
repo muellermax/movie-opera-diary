@@ -4,7 +4,7 @@
 
 <head>
 
-<title>Covid-19 Dashboard</title>
+<title>The movie and opera diary</title>
 
     <!-- Meta OG Information -->
     <meta property="og:image" content="/static/img/graph.png">
@@ -30,7 +30,7 @@
 
 <!--navbar links-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-   <a class="navbar-brand" href="#">Covid-19 in Chile and South America</a>
+   <a class="navbar-brand" href="#">Max' movie and opera diary</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse"
   data-target="#navbarTogglerDemo02"
   aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -58,9 +58,9 @@
 
         <!--chart descriptions-->
         <div id="middle-info" class="row justify-content-center mt-3">
-            <h2 id="tag-line">Covid-19 in Chile and South America - test</h2>
+            <h2 id="tag-line">Max' movie and opera diary</h2>
         </div>
-        <div class="row justify-content-center mt-3"><h4 class="text-muted">Updated daily</h4></div>
+       
 
         <!--
         <div class="text-justify">
@@ -122,23 +122,6 @@
 </div>
 
 </body>
-
-
-<footer>
-
-    <script type="text/javascript">
-        // plots the figure with id
-        // id much match the div id above in the html
-        var figures = {{figuresJSON | safe}};
-        var ids = {{ids | safe}};
-        for(var i in figures) {
-            Plotly.plot(ids[i],
-                figures[i].data,
-                figures[i].layout || {});
-        }
-    </script>
-    
-</footer>
 
 
 </html>
