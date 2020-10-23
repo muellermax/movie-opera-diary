@@ -62,22 +62,9 @@
         </div>
        
 
-        <!--
-        <div class="text-justify">
-        <script>
-        var d = new Date();
-        document.getElementById("demo").innerHTML = d.toDateString();
-        </script>
-        </div>
-        -->
-
         <!--charts-->
         <div id="charts" class="container mt-3 text-center">
-
-
-
             <div id="vis1"></div>
-            <p>plot1</p>
             <script type="text/javascript">
               var spec = "https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/myapp/static/items_over_time.json";
               vegaEmbed('#vis1', spec).then(function(result) {
@@ -87,16 +74,14 @@
         </div>
 
         <div id="charts" class="container mt-3 text-center">
-        <div id="vis2"></div>
-        <p>plot2</p>
-        <script type="text/javascript">
+          <div id="vis2"></div>
+          <script type="text/javascript">
           var spec = "https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/myapp/static/titles_over_time.json";
           vegaEmbed('#vis2', spec).then(function(result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
           }).catch(console.error);
-        </script>
+          </script>
         </div>
-      </div>
 
 <!--footer section-->
 <div id="footer" class="container">
