@@ -54,8 +54,7 @@ def return_figures():
         go.Bar(
             x=x_val,
             y=y_val,
-            color=color,
-            barmode='stack'
+            color=color
         )
     )
 
