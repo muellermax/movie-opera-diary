@@ -48,13 +48,11 @@ def return_figures():
 
     x_val = df['month'].tolist()
     y_val = df['count'].tolist()
-    color = df['category'].tolist()
 
     graph_one.append(
         go.Bar(
             x=x_val,
-            y=y_val,
-            color=color
+            y=y_val
         )
     )
 
