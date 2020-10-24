@@ -29,7 +29,7 @@ def show_items_over_time(df, since, input_var):
     df_grouped.columns = ['month', input_var, 'count']
     
     return df_grouped
-
+#
 
 def return_figures():
     """Creates the plotly visualizations
