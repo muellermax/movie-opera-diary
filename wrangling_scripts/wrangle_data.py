@@ -47,12 +47,14 @@ def return_figures():
     df = show_items_over_time(df_movie_op, '2017-01-01', 'category')
 
     x_val = df['month'].tolist()
-    y_val = df['category'].tolist()
+    y_val = df['count'].tolist()
+    color = df['category'].tolist()
 
     graph_one.append(
         go.Bar(
             x=x_val,
             y=y_val,
+            color=color,
             barmode='stack'
         )
     )
