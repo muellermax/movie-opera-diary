@@ -1,12 +1,10 @@
 import pandas as pd
 import plotly.graph_objs as go
-import altair as alt
 
+# Use this file to read in your data and prepare the plotly visualizations. The path to the data files are in
+# `data/file_name.csv`
 
-
-# Read in the data from the movie opera diary.
-diary_mov_op = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input.csv')
-
+df_movie_op = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input.csv')
 
 def show_items_over_time(df, since, input_var):
     """
@@ -18,7 +16,7 @@ def show_items_over_time(df, since, input_var):
         input_var (string): Specify the item: 'category', 'place', 'creator'
     
     Output: 
-        A plotly plot
+        An Altair plot
     """
     
     # Select DataFrame since a specific date
@@ -29,23 +27,53 @@ def show_items_over_time(df, since, input_var):
 
     # Rename columns
     df_grouped.columns = ['month', input_var, 'count']
-
-
-    # Prepare the Altair plot
-    chart = alt.Chart(df_grouped).mark_bar(size = 17).encode(
-        x='month', # over time
-        y='count', # count on y-axis
-        color=alt.Color(input_var, scale=alt.Scale(scheme='viridis')), # different colors
-        tooltip = [input_var, 'count', 'month'] # tooltips
-    ).properties(width=800, height=600)
     
-    chart.save('./myapp/templates/items_over_time.json')
+    return df_grouped
 
 
-show_items_over_time(diary_mov_op, '2017-01-01', 'category')
+def return_figures():
+    """Creates the plotly visualizations
+
+    Args:
+        None
+
+    Returns:
+        list (dict): list containing the four plotly visualizations
+
+    """
+
+    graph_one = []
+
+    df = show_items_over_time(df_movie_op, '2017-01-01', 'category')
+
+    x_val = df['month'].tolist()
+    y_val = df['category'].tolist()
+
+    graph_one.append(
+        go.Bar(
+            x=x_val,
+            y=y_val,
+            barmode='stack'
+        )
+    )
+
+
+    layout_one = dict(title='Daily increase of confirmed cases of Covid-19 in Chile',
+                      xaxis=dict(title='Date'),
+                      yaxis=dict(title='Confirmed cases'),
+                      )
+
+    # append all charts to the figures list
+    figures = []
+    figures.append(dict(data=graph_one, layout=layout_one))
+
+    return figures
 
 
 #### Idee: JSON Grafiken erstellen und dann in index file inkludieren. 
 # https://www.reddit.com/r/flask/comments/gghoak/does_anyone_have_any_experience_or_examples_with/
 # https://github.com/vega/vega-embed/blob/master/README.md
 # https://github.com/dushyantkhosla/flasked-altair
+
+
+# https://www.geeksforgeeks.org/how-to-create-stacked-bar-chart-in-python-plotly/

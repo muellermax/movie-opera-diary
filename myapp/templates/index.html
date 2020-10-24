@@ -59,10 +59,18 @@
         <!--chart descriptions-->
         <div id="middle-info" class="row justify-content-center mt-3">
             <h2 id="tag-line">The movie and opera diary</h2>
-        </div>
-       
 
-        <!--charts-->
+        </div>
+            <!--new charts-->
+            <div class="row mb-6 border-top">
+              <div class="col-6">
+                    <div id="{{ids[0]}}"></div>
+              </div>
+            </div>
+        </div>
+
+
+        <!--charts
         <div id="charts" class="container mt-3 text-center">
             <div id="vis1"></div>
             <script type="text/javascript">
@@ -81,7 +89,7 @@
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
           }).catch(console.error);
           </script>
-        </div>
+        </div>-->
 
 <!--footer section-->
 <div id="footer" class="container">
@@ -90,10 +98,7 @@
     <h5 class="h5">Data</h5><br>
     </div>
         <div class="row">
-        <p class="text-justify">Main data source is the Center of for Systems Science and Engineering (CSSE) of John Hopkins University
-        and their daily updated <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank">GitHub Repository</a>. Many thanks to them. For future
-        plots I plan to rely also on data of the Chilean government which has also a daily updated and very useful <a href="https://github.com/MinCiencia/Datos-COVID19/" target="_blank">GitHub Repository</a>.
-        </p>
+        <p class="text-justify">TBD</p>
         </div>
     <div class="row">
         <h5 class="h5">About</h5>
@@ -118,5 +123,20 @@
 
 </body>
 
+<footer>
+
+  <script type="text/javascript">
+      // plots the figure with id
+      // id much match the div id above in the html
+      var figures = {{figuresJSON | safe}};
+      var ids = {{ids | safe}};
+      for(var i in figures) {
+          Plotly.plot(ids[i],
+              figures[i].data,
+              figures[i].layout || {});
+      }
+  </script>
+  
+</footer>
 
 </html>
