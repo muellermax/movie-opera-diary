@@ -150,7 +150,7 @@ def return_figures():
     # The fourth plot shows the 10 most viewed creators, their average evaluation and number of views
     graph_four = []
 
-    df = show_item_vs_count(df_movie_op, 'creator', 10, exclude_opera=False)
+    df = show_item_vs_count(df_movie_op, 'creator', 15, exclude_opera=False)
 
     for item in df['creator'].unique():
         graph_four.append(
@@ -167,7 +167,7 @@ def return_figures():
             )
         )
     
-    layout_four = dict(title='Average evaluation vs. number of views for the 10 most viewed directors/composers',
+    layout_four = dict(title='Average evaluation vs. number of views for the 15 most viewed directors/composers',
                     xaxis=dict(title='Number of views'),
                     yaxis=dict(title='Average evaluation')
                     )
