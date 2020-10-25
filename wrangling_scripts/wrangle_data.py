@@ -144,8 +144,7 @@ def return_figures():
     
     layout_three = dict(title='Average evaluation vs. number of views for the 10 most viewed categories',
                     xaxis=dict(title='Number of views'),
-                    yaxis=dict(title='Average evaluation',
-                    visible=False)
+                    yaxis=dict(title='Average evaluation')
                     )
 
     # The fourth plot shows the 10 most viewed creators, their average evaluation and number of views
