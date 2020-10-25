@@ -107,15 +107,15 @@ def return_figures():
                 x=df.loc[df['title'] == item, 'count'].tolist(),
                 y=df.loc[df['title'] == item, 'evaluation'].tolist(),
                 mode='markers',
-                marker=dict(size=df.loc[df['title'] == item, 'evaluation'].tolist()),
+                marker=dict(size=df.loc[df['title'] == item, 'evaluation'].tolist(),
+                sizeref=50),
                 name=item
             )
         )
     
-    layout_two = dict(title='Development of movie and opera categories over time',
-                    xaxis=dict(title='Date'),
-                    yaxis=dict(title='Categories'),
-                    barmode='stack'
+    layout_two = dict(title='Average evaluation vs. number of views for the 10 most viewed items',
+                    xaxis=dict(title='Number of views'),
+                    yaxis=dict(title='Average evaluation')
                     )
 
     # append all charts to the figures list
