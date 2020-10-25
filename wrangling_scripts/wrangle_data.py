@@ -29,7 +29,12 @@ def show_items_over_time(df, since, input_var):
     df_grouped.columns = ['month', input_var, 'count']
     
     return df_grouped
-#
+# 
+# https://www.geeksforgeeks.org/how-to-create-stacked-bar-chart-in-python-plotly/
+# https://community.plotly.com/t/similar-to-seaborns-hue-function-in-plotly/13094/2
+
+
+# Mit Plotly Express versuchen: Returns plotly go Figure: https://plotly.com/python/plotly-express/
 
 def return_figures():
     """Creates the plotly visualizations
@@ -46,20 +51,35 @@ def return_figures():
 
     df = show_items_over_time(df_movie_op, '2017-01-01', 'category')
 
-    x_val = df['month'].tolist()
-    y_val = df['count'].tolist()
-
-    graph_one.append(
-        go.Bar(
-            x=x_val,
-            y=y_val
+    for item in df['category'].unique():
+        df_cat = df[df['category'] == item]
+        x_val = df_cat['month'].tolist()
+        y_val = df_cat['count']
+        graph_one.append(
+            go.Bar(
+                x=x_val,
+                y=y_val,
+                name=item
+            )
         )
-    )
+
+   # x_val = df['month'].tolist()
+   # y_val = df['count'].tolist()
+   # categories = df['category'].tolist()
+
+   # graph_one.append(
+   #     go.Bar(
+   #         x=x_val,
+    #        y=y_val,
+#
+ #       )
+  #  )
 
 
     layout_one = dict(title='Daily increase of confirmed cases of Covid-19 in Chile',
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Confirmed cases'),
+                      barmode='stack'
                       )
 
     # append all charts to the figures list
