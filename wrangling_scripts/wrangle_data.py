@@ -46,8 +46,13 @@ def return_figures():
 
     df = show_items_over_time(df_movie_op, '2017-01-01', 'category')
 
-    items_list = (df['category'].unique()).tolist()
-    z = np.array(range(len(items_list)))
+    #items_list = (df['category'].unique()).tolist()
+    #z = np.array(range(len(items_list)))
+
+     #           marker={'color': z,
+      #          'colorscale': 'Viridis'}
+
+
 
     for item in df['category'].unique():
         df_cat = df[df['category'] == item]
@@ -57,9 +62,7 @@ def return_figures():
             go.Bar(
                 x=x_val,
                 y=y_val,
-                name=item,
-                marker={'color': z,
-                'colorscale': 'Viridis'}
+                name=item
             )
         )
 
