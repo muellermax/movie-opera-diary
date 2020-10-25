@@ -1,9 +1,6 @@
 import pandas as pd
 import plotly.graph_objs as go
 
-# Use this file to read in your data and prepare the plotly visualizations. The path to the data files are in
-# `data/file_name.csv`
-
 df_movie_op = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input.csv')
 
 def show_items_over_time(df, since, input_var):
@@ -29,15 +26,11 @@ def show_items_over_time(df, since, input_var):
     df_grouped.columns = ['month', input_var, 'count']
     
     return df_grouped
-# 
-# https://www.geeksforgeeks.org/how-to-create-stacked-bar-chart-in-python-plotly/
-# https://community.plotly.com/t/similar-to-seaborns-hue-function-in-plotly/13094/2
 
-
-# Mit Plotly Express versuchen: Returns plotly go Figure: https://plotly.com/python/plotly-express/
 
 def return_figures():
-    """Creates the plotly visualizations
+    """
+    Creates the plotly visualizations
 
     Args:
         None
@@ -47,6 +40,7 @@ def return_figures():
 
     """
 
+    # Plots categories over time
     graph_one = []
 
     df = show_items_over_time(df_movie_op, '2017-01-01', 'category')
@@ -63,22 +57,9 @@ def return_figures():
             )
         )
 
-   # x_val = df['month'].tolist()
-   # y_val = df['count'].tolist()
-   # categories = df['category'].tolist()
-
-   # graph_one.append(
-   #     go.Bar(
-   #         x=x_val,
-    #        y=y_val,
-#
- #       )
-  #  )
-
-
-    layout_one = dict(title='Daily increase of confirmed cases of Covid-19 in Chile',
+    layout_one = dict(title='Development of movie and opera categories over time',
                       xaxis=dict(title='Date'),
-                      yaxis=dict(title='Confirmed cases'),
+                      yaxis=dict(title='Categories'),
                       barmode='stack'
                       )
 
@@ -87,12 +68,4 @@ def return_figures():
     figures.append(dict(data=graph_one, layout=layout_one))
 
     return figures
-
-
-#### Idee: JSON Grafiken erstellen und dann in index file inkludieren. 
-# https://www.reddit.com/r/flask/comments/gghoak/does_anyone_have_any_experience_or_examples_with/
-# https://github.com/vega/vega-embed/blob/master/README.md
-# https://github.com/dushyantkhosla/flasked-altair
-
-
-# https://www.geeksforgeeks.org/how-to-create-stacked-bar-chart-in-python-plotly/
+    
