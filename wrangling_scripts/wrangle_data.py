@@ -53,7 +53,9 @@ def return_figures():
             go.Bar(
                 x=x_val,
                 y=y_val,
-                name=item
+                name=item,
+                marker={'color': y,
+                'colorscale': 'Viridis'}
             )
         )
 
@@ -68,4 +70,3 @@ def return_figures():
     figures.append(dict(data=graph_one, layout=layout_one))
 
     return figures
-    
