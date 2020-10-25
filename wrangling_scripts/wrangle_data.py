@@ -104,8 +104,8 @@ def return_figures():
     for item in df['title'].unique():
         graph_two.append(
             go.Scatter(
-                x=df['count'].tolist(),
-                y=df['evaluation'].tolist(),
+                x=df.loc[df['title'] == item, 'count'].tolist(),
+                y=df.loc[df['title'] == item, 'evaluation'].tolist(),
                 name=item
             )
         )
