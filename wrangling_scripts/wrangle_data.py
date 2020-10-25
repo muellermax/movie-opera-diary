@@ -106,7 +106,8 @@ def return_figures():
             go.Scatter(
                 x=df.loc[df['title'] == item, 'count'].tolist(),
                 y=df.loc[df['title'] == item, 'evaluation'].tolist(),
-                size=df.loc[df['title'] == item, 'evaluation'].tolist(),
+                mode='markers',
+                marker=dict(size=df.loc[df['title'] == item, 'evaluation'].tolist()),
                 name=item
             )
         )
