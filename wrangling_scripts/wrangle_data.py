@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import plotly.graph_objs as go
 
 df_movie_op = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input.csv')
@@ -46,7 +47,7 @@ def return_figures():
     df = show_items_over_time(df_movie_op, '2017-01-01', 'category')
 
     items_list = (df['category'].unique()).tolist()
-    z = range(len(items_list))
+    z = np.array(range(len(items_list)))
 
     for item in df['category'].unique():
         df_cat = df[df['category'] == item]
