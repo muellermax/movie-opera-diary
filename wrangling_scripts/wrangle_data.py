@@ -54,7 +54,8 @@ def return_figures():
                 x=x_val,
                 y=y_val,
                 name=item,
-                marker={'color': 'Viridis'}
+                marker={'color': (df['category'].unique()).tolist().index(name),
+                'colorscale': 'Viridis'}
             )
         )
 
