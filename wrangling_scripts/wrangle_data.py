@@ -45,6 +45,9 @@ def return_figures():
 
     df = show_items_over_time(df_movie_op, '2017-01-01', 'category')
 
+    items_list = (df['category'].unique()).tolist()
+    z = range(len(items_list))
+
     for item in df['category'].unique():
         df_cat = df[df['category'] == item]
         x_val = df_cat['month'].tolist()
@@ -54,7 +57,7 @@ def return_figures():
                 x=x_val,
                 y=y_val,
                 name=item,
-                marker={'color': (df['category'].unique()).tolist(),
+                marker={'color': z,
                 'colorscale': 'Viridis'}
             )
         )
