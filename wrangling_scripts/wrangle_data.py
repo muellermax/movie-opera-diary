@@ -99,7 +99,7 @@ def return_figures():
 
     graph_two = []
 
-    df = show_item_vs_count(df_movie_op, 'title', 10, exclude_opera=False)
+    df = show_item_vs_count(df_movie_op, 'title', 20, exclude_opera=False)
 
     for item in df['title'].unique():
         graph_two.append(
