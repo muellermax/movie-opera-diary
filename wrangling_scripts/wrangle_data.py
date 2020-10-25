@@ -147,10 +147,36 @@ def return_figures():
                     yaxis=dict(title='Average evaluation')
                     )
 
+    # The fourth plot shows the 10 most viewed creators, their average evaluation and number of views
+    graph_four = []
+
+    df = show_item_vs_count(df_movie_op, 'creator', 10, exclude_opera=False)
+
+    for item in df['creator'].unique():
+        graph_four.append(
+            go.Scatter(
+                x=df.loc[df['creator'] == item, 'count'].tolist(),
+                y=df.loc[df['creator'] == item, 'evaluation'].tolist(),
+                mode='markers',
+                marker=dict(
+                    size=df.loc[df['creator'] == item, 'evaluation'].tolist(),
+                    sizemode='area',
+                    sizeref=2.*max(df['evaluation'].tolist())/(40.**2),
+                    sizemin=4),
+                name=item
+            )
+        )
+    
+    layout_four = dict(title='Average evaluation vs. number of views for the 10 most viewed directors/composers',
+                    xaxis=dict(title='Number of views'),
+                    yaxis=dict(title='Average evaluation')
+                    )
+
     # append all charts to the figures list
     figures = []
     figures.append(dict(data=graph_one, layout=layout_one))
     figures.append(dict(data=graph_two, layout=layout_two))
     figures.append(dict(data=graph_three, layout=layout_three))
+    figures.append(dict(data=graph_four, layout=layout_four))
 
     return figures

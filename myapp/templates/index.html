@@ -60,50 +60,26 @@
         <div id="middle-info" class="row justify-content-center mt-3">
             <h2 id="tag-line">The movie and opera diary</h2>
         </div>
-            <!--new charts-->
-            <div class="container mt-3 text-center">
-                  <div id="{{ids[0]}}"></div>
-          </div>
-        </div>
-        <!--
+
+
+            <!--First row with main plot-->
         <div class="container mt-3 text-center">
-          <div id="{{ids[1]}}"></div>
+              <div id="{{ids[0]}}"></div>
+        </div>
 
-          </div>
-        </div>-->
-
-
-        <!--top two charts-->
-        <div class="row mb-6">
-          <div class="col-6">
+        <!--Second row with three plots-->
+      <div class="row mb-6">
+          <div class="col-4">
               <div id="{{ids[1]}}"></div>
           </div>
-          <div class="col-6">
+          <div class="col-4">
               <div id="{{ids[2]}}"></div>
           </div>
+          <div class="col-4">
+            <div id="{{ids[3]}}"></div>
+        </div>
       </div>
 
-
-        <!--charts
-        <div id="charts" class="container mt-3 text-center">
-            <div id="vis1"></div>
-            <script type="text/javascript">
-              var spec = "https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/myapp/static/items_over_time.json";
-              vegaEmbed('#vis1', spec).then(function(result) {
-                // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-              }).catch(console.error);
-            </script>
-        </div>
-
-        <div id="charts" class="container mt-3 text-center">
-          <div id="vis2"></div>
-          <script type="text/javascript">
-          var spec = "https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/myapp/static/titles_over_time.json";
-          vegaEmbed('#vis2', spec).then(function(result) {
-            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-          }).catch(console.error);
-          </script>
-        </div>-->
 
 <!--footer section-->
 <div id="footer" class="container">
