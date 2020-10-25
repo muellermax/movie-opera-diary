@@ -54,7 +54,7 @@ def return_figures():
                 x=x_val,
                 y=y_val,
                 name=item,
-                marker={'color': (df['category'].unique()).tolist().index(item),
+                marker={'color': (df['category'].unique()).tolist(),
                 'colorscale': 'Viridis'}
             )
         )
@@ -70,3 +70,5 @@ def return_figures():
     figures.append(dict(data=graph_one, layout=layout_one))
 
     return figures
+
+    # df['category'].unique()).tolist().index(item)
