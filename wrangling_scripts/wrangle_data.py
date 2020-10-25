@@ -108,7 +108,7 @@ def return_figures():
                 y=df.loc[df['title'] == item, 'evaluation'].tolist(),
                 mode='markers',
                 marker=dict(size=df.loc[df['title'] == item, 'evaluation'].tolist(),
-                sizeref=5),
+                sizeref=2),
                 name=item
             )
         )
