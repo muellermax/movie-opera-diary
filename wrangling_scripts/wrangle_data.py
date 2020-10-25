@@ -96,7 +96,7 @@ def return_figures():
                       barmode='stack'
                       )
 
-
+    # The second plot shows the 20 most viewed items, their average evaluation and number of views
     graph_two = []
 
     df = show_item_vs_count(df_movie_op, 'title', 20, exclude_opera=False)
@@ -112,7 +112,8 @@ def return_figures():
                     sizemode='area',
                     sizeref=2.*max(df['evaluation'].tolist())/(40.**2),
                     sizemin=4),
-                name=item
+                name=item,
+                showlegend=False
             )
         )
     
@@ -128,5 +129,3 @@ def return_figures():
     figures.append(dict(data=graph_two, layout=layout_two))
 
     return figures
-
-    # df['category'].unique()).tolist().index(item)
