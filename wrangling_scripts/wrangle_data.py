@@ -54,7 +54,7 @@ def return_figures():
                 x=x_val,
                 y=y_val,
                 name=item,
-                marker={'color': name,
+                marker={
                 'colorscale': 'Viridis'}
             )
         )
