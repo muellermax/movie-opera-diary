@@ -4,6 +4,7 @@ import plotly.graph_objs as go
 
 df_movie_op = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input.csv')
 
+
 def show_items_over_time(df, since, input_var):
     """
     Function to show the count of different input_vars over time. 
@@ -29,6 +30,37 @@ def show_items_over_time(df, since, input_var):
     return df_grouped
 
 
+def show_item_vs_count(df, input_var, m, exclude_opera=False):
+    """
+    A function to visualize count vs. evaluation for any input variable. 
+    
+    Input: 
+        df (DataFrame): The movie opera diary DataFrame
+        input_var (string): Choose between 'title', 'company', 'creator', 'place'
+        m (int): How many items should be included (e.g. 'Top-30')
+        exclude_opera (bool): Choose if operas should be included
+
+    Output: 
+        A seaborn scatterplot. 
+    """
+    
+    # Exclude the category opera if exclude_opera = True
+    if exclude_opera == True: 
+        df = df[df['category'] != 'Oper']
+    else: 
+        pass
+
+    # Group df by the input_var and get the values for evaluation and the count
+    df_all = df.groupby(input_var).agg(
+        {'evaluation': 'mean',
+        'date': 'count'}).reset_index().sort_values('date', ascending = False).head(m)
+
+    # Rename columns
+    df_all.columns = [input_var, 'evaluation', 'count']
+    
+    return df_all
+
+
 def return_figures():
     """
     Creates the plotly visualizations
@@ -45,14 +77,6 @@ def return_figures():
     graph_one = []
 
     df = show_items_over_time(df_movie_op, '2017-01-01', 'category')
-
-    #items_list = (df['category'].unique()).tolist()
-    #z = np.array(range(len(items_list)))
-
-     #           marker={'color': z,
-      #          'colorscale': 'Viridis'}
-
-
 
     for item in df['category'].unique():
         df_cat = df[df['category'] == item]
@@ -72,9 +96,30 @@ def return_figures():
                       barmode='stack'
                       )
 
+
+    graph_two = []
+
+    df = show_item_vs_count(df_movie_op, 'title', 10, exclude_opera=False)
+
+    for item in df['title'].unique():
+        graph_two.append(
+            go.Scatter(
+                x=df['count'].tolist(),
+                y=df['evaluation'].tolist(),
+                name=item
+            )
+        )
+    
+    layout_two = dict(title='Development of movie and opera categories over time',
+                    xaxis=dict(title='Date'),
+                    yaxis=dict(title='Categories'),
+                    barmode='stack'
+                    )
+
     # append all charts to the figures list
     figures = []
     figures.append(dict(data=graph_one, layout=layout_one))
+    figures.append(dict(data=graph_two, layout=layout_two))
 
     return figures
 
