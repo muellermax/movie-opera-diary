@@ -116,10 +116,11 @@ def return_figures():
             )
         )
     
-    layout_two = dict(title='Average evaluation vs. number of views for the 10 most viewed items',
+    layout_two = dict(title='Average evaluation vs. number of views for the 20 most viewed items',
                     xaxis=dict(title='Number of views'),
                     yaxis=dict(title='Average evaluation')
                     )
+
 
     # append all charts to the figures list
     figures = []
