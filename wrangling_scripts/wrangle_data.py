@@ -152,19 +152,33 @@ def return_figures():
 
     df = show_item_vs_count(df_movie_op, 'creator', 15, exclude_opera=False)
 
-    for item in df['creator'].unique():
-        graph_four.append(
-            go.Scatter(
-                x=df.loc[df['creator'] == item, 'count'].tolist(),
-                y=df.loc[df['creator'] == item, 'evaluation'].tolist(),
-                mode='markers',
-                marker=dict(
-                    size=df.loc[df['creator'] == item, 'evaluation'].tolist(),
-                    sizemode='area',
-                    sizeref=2.*max(df['evaluation'].tolist())/(40.**2)),
-                name=item
-            )
-        )
+    data = [
+       go.Scatter(
+           x=df['count'],
+           y=df['evaluation'],
+           mode='markers',
+           marker=dict(
+               size=df['evaluation'],
+               color=df['creator']
+           )
+       )
+    ]
+
+    graph_four.append(data)
+
+    #for item in df['creator'].unique():
+    #    graph_four.append(
+    #        go.Scatter(
+    #            x=df.loc[df['creator'] == item, 'count'].tolist(),
+    #            y=df.loc[df['creator'] == item, 'evaluation'].tolist(),
+    #            mode='markers',
+    #            marker=dict(
+    #                size=df.loc[df['creator'] == item, 'evaluation'].tolist(),
+    #                sizemode='area',
+    #                sizeref=2.*max(df['evaluation'].tolist())/(40.**2)),
+    #            name=item
+    #       )
+    #     )
     
     layout_four = dict(title='Average evaluation vs. number of views for the 15 most viewed directors/composers',
                     xaxis=dict(title='Number of views'),
