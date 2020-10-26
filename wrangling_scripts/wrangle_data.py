@@ -160,7 +160,7 @@ def return_figures():
                 mode='markers',
                 marker=dict(
                     size=df.loc[df['creator'] == item, 'evaluation'].tolist(),
-                    sizemode='diameter',
+                    sizemode='area',
                     sizeref=2.*max(df['evaluation'].tolist())/(40.**2)),
                 name=item
             )
