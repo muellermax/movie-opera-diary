@@ -4,7 +4,7 @@ from flask import render_template
 from wrangling_scripts.wrangle_data import return_figures_index
 
 @app.route('/')
-@app.route('/index')
+@app.route('/index.html')
 def index():
 
     figures = return_figures_index()
