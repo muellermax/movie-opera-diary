@@ -61,7 +61,7 @@ def show_item_vs_count(df, input_var, m, exclude_opera=False):
     return df_all
 
 
-def return_figures():
+def return_figures_index():
     """
     Creates the plotly visualizations
 

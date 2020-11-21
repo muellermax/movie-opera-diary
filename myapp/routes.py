@@ -7,7 +7,7 @@ from wrangling_scripts.wrangle_data import return_figures
 @app.route('/index')
 def index():
 
-    figures = return_figures()
+    figures = return_figures_index()
 
     # plot ids for the html id tag
     ids = ['figure-{}'.format(i) for i, _ in enumerate(figures)]
