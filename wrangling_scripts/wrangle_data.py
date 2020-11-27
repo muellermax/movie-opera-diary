@@ -180,3 +180,6 @@ def return_figures_index():
     figures.append(dict(data=graph_four, layout=layout_four))
 
     return figures
+
+
+    # https://plotly.com/python/distplot/
