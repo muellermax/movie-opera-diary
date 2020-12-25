@@ -27,9 +27,9 @@ def tmdb():
     figures_tmdb = return_figures_tmdb()
 
     # plot ids for the html id tag
-    ids = ['figure-{}'.format(i) for i, _ in enumerate(figures_tmdb)]
+    ids_tmdb = ['figure-{}'.format(i) for i, _ in enumerate(figures_tmdb)]
 
     # Convert the plotly figures to JSON for javascript in html template
-    figuresJSON = json.dumps(figures_tmdb, cls=plotly.utils.PlotlyJSONEncoder)
+    figuresJSON_tmdb = json.dumps(figures_tmdb, cls=plotly.utils.PlotlyJSONEncoder)
     
-    return render_template('tmdb.html', ids=ids, figuresJSON = figuresJSON)
+    return render_template('tmdb.html', ids=ids_tmdb, figuresJSON = figuresJSON_tmdb)
