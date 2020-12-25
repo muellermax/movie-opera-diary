@@ -24,7 +24,7 @@ def return_figures_tmdb():
     df = df['diff']
     group_labels = ['distplot']
 
-    graph_one = go.Figure(go.distplot(df, group_labels))    
+    graph_one = go.Histogram(x = df)  
 
     layout_one = dict(title='The 15 most viewed directors/composers',
                     xaxis=dict(title='Number of views'),
