@@ -21,7 +21,7 @@ def return_figures_tmdb():
 
     # Sort by difference
     # df = df.sort_values('diff', ascending = False)
-    input_var = df[['diff']]
+    input_var = np.array(df[['diff']])
 
     graph_one = go.Histogram(
         x = input_var)
