@@ -25,8 +25,9 @@ def return_figures_tmdb():
 
     graph_one = go.Histogram(
         x = input_var)
-
+    print('graph_one')
     print(graph_one)
+    print('input_var')
     print(input_var)
 
     layout_one = dict(title='The 15 most viewed directors/composers',
