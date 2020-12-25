@@ -4,7 +4,7 @@ import plotly.graph_objs as go
 
 df_movie_op = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input.csv')
 
-
+#### Movie opera section ####
 def show_items_over_time(df, since, input_var):
     """
     Function to show the count of different input_vars over time. 
@@ -180,6 +180,6 @@ def return_figures_index():
     figures.append(dict(data=graph_four, layout=layout_four))
 
     return figures
+#### End of 
 
-
-    # https://plotly.com/python/distplot/
+ 
