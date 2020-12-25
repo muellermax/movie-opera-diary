@@ -33,5 +33,7 @@ def return_figures_tmdb():
 
     figures_tmdb = []
     figures_tmdb.append(dict(data=graph_one, layout=layout_one))
+
+    return figures_tmdb
        # https://plotly.com/python/distplot/
 
