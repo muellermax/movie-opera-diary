@@ -26,6 +26,9 @@ def return_figures_tmdb():
     graph_one = go.Histogram(
         x = input_var)
 
+    print(graph_one)
+    print(input_var)
+
     layout_one = dict(title='The 15 most viewed directors/composers',
                     xaxis=dict(title='Number of views'),
                     yaxis=dict(title='Average evaluation')
