@@ -22,9 +22,10 @@ def return_figures_tmdb():
     # Sort by difference
     df = df.sort_values('diff', ascending = False)
     df = df['diff']
-    group_labels = ['distplot']
 
-    graph_one = go.Histogram(x = df)  
+    graph_one = go.Figure(go.Histogram(
+        x = df)
+    )
 
     layout_one = dict(title='The 15 most viewed directors/composers',
                     xaxis=dict(title='Number of views'),
@@ -34,5 +35,3 @@ def return_figures_tmdb():
     figures_tmdb = []
     figures_tmdb.append(dict(data=graph_one, layout=layout_one))
        # https://plotly.com/python/distplot/
-
-
