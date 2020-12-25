@@ -20,8 +20,8 @@ def return_figures_tmdb():
     df = df_movie_tmdb.copy()
 
     # Sort by difference
-    df = df.sort_values('diff', ascending = False)
-    input_var = df['diff']
+    # df = df.sort_values('diff', ascending = False)
+    input_var = df[df['diff']]
 
     graph_one = go.Histogram(
         x = input_var)
