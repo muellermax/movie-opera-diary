@@ -21,10 +21,10 @@ def return_figures_tmdb():
 
     # Sort by difference
     df = df.sort_values('diff', ascending = False)
-    df = df['diff']
+    input_var = np.array(df['diff'])
 
     graph_one = go.Figure(go.Histogram(
-        x = df)
+        x = input_var)
     )
 
     layout_one = dict(title='The 15 most viewed directors/composers',

@@ -24,12 +24,12 @@ def index():
 @app.route('/tmdb.html')
 def tmdb():
 
-    figures = return_figures_tmdb()
+    figures_tmdb = return_figures_tmdb()
 
     # plot ids for the html id tag
-    ids = ['figure-{}'.format(i) for i, _ in enumerate(figures)]
+    ids = ['figure-{}'.format(i) for i, _ in enumerate(figures_tmdb)]
 
     # Convert the plotly figures to JSON for javascript in html template
-    figuresJSON = json.dumps(figures, cls=plotly.utils.PlotlyJSONEncoder)
+    figuresJSON = json.dumps(figures_tmdb, cls=plotly.utils.PlotlyJSONEncoder)
     
     return render_template('tmdb.html', ids=ids, figuresJSON = figuresJSON)
