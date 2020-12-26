@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objs as go
 
-df_all = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input.csv')
 df_movies = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_movies.csv')
 
 def show_items_over_time(df, since, input_var):
