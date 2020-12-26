@@ -67,9 +67,26 @@ def return_figures_tmdb():
                       barmode='stack'
                       )
 
+
+    # Plots distplot of difference between my evaluation and tmdb    
+    df = df_movie_tmdb.copy()
+
+    # Sort by difference
+    # df = df.sort_values('diff', ascending = False)
+    input_var = np.array(df[['diff']])
+
+    graph_two = go.Histogram(
+        x = input_var)
+
+    #print('graph_one')
+    #print(graph_one)
+    #print('input_var')
+    #print(input_var)
+
     # append all charts to the figures list
     figures_tmdb = []
     figures_tmdb.append(dict(data=graph_one, layout=layout_one))
+    figures_tmdb.append(dict(data=graph_two))
 
     return figures_tmdb
 
