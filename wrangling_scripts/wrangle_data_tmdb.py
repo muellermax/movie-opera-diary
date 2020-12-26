@@ -4,42 +4,75 @@ import plotly.graph_objs as go
 
 df_movie_tmdb = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_tmdb.csv')
 
+#### TEST
+
+df_movie_op = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input.csv')
+
+def show_items_over_time(df, since, input_var):
+    """
+    Function to show the count of different input_vars over time. 
+    
+    Input: 
+        df (DataFrame): The movie opera diary DataFrame
+        since (string): Specify the start date
+        input_var (string): Specify the item: 'category', 'place', 'creator'
+    
+    Output: 
+        An Altair plot
+    """
+    
+    # Select DataFrame since a specific date
+    df = df[df['date'] >= since]
+
+    # Groupby month and the input_var
+    df_grouped = df.groupby(['month', input_var])['title'].count().reset_index()
+
+    # Rename columns
+    df_grouped.columns = ['month', input_var, 'count']
+    
+    return df_grouped
 
 def return_figures_tmdb():
     """
     Creates the plotly visualizations
 
-    Input:
+    Args:
         None
 
-    Output:
-        list (dict): list containing the four plotly visualizations#
+    Returns:
+        list (dict): list containing the four plotly visualizations
+
     """
 
-    # Plots distplot of difference between my evaluation and tmdb    
-    df = df_movie_tmdb.copy()
+    # Plots categories over time
+    graph_one = []
 
-    # Sort by difference
-    # df = df.sort_values('diff', ascending = False)
-    input_var = np.array(df[['diff']])
+    df = show_items_over_time(df_movie_op, '2017-01-01', 'category')
 
-    graph_one = go.Histogram(
-        x = input_var)
+    for item in df['category'].unique():
+        df_cat = df[df['category'] == item]
+        x_val = df_cat['month'].tolist()
+        y_val = df_cat['count']
+        graph_one.append(
+            go.Bar(
+                x=x_val,
+                y=y_val,
+                name=item
+            )
+        )
 
-    #print('graph_one')
-    #print(graph_one)
-    #print('input_var')
-    #print(input_var)
+    layout_one = dict(title='Development of movie and opera categories over time',
+                      xaxis=dict(title='Date'),
+                      yaxis=dict(title='Categories'),
+                      barmode='stack'
+                      )
 
-    layout_one = dict(title='The 15 most viewed directors/composers',
-                    xaxis=dict(title='Number of views'),
-                    yaxis=dict(title='Average evaluation')
-                    )
-
+    # append all charts to the figures list
     figures_tmdb = []
     figures_tmdb.append(dict(data=graph_one, layout=layout_one))
 
-    #print(figures_tmdb)
     return figures_tmdb
-       # https://plotly.com/python/distplot/
+
+
+
 
