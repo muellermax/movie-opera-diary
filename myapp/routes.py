@@ -15,11 +15,11 @@ def index():
     ids_movies = ['figure-{}'.format(i) for i, _ in enumerate(figures_movies)]
 
     # Convert the plotly figures to JSON for javascript in html template
-    figuresJSON = json.dumps(figures_movies, cls=plotly.utils.PlotlyJSONEncoder)
+    figuresJSON_movies = json.dumps(figures_movies, cls=plotly.utils.PlotlyJSONEncoder)
 
     return render_template('index.html', 
                            ids=ids_movies,
-                           figuresJSON=figures_movies)
+                           figuresJSON=figuresJSON_movies)
 
 @app.route('/')
 @app.route('/tmdb.html')
