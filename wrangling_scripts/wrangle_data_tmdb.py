@@ -44,49 +44,25 @@ def return_figures_tmdb():
 
     """
 
-    # Plots categories over time
-    graph_one = []
-
-    df = show_items_over_time(df_movie_op, '2017-01-01', 'category')
-
-    for item in df['category'].unique():
-        df_cat = df[df['category'] == item]
-        x_val = df_cat['month'].tolist()
-        y_val = df_cat['count']
-        graph_one.append(
-            go.Bar(
-                x=x_val,
-                y=y_val,
-                name=item
-            )
-        )
-
-    layout_one = dict(title='Development of movie and opera categories over time',
-                      xaxis=dict(title='Date'),
-                      yaxis=dict(title='Categories'),
-                      barmode='stack'
-                      )
-
-
     # Plots distplot of difference between my evaluation and tmdb    
     df = df_movie_tmdb.copy()
 
-    # Sort by difference
-    # df = df.sort_values('diff', ascending = False)
+    # Select only the diff-column
     input_var = df['diff']
 
-    graph_two = [go.Histogram(
+    graph_one = [go.Histogram(
         x = input_var)]
 
-    #print('graph_one')
-    #print(graph_one)
-    #print('input_var')
+    layout_one = dict(title='Distribution of the difference between TMDB and myself',
+                    xaxis=dict(title='Count'),
+                    yaxis=dict(title='Difference (absolute)')
+                    )
+
     #print(input_var)
 
     # append all charts to the figures list
     figures_tmdb = []
     figures_tmdb.append(dict(data=graph_one, layout=layout_one))
-    figures_tmdb.append(dict(data=graph_two))
 
     return figures_tmdb
 
