@@ -73,10 +73,14 @@ def return_figures_tmdb():
 
     # Sort by difference
     # df = df.sort_values('diff', ascending = False)
-    input_var = np.array(df[['diff']])
+    input_var = df['diff']
+
+    np.random.seed(1)
+
+    x = np.random.randn(500)
 
     graph_two = go.Histogram(
-        x = input_var)
+        x = x)
 
     #print('graph_one')
     #print(graph_one)
