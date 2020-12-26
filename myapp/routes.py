@@ -33,3 +33,18 @@ def tmdb():
     figuresJSON_tmdb = json.dumps(figures_tmdb, cls=plotly.utils.PlotlyJSONEncoder)
     
     return render_template('tmdb.html', ids=ids_tmdb, figuresJSON = figuresJSON_tmdb)
+
+
+@app.route('/')
+@app.route('/opera.html')
+def opera():
+
+    figures_opera = return_figures_opera()
+
+    # plot ids for the html id tag
+    ids_opera = ['figure-{}'.format(i) for i, _ in enumerate(figures_tmdb)]
+
+    # Convert the plotly figures to JSON for javascript in html template
+    figuresJSON_opera = json.dumps(figures_opera, cls=plotly.utils.PlotlyJSONEncoder)
+    
+    return render_template('opera.html', ids=ids_opera, figuresJSON = figures_opera)

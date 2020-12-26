@@ -30,75 +30,44 @@
 
 <!--navbar links-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-   <a class="navbar-brand" href="index.html">The movie and opera diary</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse"
-  data-target="#navbarTogglerDemo02"
-  aria-controls="navbarTogglerDemo02" aria-expanded="false"
-  aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-<!--navbar links-->
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">movie diary</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="tmdb.html">Me vs. TMDB</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="opera.html">Opera diary</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <a class="navbar-brand" href="index.html">The movie and opera diary</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse"
+   data-target="#navbarTogglerDemo02"
+   aria-controls="navbarTogglerDemo02" aria-expanded="false"
+   aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+ <!--navbar links-->
+   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+       <li class="nav-item">
+         <a class="nav-link" href="index.html">movie diary</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="tmdb.html">Me vs. TMDB</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="opera.html">Opera diary</a>
+       </li>
+     </ul>
+   </div>
+ </nav>
 
 <!--middle section-->
 
 
     <!--visualizations column-->
+    <div id="middle-info" class="row justify-content-center mt-3">
+      <h2 id="tag-line">The movie and opera diary</h2>
+  </div>
 
 
-        <!--chart descriptions-->
-        <div id="middle-info" class="row justify-content-center mt-3">
-            <h2 id="tag-line">The movie and opera diary</h2>
-        </div>
+      <!--First row with main plot
+  <div class="container mt-3 text-center">
+        <div id="{{ids[0]}}"></div>
+  </div>
+-->
 
-        <div id="middle-info" class="row justify-content-center mt-3">
-          <h3 id="tag-line">Short term statistics for movies</h3>
-        </div>
-
-            <!--First row with main plot-->
-        <div class="container mt-3 text-center">
-              <div id="{{ids[0]}}"></div>
-        </div>
-
-        <div class="container">
-        <div class="row">
-          <p class="text-justify">It seems clear that December is always a good month to watch movies. Other noteworthy months are March and April 2020.
-            While Netflix and Mubi dominate the streaming market, Amazon Prime has not (yet) conquered my heart totally. 
-          </p>
-          </div>
-        </div>
-
-        <div id="middle-info" class="row justify-content-center mt-3">
-          <h3 id="tag-line">Long term statistics</h3>
-        </div>
-
-        <!--Second row with two plots-->
-      <div class="row mb-6">
-          <div class="col-6">
-              <div id="{{ids[1]}}"></div>
-          </div>
-          <div class="col-6">
-              <div id="{{ids[2]}}"></div>
-          </div>
-      </div>
-
-        <!--Third row with one plots-->
-        <div class="container mt-3 text-center">
-          <div id="{{ids[3]}}"></div>
-    </div>
 
 <!--footer section-->
 <div id="footer" class="container">
