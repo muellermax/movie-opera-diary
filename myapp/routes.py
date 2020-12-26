@@ -43,7 +43,7 @@ def opera():
     figures_opera = return_figures_opera()
 
     # plot ids for the html id tag
-    ids_opera = ['figure-{}'.format(i) for i, _ in enumerate(figures_tmdb)]
+    ids_opera = ['figure-{}'.format(i) for i, _ in enumerate(figures_opera)]
 
     # Convert the plotly figures to JSON for javascript in html template
     figuresJSON_opera = json.dumps(figures_opera, cls=plotly.utils.PlotlyJSONEncoder)
