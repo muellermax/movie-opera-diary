@@ -67,10 +67,10 @@ def return_figures_opera():
     # Plots categories over time
     graph_one = []
 
-    df = show_items_over_time(df_operas, '2017-01-01', 'category')
+    df = show_items_over_time(df_operas, '2017-01-01', 'place')
 
-    for item in df['category'].unique():
-        df_cat = df[df['category'] == item]
+    for item in df['place'].unique():
+        df_cat = df[df['place'] == item]
         x_val = df_cat['month'].tolist()
         y_val = df_cat['count']
         graph_one.append(
@@ -81,16 +81,16 @@ def return_figures_opera():
             )
         )
 
-    layout_one = dict(title='Development of opera categories over time',
+    layout_one = dict(title='Visit of different opera sites',
                       xaxis=dict(title='Date'),
-                      yaxis=dict(title='Categories'),
+                      yaxis=dict(title='Opera'),
                       barmode='stack'
                       )
 
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
     graph_two = []
 
-    df = show_item_vs_count(df_operas, 'title', 20)
+    df = show_item_vs_count(df_operas, 'title', 15)
 
     for item in df['title'].unique():
         graph_two.append(
@@ -108,7 +108,7 @@ def return_figures_opera():
             )
         )
     
-    layout_two = dict(title='The 20 most viewed items',
+    layout_two = dict(title='The 15 most viewed items',
                     xaxis=dict(title='Number of views'),
                     yaxis=dict(title='Average evaluation')
                     )
@@ -116,16 +116,16 @@ def return_figures_opera():
     # The third plot shows the 10 most viewed categories, their average evaluation and number of views
     graph_three = []
 
-    df = show_item_vs_count(df_operas, 'category', 10)
+    df = show_item_vs_count(df_operas, 'place', 10)
 
-    for item in df['category'].unique():
+    for item in df['place'].unique():
         graph_three.append(
             go.Scatter(
-                x=df.loc[df['category'] == item, 'count'].tolist(),
-                y=df.loc[df['category'] == item, 'evaluation'].tolist(),
+                x=df.loc[df['place'] == item, 'count'].tolist(),
+                y=df.loc[df['place'] == item, 'evaluation'].tolist(),
                 mode='markers',
                 marker=dict(
-                    size=df.loc[df['category'] == item, 'evaluation'].tolist(),
+                    size=df.loc[df['place'] == item, 'evaluation'].tolist(),
                     sizemode='area',
                     sizeref=2.*max(df['evaluation'].tolist())/(40.**2),
                     sizemin=4),
@@ -133,8 +133,8 @@ def return_figures_opera():
             )
         )
     
-    layout_three = dict(title='The 10 most viewed categories',
-                    xaxis=dict(title='Number of views'),
+    layout_three = dict(title='The 10 most visited places',
+                    xaxis=dict(title='Number of visits'),
                     yaxis=dict(title='Average evaluation')
                     )
 
