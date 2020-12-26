@@ -9,17 +9,17 @@ from wrangling_scripts.wrangle_data_opera import return_figures_opera
 @app.route('/index.html')
 def index():
 
-    figures = return_figures_movies()
+    figures_movies = return_figures_movies()
 
     # plot ids for the html id tag
-    ids = ['figure-{}'.format(i) for i, _ in enumerate(figures)]
+    ids_movies = ['figure-{}'.format(i) for i, _ in enumerate(figures_movies)]
 
     # Convert the plotly figures to JSON for javascript in html template
-    figuresJSON = json.dumps(figures, cls=plotly.utils.PlotlyJSONEncoder)
+    figuresJSON = json.dumps(figures_movies, cls=plotly.utils.PlotlyJSONEncoder)
 
     return render_template('index.html', 
-                           ids=ids,
-                           figuresJSON=figuresJSON)
+                           ids=ids_movies,
+                           figuresJSON=figures_movies)
 
 @app.route('/')
 @app.route('/tmdb.html')
