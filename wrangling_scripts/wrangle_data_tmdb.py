@@ -79,8 +79,8 @@ def return_figures_tmdb():
 
     x = np.random.randn(500)
 
-    graph_two = go.Histogram(
-        x = x)
+    graph_two = [go.Histogram(
+        x = x)]
 
     #print('graph_one')
     #print(graph_one)
