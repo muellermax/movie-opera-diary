@@ -48,4 +48,4 @@ def opera():
     # Convert the plotly figures to JSON for javascript in html template
     figuresJSON_opera = json.dumps(figures_opera, cls=plotly.utils.PlotlyJSONEncoder)
     
-    return render_template('opera.html', ids=ids_opera, figuresJSON = figures_opera)
+    return render_template('opera.html', ids=ids_opera, figuresJSON = figuresJSON_opera)
