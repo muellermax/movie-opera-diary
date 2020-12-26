@@ -3,6 +3,7 @@ import json, plotly
 from flask import render_template
 from wrangling_scripts.wrangle_data_movies import return_figures_movies
 from wrangling_scripts.wrangle_data_tmdb import return_figures_tmdb
+from wrangling_scripts.wrangle_data_opera import return_figures_opera
 
 @app.route('/')
 @app.route('/index.html')

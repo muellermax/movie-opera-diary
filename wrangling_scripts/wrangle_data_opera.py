@@ -2,8 +2,7 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objs as go
 
-df_all = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input.csv')
-df_movies = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_movies.csv')
+df_operas = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_operas.csv')
 
 def show_items_over_time(df, since, input_var):
     """
@@ -54,7 +53,7 @@ def show_item_vs_count(df, input_var, m):
     return df_all
 
 
-def return_figures_movies():
+def return_figures_opera():
     """
     Creates the plotly visualizations
 
@@ -69,7 +68,7 @@ def return_figures_movies():
     # Plots categories over time
     graph_one = []
 
-    df = show_items_over_time(df_movies, '2017-01-01', 'category')
+    df = show_items_over_time(df_operas, '2017-01-01', 'category')
 
     for item in df['category'].unique():
         df_cat = df[df['category'] == item]
@@ -83,7 +82,7 @@ def return_figures_movies():
             )
         )
 
-    layout_one = dict(title='Development of movie categories over time',
+    layout_one = dict(title='Development of opera categories over time',
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Categories'),
                       barmode='stack'
@@ -92,7 +91,7 @@ def return_figures_movies():
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
     graph_two = []
 
-    df = show_item_vs_count(df_movies, 'title', 20)
+    df = show_item_vs_count(df_operas, 'title', 20)
 
     for item in df['title'].unique():
         graph_two.append(
@@ -118,7 +117,7 @@ def return_figures_movies():
     # The third plot shows the 10 most viewed categories, their average evaluation and number of views
     graph_three = []
 
-    df = show_item_vs_count(df_movies, 'category', 10)
+    df = show_item_vs_count(df_operas, 'category', 10)
 
     for item in df['category'].unique():
         graph_three.append(
@@ -143,7 +142,7 @@ def return_figures_movies():
     # The fourth plot shows the 10 most viewed creators, their average evaluation and number of views
     graph_four = []
 
-    df = show_item_vs_count(df_movies, 'creator', 15)
+    df = show_item_vs_count(df_operas, 'creator', 15)
 
     for item in df['creator'].unique():
         graph_four.append(
@@ -166,13 +165,10 @@ def return_figures_movies():
                     )
 
     # append all charts to the figures list
-    figures_movies = []
-    figures_movies.append(dict(data=graph_one, layout=layout_one))
-    figures_movies.append(dict(data=graph_two, layout=layout_two))
-    figures_movies.append(dict(data=graph_three, layout=layout_three))
-    figures_movies.append(dict(data=graph_four, layout=layout_four))
+    figures_opera = []
+    figures_opera.append(dict(data=graph_one, layout=layout_one))
+    figures_opera.append(dict(data=graph_two, layout=layout_two))
+    figures_opera.append(dict(data=graph_three, layout=layout_three))
+    figures_opera.append(dict(data=graph_four, layout=layout_four))
 
-    return figures_movies
-#### End of 
-
- 
+    return figures_opera
