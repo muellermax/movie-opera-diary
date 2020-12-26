@@ -2,7 +2,9 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objs as go
 
-df_movie_op = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input.csv')
+df_all = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input.csv')
+df_movies = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_movies.csv')
+df_operas = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_operas.csv')
 
 #### Movie opera section ####
 def show_items_over_time(df, since, input_var):
@@ -30,7 +32,7 @@ def show_items_over_time(df, since, input_var):
     return df_grouped
 
 
-def show_item_vs_count(df, input_var, m, exclude_opera=False):
+def show_item_vs_count(df, input_var, m):
     """
     A function to visualize count vs. evaluation for any input variable. 
     
@@ -43,13 +45,6 @@ def show_item_vs_count(df, input_var, m, exclude_opera=False):
     Output: 
         A seaborn scatterplot. 
     """
-    
-    # Exclude the category opera if exclude_opera = True
-    if exclude_opera == True: 
-        df = df[df['category'] != 'Oper']
-    else: 
-        pass
-
     # Group df by the input_var and get the values for evaluation and the count
     df_all = df.groupby(input_var).agg(
         {'evaluation': 'mean',
@@ -76,7 +71,7 @@ def return_figures_index():
     # Plots categories over time
     graph_one = []
 
-    df = show_items_over_time(df_movie_op, '2017-01-01', 'category')
+    df = show_items_over_time(df_movies, '2017-01-01', 'category')
 
     for item in df['category'].unique():
         df_cat = df[df['category'] == item]
@@ -99,7 +94,7 @@ def return_figures_index():
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
     graph_two = []
 
-    df = show_item_vs_count(df_movie_op, 'title', 20, exclude_opera=False)
+    df = show_item_vs_count(df_movies, 'title', 20)
 
     for item in df['title'].unique():
         graph_two.append(
@@ -125,7 +120,7 @@ def return_figures_index():
     # The third plot shows the 10 most viewed categories, their average evaluation and number of views
     graph_three = []
 
-    df = show_item_vs_count(df_movie_op, 'category', 10, exclude_opera=False)
+    df = show_item_vs_count(df_movies, 'category', 10)
 
     for item in df['category'].unique():
         graph_three.append(
@@ -150,7 +145,7 @@ def return_figures_index():
     # The fourth plot shows the 10 most viewed creators, their average evaluation and number of views
     graph_four = []
 
-    df = show_item_vs_count(df_movie_op, 'creator', 15, exclude_opera=False)
+    df = show_item_vs_count(df_movies, 'creator', 15)
 
     for item in df['creator'].unique():
         graph_four.append(
