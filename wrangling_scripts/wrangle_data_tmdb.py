@@ -51,7 +51,8 @@ def return_figures_tmdb():
     input_var = df['diff']
 
     graph_one = [go.Histogram(
-        x = input_var)]
+        x = input_var, 
+        marginal = 'rug')]
 
     layout_one = dict(title='Distribution of the difference between TMDB and myself',
                     xaxis=dict(title='Count'),
