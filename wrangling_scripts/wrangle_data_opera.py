@@ -37,7 +37,6 @@ def show_item_vs_count(df, input_var, m):
         df (DataFrame): The movie opera diary DataFrame
         input_var (string): Choose between 'title', 'company', 'creator', 'place'
         m (int): How many items should be included (e.g. 'Top-30')
-        exclude_opera (bool): Choose if operas should be included
 
     Output: 
         A seaborn scatterplot. 
