@@ -1,14 +1,14 @@
 from myapp import app
 import json, plotly
 from flask import render_template
-from wrangling_scripts.wrangle_data import return_figures_index
+from wrangling_scripts.wrangle_data_movies import return_figures_movies
 from wrangling_scripts.wrangle_data_tmdb import return_figures_tmdb
 
 @app.route('/')
 @app.route('/index.html')
 def index():
 
-    figures = return_figures_index()
+    figures = return_figures_movies()
 
     # plot ids for the html id tag
     ids = ['figure-{}'.format(i) for i, _ in enumerate(figures)]

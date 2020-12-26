@@ -56,7 +56,7 @@ def show_item_vs_count(df, input_var, m):
     return df_all
 
 
-def return_figures_index():
+def return_figures_movies():
     """
     Creates the plotly visualizations
 
@@ -85,7 +85,7 @@ def return_figures_index():
             )
         )
 
-    layout_one = dict(title='Development of movie and opera categories over time',
+    layout_one = dict(title='Development of movie categories over time',
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Categories'),
                       barmode='stack'
@@ -162,19 +162,19 @@ def return_figures_index():
            )
          )
     
-    layout_four = dict(title='The 15 most viewed directors/composers',
+    layout_four = dict(title='The 15 most viewed directors',
                     xaxis=dict(title='Number of views'),
                     yaxis=dict(title='Average evaluation')
                     )
 
     # append all charts to the figures list
-    figures = []
-    figures.append(dict(data=graph_one, layout=layout_one))
-    figures.append(dict(data=graph_two, layout=layout_two))
-    figures.append(dict(data=graph_three, layout=layout_three))
-    figures.append(dict(data=graph_four, layout=layout_four))
+    figures_movies = []
+    figures_movies.append(dict(data=graph_one, layout=layout_one))
+    figures_movies.append(dict(data=graph_two, layout=layout_two))
+    figures_movies.append(dict(data=graph_three, layout=layout_three))
+    figures_movies.append(dict(data=graph_four, layout=layout_four))
 
-    return figures
+    return figures_movies
 #### End of 
 
  
