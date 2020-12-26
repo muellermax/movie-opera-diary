@@ -133,7 +133,7 @@ def return_figures_opera():
             )
         )
     
-    layout_three = dict(title='The 10 most visited places',
+    layout_three = dict(title='The most visited places',
                     xaxis=dict(title='Number of visits'),
                     yaxis=dict(title='Average evaluation')
                     )
