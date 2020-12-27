@@ -66,7 +66,8 @@ def return_figures_tmdb():
 
     graph_two = [go.Bar(
         x = df['diff'],
-        y = df['title']
+        y = df['title'], 
+        orientation = 'h'
     )]
 
     layout_two = dict(title='The movies with the highest positive and negative difference as well as the middle section',
