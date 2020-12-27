@@ -75,7 +75,7 @@ def return_figures_tmdb():
                     yaxis=dict(title='Title'),
                     autosize = False,
                     width = 600,
-                    height = 1000)
+                    height = 600)
                   #  bargap = 0.75)
 
 
