@@ -68,8 +68,10 @@ def return_figures_tmdb():
         x = df['diff'],
         y = df['title'], 
         orientation = 'h',
-        colorscale='RdBu',
-        zmid = 0
+        marker = dict(
+            colorscale='RdBu',
+            cmid = 0
+        )
     )]
 
     layout_two = dict(title='The movies with the highest positive and negative difference as well as the middle section',
