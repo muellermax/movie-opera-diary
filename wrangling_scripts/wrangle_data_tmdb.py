@@ -74,7 +74,9 @@ def return_figures_tmdb():
         marker = dict(
             color = color_values,
             colorscale='Bluered_r'
-        )
+        ),
+        textposition = 'outside',
+        cliponaxis = False
     )]
 
     layout_two = dict(title='The movies with the highest positive and negative difference as well as the middle section',
