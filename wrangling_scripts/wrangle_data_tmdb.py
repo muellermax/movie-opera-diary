@@ -62,7 +62,7 @@ def return_figures_tmdb():
                     )
 
     # Second plot: Show items with highest positive and negative difference
-    df = me_vs_tmdb_results(df_movie_tmdb, 15)
+    df = me_vs_tmdb_results(df_movie_tmdb, 10)
 
     graph_two = [go.Bar(
         x = df['diff'],
