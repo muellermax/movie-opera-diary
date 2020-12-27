@@ -76,7 +76,7 @@ def return_figures_tmdb():
                   #  autosize = False,
                  #   width = 800,
                 #    heigth = 1000, 
-                    bargap = 0.15)
+                    bargap = 0.75)
 
 
 
