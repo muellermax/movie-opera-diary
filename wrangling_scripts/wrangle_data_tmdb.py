@@ -67,14 +67,16 @@ def return_figures_tmdb():
     graph_two = [go.Bar(
         x = df['diff'],
         y = df['title'], 
-        orientation = 'h'
+        orientation = 'h',
+        colorscale='RdBu',
+        zmid = 0
     )]
 
     layout_two = dict(title='The movies with the highest positive and negative difference as well as the middle section',
                     xaxis=dict(title='Difference'),
                     yaxis=dict(title='Title'),
                     autosize = True,
-                    height = 1000)
+                    height = 800)
                   #  bargap = 0.75)
 
 
