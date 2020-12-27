@@ -73,7 +73,7 @@ def return_figures_tmdb():
         orientation = 'h',
         marker = dict(
             color = color_values,
-            colorscale='Bluered'
+            colorscale='Bluered_r'
         )
     )]
 
