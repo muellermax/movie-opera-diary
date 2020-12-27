@@ -75,8 +75,9 @@ def return_figures_tmdb():
                     xaxis=dict(title='Difference'),
                     yaxis=dict(title='Title'),
                     autosize = False,
-                    width = 400,
-                    heigth = 600)
+                    width = 800,
+                    heigth = 1000, 
+                    bargap = 0.15)
 
 
 
