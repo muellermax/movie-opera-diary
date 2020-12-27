@@ -19,7 +19,7 @@ def me_vs_tmdb_results(df, m):
     
     """
     
-    df = df.sort_values('diff', ascending = False)
+    df = df.sort_values('diff', ascending = True)
     
     # Get the head, tail and middle items
     head = df.head(m)
@@ -64,6 +64,7 @@ def return_figures_tmdb():
     # Second plot: Show items with highest positive and negative difference
     df = me_vs_tmdb_results(df_movie_tmdb, 10)
 
+    # Set number of colors for colorscale
     color_values = list(range(len(df['title'])))
 
     graph_two = [go.Bar(
@@ -72,7 +73,7 @@ def return_figures_tmdb():
         orientation = 'h',
         marker = dict(
             color = color_values,
-            colorscale='Viridis'
+            colorscale='Bluered'
         )
     )]
 
@@ -81,9 +82,6 @@ def return_figures_tmdb():
                     yaxis=dict(title='Title'),
                     autosize = True,
                     height = 800)
-                  #  bargap = 0.75)
-
-
 
     # append all charts to the figures list
     figures_tmdb = []
