@@ -85,7 +85,10 @@ def return_figures_tmdb():
                     autosize = True,
                     height = 800,
                     margin = dict(
-                        l = 160
+                        l = 210
+                    ),
+                    hoverlabel = dict(
+                        namelenght = -1
                     ))
 
     # append all charts to the figures list
