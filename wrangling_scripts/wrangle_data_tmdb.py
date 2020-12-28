@@ -54,16 +54,18 @@ def return_figures_tmdb():
     x = df['diff']
 
     bins = 60
-    color_values = list(range(bins))
+    color_values_hist = list(range(bins))
 
     graph_one = [go.Histogram(
         x = x,
         nbinsx = bins,
         marker = dict(
-            color = 'Red'
-    #        colorscale = 'Bluered_r',
-   #         autocolorscale = True,
-  #          showscale = True
+            color = color_values_hist,
+            cmin = color_values_hist[0],
+            cmax = color_values_hist[-1],
+            colorscale = 'Bluered_r',
+            autocolorscale = True,
+            showscale = True
         ))]
 
     layout_one = dict(title='Distribution of the difference between TMDBs and my own evaluation',
