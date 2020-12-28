@@ -84,7 +84,7 @@ def return_figures_tmdb():
                     yaxis=dict(title='Title'),
                     update_yaxes = dict(
                         title_standoff = 50
-                    )
+                    ),
                     autosize = True,
                     height = 800,
                     margin = dict(
