@@ -70,7 +70,7 @@ def return_figures_movies():
 
     df = show_items_over_time(df_movies, '2017-01-01', 'category')
 
-    color_values = list(range(df['category'].unique()))
+    color_values = list(range(len(df['category'].unique())))
 
     for item in df['category'].unique():
         df_cat = df[df['category'] == item]
