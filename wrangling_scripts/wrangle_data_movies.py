@@ -72,7 +72,7 @@ def return_figures_movies():
 
     for item in df['category'].unique():
         df_cat = df[df['category'] == item]
-        x_val = df_cat['month'].tolist()
+        x_val = df_cat['month']
         y_val = df_cat['count']
         graph_one.append(
             go.Bar(
@@ -96,11 +96,11 @@ def return_figures_movies():
     for item in df['title'].unique():
         graph_two.append(
             go.Scatter(
-                x=df.loc[df['title'] == item, 'count'].tolist(),
-                y=df.loc[df['title'] == item, 'evaluation'].tolist(),
+                x=df.loc[df['title'] == item, 'count'],
+                y=df.loc[df['title'] == item, 'evaluation'],
                 mode='markers',
                 marker=dict(
-                    size=df.loc[df['title'] == item, 'evaluation'].tolist(),
+                    size=df.loc[df['title'] == item, 'evaluation'],
                     sizemode='area',
                     sizeref=2.*max(df['evaluation'].tolist())/(40.**2),
                     sizemin=4),
@@ -122,11 +122,11 @@ def return_figures_movies():
     for item in df['category'].unique():
         graph_three.append(
             go.Scatter(
-                x=df.loc[df['category'] == item, 'count'].tolist(),
-                y=df.loc[df['category'] == item, 'evaluation'].tolist(),
+                x=df.loc[df['category'] == item, 'count'],
+                y=df.loc[df['category'] == item, 'evaluation'],
                 mode='markers',
                 marker=dict(
-                    size=df.loc[df['category'] == item, 'evaluation'].tolist(),
+                    size=df.loc[df['category'] == item, 'evaluation'],
                     sizemode='area',
                     sizeref=2.*max(df['evaluation'].tolist())/(40.**2),
                     sizemin=4),
@@ -147,11 +147,11 @@ def return_figures_movies():
     for item in df['creator'].unique():
         graph_four.append(
             go.Scatter(
-                x=df.loc[df['creator'] == item, 'count'].tolist(),
-                y=df.loc[df['creator'] == item, 'evaluation'].tolist(),
+                x=df.loc[df['creator'] == item, 'count'],
+                y=df.loc[df['creator'] == item, 'evaluation'],
                 mode='markers',
                 marker=dict(
-                    size=df.loc[df['creator'] == item, 'evaluation'].tolist(),
+                    size=df.loc[df['creator'] == item, 'evaluation'],
                     sizemode='area',
                     sizeref=2.*max(df['evaluation'].tolist())/(40.**2),
                     sizemin=4),
