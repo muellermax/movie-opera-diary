@@ -53,7 +53,7 @@ def return_figures_tmdb():
     # Select only the diff-column
     x = df['diff']
 
-    bins = 200
+    bins = 60
     color_values = list(range(bins))
 
     graph_one = [go.Histogram(
@@ -80,8 +80,8 @@ def return_figures_tmdb():
         y = df['title'], 
         orientation = 'h',
         marker = dict(
-            color = color_values,
-            colorscale='Bluered_r'
+            color = color_values
+     #       colorscale='Bluered_r'
         ),
         textposition = 'outside',
         cliponaxis = False
