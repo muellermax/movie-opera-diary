@@ -61,9 +61,11 @@ def return_figures_tmdb():
         nbinsx = bins,
         marker = dict(
             color = color_values_hist,
-            cmin = color_values_hist[10],
-            cmax = color_values_hist[-10],
-            colorscale = 'Bluered_r'
+            cmin = color_values_hist[0],
+            cmax = color_values_hist[59],
+            colorscale = 'Bluered_r',
+            autocolorscale = True,
+            showscale = True
         ))]
 
     layout_one = dict(title='Distribution of the difference between TMDBs and my own evaluation',
@@ -93,7 +95,7 @@ def return_figures_tmdb():
                     xaxis=dict(title='Difference'),
                     yaxis=dict(title= dict(
                         title = 'Title',
-                        standoff = 1)
+                        standoff = 5)
                     ),
                     autosize = True,
                     height = 800,
