@@ -60,8 +60,8 @@ def return_figures_tmdb():
         x = x,
         nbinsx = bins,
         marker = dict(
-            color = color_values,
-            colorscale = 'Bluered_r'
+            color = color_values
+  #          colorscale = 'Bluered_r'
         ))]
 
     layout_one = dict(title='Distribution of the difference between TMDBs and my own evaluation',
@@ -80,8 +80,8 @@ def return_figures_tmdb():
         y = df['title'], 
         orientation = 'h',
         marker = dict(
-            color = color_values
-     #       colorscale='Bluered_r'
+            color = color_values,
+            colorscale='Bluered_r'
         ),
         textposition = 'outside',
         cliponaxis = False
@@ -91,7 +91,7 @@ def return_figures_tmdb():
                     xaxis=dict(title='Difference'),
                     yaxis=dict(title= dict(
                         title = 'Title',
-                        standoff = 20)
+                        standoff = 5)
                     ),
                     autosize = True,
                     height = 800,
