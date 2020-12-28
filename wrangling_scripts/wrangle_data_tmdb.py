@@ -53,7 +53,7 @@ def return_figures_tmdb():
     # Select only the diff-column
     x = df['diff']
 
-    bins = 33
+    bins = 60
     color_values = list(range(bins))
 
     graph_one = [go.Histogram(
@@ -61,7 +61,7 @@ def return_figures_tmdb():
         nbinsx = bins,
         marker = dict(
             color = color_values,
-            colorscale = 'Bluered'
+            colorscale = 'Bluered_r'
         ))]
 
     layout_one = dict(title='Distribution of the difference between TMDBs and my own evaluation',
@@ -87,7 +87,7 @@ def return_figures_tmdb():
         cliponaxis = False
     )]
 
-    layout_two = dict(title='The movies with the highest positive and negative difference as well as the middle section',
+    layout_two = dict(title='The movies with the highest positive and negative difference',
                     xaxis=dict(title='Difference'),
                     yaxis=dict(title= dict(
                         title = 'Title',
