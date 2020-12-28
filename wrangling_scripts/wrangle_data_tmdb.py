@@ -82,7 +82,7 @@ def return_figures_tmdb():
     layout_two = dict(title='The movies with the highest positive and negative difference as well as the middle section',
                     xaxis=dict(title='Difference'),
                     yaxis=dict(title='Title',
-                    title_standoff = 200
+                    standoff = 200
                     ),
                     autosize = True,
                     height = 800,
