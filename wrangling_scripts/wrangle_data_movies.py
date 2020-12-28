@@ -70,6 +70,8 @@ def return_figures_movies():
 
     df = show_items_over_time(df_movies, '2017-01-01', 'category')
 
+    color_values = list(range(df['category'].unique()))
+
     for item in df['category'].unique():
         df_cat = df[df['category'] == item]
         x_val = df_cat['month']
@@ -78,8 +80,12 @@ def return_figures_movies():
             go.Bar(
                 x=x_val,
                 y=y_val,
-                name=item
-            )
+                name=item,
+                marker = dict(
+                        color = color_values,
+                        colorscale='Bluered_r'
+                             )
+                  )
         )
 
     layout_one = dict(title='Development of movie categories over time',
