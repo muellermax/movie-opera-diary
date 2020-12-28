@@ -61,7 +61,7 @@ def return_figures_tmdb():
         nbinsx = bins,
         marker = dict(
             color = color_values_hist,
-            cmin = color_values_hist[20],
+            cmin = color_values_hist[10],
             cmax = color_values_hist[30],
             colorscale = 'Bluered_r'
         ))]
