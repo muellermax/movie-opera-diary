@@ -83,12 +83,12 @@ def return_figures_tmdb():
                     xaxis=dict(title='Difference'),
                     yaxis=dict(title= dict(
                         title = 'Title',
-                        standoff = 200)
+                        standoff = 100)
                     ),
                     autosize = True,
                     height = 800,
                     margin = dict(
-                        l = 400 # Maring on the yaxis (left side)
+                        l = 400 # Marging on the yaxis (left side)
                     ),
                     hoverlabel = dict(
                         namelenght = -1 # To show the whole label name
