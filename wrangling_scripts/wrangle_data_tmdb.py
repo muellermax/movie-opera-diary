@@ -60,10 +60,10 @@ def return_figures_tmdb():
         x = x,
         nbinsx = bins,
         marker = dict(
-            color = color_values,
-            colorscale = 'Bluered_r',
-            autocolorscale = True,
-            showscale = True
+            color = 'Red'
+    #        colorscale = 'Bluered_r',
+   #         autocolorscale = True,
+  #          showscale = True
         ))]
 
     layout_one = dict(title='Distribution of the difference between TMDBs and my own evaluation',
