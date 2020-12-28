@@ -83,7 +83,10 @@ def return_figures_tmdb():
                     xaxis=dict(title='Difference'),
                     yaxis=dict(title='Title'),
                     autosize = True,
-                    height = 800)
+                    height = 800,
+                    margin = dict(
+                        l = 160
+                    ))
 
     # append all charts to the figures list
     figures_tmdb = []
