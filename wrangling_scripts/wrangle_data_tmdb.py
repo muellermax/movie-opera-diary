@@ -82,13 +82,16 @@ def return_figures_tmdb():
     layout_two = dict(title='The movies with the highest positive and negative difference as well as the middle section',
                     xaxis=dict(title='Difference'),
                     yaxis=dict(title='Title'),
+                    update_yaxes = dict(
+                        title_standoff = 50
+                    )
                     autosize = True,
                     height = 800,
                     margin = dict(
-                        l = 210
+                        l = 400 # Maring on the yaxis (left side)
                     ),
                     hoverlabel = dict(
-                        namelenght = -1
+                        namelenght = -1 # To show the whole label name
                     ))
 
     # append all charts to the figures list
