@@ -83,7 +83,10 @@ def return_figures_tmdb():
                     xaxis=dict(title='Difference'),
                     yaxis=dict(title='Title'),
                     update_yaxes = dict(
-                        title_standoff = 50
+                        title = dict(
+                            title_standoff = 200
+                        ),
+                        automargin = True
                     ),
                     autosize = True,
                     height = 800,
