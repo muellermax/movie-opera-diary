@@ -83,7 +83,7 @@ def return_figures_tmdb():
                     xaxis=dict(title='Difference'),
                     yaxis=dict(title= dict(
                         title = 'Title',
-                        standoff = 100)
+                        standoff = 20)
                     ),
                     autosize = True,
                     height = 800,
