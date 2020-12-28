@@ -53,9 +53,16 @@ def return_figures_tmdb():
     # Select only the diff-column
     x = df['diff']
 
+    bins = 33
+    color_values = list(range(bins))
+
     graph_one = [go.Histogram(
         x = x,
-        nbinsx = 33)]
+        nbinsx = bins,
+        marker = dict(
+            color = color_values,
+            colorscale = 'Bluered'
+        ))]
 
     layout_one = dict(title='Distribution of the difference between TMDBs and my own evaluation',
                     xaxis=dict(title='Difference (absolute)'),
