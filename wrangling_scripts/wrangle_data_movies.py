@@ -80,10 +80,7 @@ def return_figures_movies():
             go.Bar(
                 x=x_val,
                 y=y_val,
-                name=item,
-                marker = dict(
-                        autocolorscale = True
-                )
+                name=item
                   )
         )
 
