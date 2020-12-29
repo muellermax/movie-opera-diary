@@ -87,10 +87,10 @@ def return_figures_movies():
                   )
 
     graph_one.append(
-                marker = dict(
-                    color = color_values,
+                marker = dict(go.Bar
+                    (color = color_values,
                     colorscale = 'Viridis',
-                    showscale = True
+                    showscale = True)
                     )
                 )
 
