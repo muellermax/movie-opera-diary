@@ -69,6 +69,7 @@ def return_figures_movies():
     """
 
     # Plots categories over time
+    df = show_items_over_time(df_movies, '2017-01-01', 'category')
     color_values = list(range(len(df['category'].unique())))
     
     graph_one = [go.Bar(
@@ -80,8 +81,6 @@ def return_figures_movies():
                             )
                     )
                 ]
-
-    df = show_items_over_time(df_movies, '2017-01-01', 'category')
 
     for item in df['category'].unique():
         df_cat = df[df['category'] == item]
