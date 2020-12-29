@@ -69,7 +69,8 @@ def return_figures_tmdb():
 
     layout_one = dict(title='Distribution of the difference between TMDBs and my own evaluation',
                     xaxis=dict(title='Difference (absolute)'),
-                    yaxis=dict(title='Count')
+                    yaxis=dict(title='Count'),
+                      plot_bgcolor = '#E8E8E8'
                     )
 
     # Second plot: Show items with highest positive and negative difference
@@ -103,7 +104,8 @@ def return_figures_tmdb():
                                 ),
                     hoverlabel = dict(
                         namelength = -1 # To show the whole label name
-                                      )
+                                      ),
+                      plot_bgcolor = '#E8E8E8'
                     )
 
     # append all charts to the figures list

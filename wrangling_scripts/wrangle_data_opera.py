@@ -176,7 +176,7 @@ def return_figures_opera():
            )
          )
     
-    layout_four = dict(title='The 15 most viewed directors',
+    layout_four = dict(title='The 15 most viewed composers',
                     xaxis=dict(title='Number of views'),
                     yaxis=dict(title='Average evaluation'),
                     colorway = colorway_diary,
