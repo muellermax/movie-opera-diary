@@ -5,7 +5,7 @@ import plotly.express as px
 
 df_movies = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_movies.csv')
 
-colorway_diary = px.colors.qualitative.Bold
+colorway_diary = px.colors.qualitative.Prism
 
 def show_items_over_time(df, since, input_var):
     """
