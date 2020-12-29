@@ -1,8 +1,11 @@
 import pandas as pd
 import numpy as np
 import plotly.graph_objs as go
+import plotly.express as px
 
 df_movies = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_movies.csv')
+
+colorway_diary = px.colors.qualitative.Bold
 
 def show_items_over_time(df, since, input_var):
     """
@@ -91,7 +94,7 @@ def return_figures_movies():
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Categories'),
                       barmode='stack',
-                      colorway = ['rgb(179,226,205)', 'rgb(253,205,172)', 'rgb(203,213,232)', 'rgb(244,202,228)', 'rgb(230,245,201)', 'rgb(255,242,174)', 'rgb(241,226,204)', 'rgb(204,204,204)']
+                      colorway = colorway_diary
                       )
 
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
