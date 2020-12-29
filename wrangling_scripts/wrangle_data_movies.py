@@ -93,7 +93,7 @@ def return_figures_movies():
                       yaxis=dict(title='Count'),
                       barmode='stack',
                       colorway = colorway_diary,
-                      plot_bgcolor = '#D3D3D3',
+                      plot_bgcolor = '#F5F5F5',
                       hoverlabel = dict(
                         namelenght = -1 # To show the whole label name
                       )
@@ -126,7 +126,8 @@ def return_figures_movies():
                     colorway = colorway_diary,
                       hoverlabel = dict(
                         namelenght = -1 # To show the whole label name
-                      )
+                      ),
+                      plot_bgcolor = '#F5F5F5'
                     )
 
     # The third plot shows the 10 most viewed categories, their average evaluation and number of views
@@ -155,7 +156,8 @@ def return_figures_movies():
                     colorway = colorway_diary,
                       hoverlabel = dict(
                         namelenght = -1 # To show the whole label name
-                      )
+                      ),
+                      plot_bgcolor = '#F5F5F5'
                     )
 
     # The fourth plot shows the 10 most viewed creators, their average evaluation and number of views
@@ -184,7 +186,8 @@ def return_figures_movies():
                     colorway = colorway_diary,
                       hoverlabel = dict(
                         namelenght = -1 # To show the whole label name
-                      )
+                      ),
+                      plot_bgcolor = '#F5F5F5'
                     )
 
     # append all charts to the figures list

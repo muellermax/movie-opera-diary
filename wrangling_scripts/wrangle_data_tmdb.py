@@ -95,15 +95,16 @@ def return_figures_tmdb():
                     yaxis=dict(title= dict(
                         title = 'Title',
                         standoff = 0.5)
-                    ),
+                                ),
                     autosize = True,
                     height = 800,
                     margin = dict(
                         l = 400 # Marging on the yaxis (left side)
-                    ),
+                                ),
                     hoverlabel = dict(
                         namelenght = -1 # To show the whole label name
-                    ))
+                                      )
+                    )
 
     # append all charts to the figures list
     figures_tmdb = []
