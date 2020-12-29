@@ -92,7 +92,6 @@ def return_figures_movies():
                     )
                 )
                   )
-        )
 
         # https://plotly.com/python/reference/layout/#layout-paper_bgcolor COLORWAY in Layout
 
