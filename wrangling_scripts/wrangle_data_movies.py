@@ -73,9 +73,9 @@ def return_figures_movies():
 
     df = show_items_over_time(df_movies, '2017-01-01', 'category')
 
-    #color_values = list(range(len(df['category'].unique())))
+    color_values = list(range(len(df['category'].unique())))
 
-    for item in df['category'].unique():
+    for item, color_nr in zip(df['category'].unique(), color_values):
         df_cat = df[df['category'] == item]
         x_val = df_cat['month']
         y_val = df_cat['count']
@@ -83,7 +83,14 @@ def return_figures_movies():
             go.Bar(
                 x=x_val,
                 y=y_val,
-                name=item
+                name=item,
+                marker = dict(
+                    color = color_nr,
+                    cmin = color_values[0],
+                    cmax = color_values[-1],
+                    colorscale = 'Viridis'
+                    )
+                )
                   )
         )
 
@@ -93,8 +100,8 @@ def return_figures_movies():
     layout_one = dict(title='Development of movie categories over time',
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Categories'),
-                      barmode='stack',
-                      colorway = colorway_diary
+                      barmode='stack'
+           #           colorway = colorway_diary
                       )
 
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
