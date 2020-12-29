@@ -88,10 +88,14 @@ def return_figures_movies():
                   )
         )
 
+        # https://plotly.com/python/reference/layout/#layout-paper_bgcolor COLORWAY in Layout
+
+
     layout_one = dict(title='Development of movie categories over time',
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Categories'),
-                      barmode='stack'
+                      barmode='stack',
+                      colorway = 'Viridis'
                       )
 
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
