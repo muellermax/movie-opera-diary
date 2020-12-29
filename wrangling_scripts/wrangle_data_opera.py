@@ -4,6 +4,8 @@ import plotly.graph_objs as go
 
 df_operas = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_operas.csv')
 
+colorway_diary = px.colors.qualitative.Prism
+
 def show_items_over_time(df, since, input_var):
     """
     Function to show the count of different input_vars over time. 
@@ -84,7 +86,8 @@ def return_figures_opera():
     layout_one = dict(title='Visit of different opera sites',
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Opera'),
-                      barmode='stack'
+                      barmode='stack',
+                      colorway = colorway_diary
                       )
 
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
@@ -110,7 +113,8 @@ def return_figures_opera():
     
     layout_two = dict(title='The 15 most viewed items',
                     xaxis=dict(title='Number of views'),
-                    yaxis=dict(title='Average evaluation')
+                    yaxis=dict(title='Average evaluation'),
+                    colorway = colorway_diary
                     )
 
     # The third plot shows the 10 most viewed categories, their average evaluation and number of views
@@ -135,7 +139,8 @@ def return_figures_opera():
     
     layout_three = dict(title='The most visited places',
                     xaxis=dict(title='Number of visits'),
-                    yaxis=dict(title='Average evaluation')
+                    yaxis=dict(title='Average evaluation'),
+                    colorway = colorway_diary
                     )
 
     # The fourth plot shows the 10 most viewed creators, their average evaluation and number of views
@@ -160,7 +165,8 @@ def return_figures_opera():
     
     layout_four = dict(title='The 15 most viewed directors',
                     xaxis=dict(title='Number of views'),
-                    yaxis=dict(title='Average evaluation')
+                    yaxis=dict(title='Average evaluation'),
+                    colorway = colorway_diary
                     )
 
     # append all charts to the figures list

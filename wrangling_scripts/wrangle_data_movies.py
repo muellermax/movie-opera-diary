@@ -92,7 +92,8 @@ def return_figures_movies():
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Count'),
                       barmode='stack',
-                      colorway = colorway_diary
+                      colorway = colorway_diary,
+                      plot_bgcolor = '#D3D3D3'
                       )
 
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
