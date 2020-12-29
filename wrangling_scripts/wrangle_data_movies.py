@@ -90,8 +90,10 @@ def return_figures_movies():
     layout_one = dict(title='Development of movie categories over time',
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Categories'),
-                      barmode='stack',
-                      colorway = 'Viridis'
+                      barmode='stack'
+                      colorscale = dict(
+                          sequential = 'Viridis'
+                        )
                       )
 
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
