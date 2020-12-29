@@ -72,7 +72,7 @@ def return_figures_movies():
 
     color_values = list(range(len(df['category'].unique())))
 
-    for item, color in zip(df['category'].unique(), color_values):
+    for item, number in zip(df['category'].unique(), color_values):
         df_cat = df[df['category'] == item]
         x_val = df_cat['month']
         y_val = df_cat['count']
@@ -82,8 +82,8 @@ def return_figures_movies():
                 y=y_val,
                 name=item,
                 marker = dict(
-                        color = color,
-                        colorscale='Bluered_r'
+                        color = number,
+                        colorscale='Viridis'
                              )
                   )
         )
