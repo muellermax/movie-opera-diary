@@ -86,13 +86,13 @@ def return_figures_movies():
                 )
                   )
 
-    graph_one.append(
-                marker = dict(go.Bar
-                    (color = color_values,
+    graph_one.append(go.Bar(
+                marker = dict(
+                    color = color_values,
                     colorscale = 'Viridis',
-                    showscale = True)
+                    showscale = True
                     )
-                )
+                ))
 
         # https://plotly.com/python/reference/layout/#layout-paper_bgcolor COLORWAY in Layout
 
