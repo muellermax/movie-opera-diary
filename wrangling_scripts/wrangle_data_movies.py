@@ -68,16 +68,15 @@ def return_figures_movies():
 
     """
 
-    # Plots categories over time
+    # First plot for categories over time
     df = show_items_over_time(df_movies, '2017-01-01', 'category')
     color_values = list(range(len(df['category'].unique())))
-    
+
     graph_one = [go.Bar(
                 marker = dict(
                     color = color_values,
-             #       cmin = color_values[0],
-              #      cmax = color_values[-1],
-                    colorscale = 'Viridis'
+                    colorscale = 'Viridis',
+                    showscale = True
                             )
                     )
                 ]
