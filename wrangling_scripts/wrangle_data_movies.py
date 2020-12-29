@@ -90,7 +90,7 @@ def return_figures_movies():
     layout_one = dict(title='Development of movie categories over time',
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Categories'),
-                      barmode='stack'
+                      barmode='stack',
                       colorscale = dict(
                           sequential = 'Viridis'
                         )
