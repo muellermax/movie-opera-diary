@@ -70,7 +70,8 @@ def return_figures_movies():
 
     # First plot for categories over time
     df = show_items_over_time(df_movies, '2017-01-01', 'category')
-    color_values = list(range(len(df['category'].unique())))
+    
+    #color_values = list(range(len(df['category'].unique())))
 
     graph_one = []
 
@@ -86,22 +87,12 @@ def return_figures_movies():
                 )
                   )
 
-    graph_one.append(go.Bar(
-                marker = dict(
-                    color = color_values,
-                    colorscale = 'Viridis',
-                    showscale = True
-                    )
-                ))
-
-        # https://plotly.com/python/reference/layout/#layout-paper_bgcolor COLORWAY in Layout
-
 
     layout_one = dict(title='Development of movie categories over time',
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Count'),
-                      barmode='stack'
-           #           colorway = colorway_diary
+                      barmode='stack',
+                      colorway = colorway_diary
                       )
 
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
@@ -127,7 +118,8 @@ def return_figures_movies():
     
     layout_two = dict(title='The 20 most viewed items',
                     xaxis=dict(title='Number of views'),
-                    yaxis=dict(title='Average evaluation')
+                    yaxis=dict(title='Average evaluation'),
+                    colorway = colorway_diary
                     )
 
     # The third plot shows the 10 most viewed categories, their average evaluation and number of views
@@ -152,7 +144,8 @@ def return_figures_movies():
     
     layout_three = dict(title='The 10 most viewed categories',
                     xaxis=dict(title='Number of views'),
-                    yaxis=dict(title='Average evaluation')
+                    yaxis=dict(title='Average evaluation'),
+                    colorway = colorway_diary
                     )
 
     # The fourth plot shows the 10 most viewed creators, their average evaluation and number of views
@@ -177,7 +170,8 @@ def return_figures_movies():
     
     layout_four = dict(title='The 15 most viewed directors',
                     xaxis=dict(title='Number of views'),
-                    yaxis=dict(title='Average evaluation')
+                    yaxis=dict(title='Average evaluation'),
+                    colorway = colorway_diary
                     )
 
     # append all charts to the figures list
