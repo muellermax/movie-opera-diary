@@ -95,7 +95,7 @@ def return_figures_movies():
                       colorway = colorway_diary,
                       plot_bgcolor = '#E8E8E8',
                       hoverlabel = dict(
-                        namelenght = -1 # To show the whole label name
+                        namelength = -1 # To show the whole label name
                       )
                       )
 
@@ -125,7 +125,7 @@ def return_figures_movies():
                     yaxis=dict(title='Average evaluation'),
                     colorway = colorway_diary,
                       hoverlabel = dict(
-                        namelenght = -1 # To show the whole label name
+                        namelength = -1 # To show the whole label name
                       ),
                       plot_bgcolor = '#E8E8E8'
                     )
@@ -155,7 +155,7 @@ def return_figures_movies():
                     yaxis=dict(title='Average evaluation'),
                     colorway = colorway_diary,
                       hoverlabel = dict(
-                        namelenght = -1 # To show the whole label name
+                        namelength = -1 # To show the whole label name
                       ),
                       plot_bgcolor = '#E8E8E8'
                     )
@@ -185,7 +185,7 @@ def return_figures_movies():
                     yaxis=dict(title='Average evaluation'),
                     colorway = colorway_diary,
                       hoverlabel = dict(
-                        namelenght = -1 # To show the whole label name
+                        namelength = -1 # To show the whole label name
                       ),
                       plot_bgcolor = '#E8E8E8'
                     )

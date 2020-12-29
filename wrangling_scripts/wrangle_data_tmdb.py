@@ -102,7 +102,7 @@ def return_figures_tmdb():
                         l = 400 # Marging on the yaxis (left side)
                                 ),
                     hoverlabel = dict(
-                        namelenght = -1 # To show the whole label name
+                        namelength = -1 # To show the whole label name
                                       )
                     )
 

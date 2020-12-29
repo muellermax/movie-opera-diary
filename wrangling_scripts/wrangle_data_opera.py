@@ -88,7 +88,11 @@ def return_figures_opera():
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Opera'),
                       barmode='stack',
-                      colorway = colorway_diary
+                      colorway = colorway_diary,
+                      hoverlabel = dict(
+                        namelength = -1 # To show the whole label name
+                      ),
+                      plot_bgcolor = '#E8E8E8'
                       )
 
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
@@ -115,7 +119,11 @@ def return_figures_opera():
     layout_two = dict(title='The 15 most viewed items',
                     xaxis=dict(title='Number of views'),
                     yaxis=dict(title='Average evaluation'),
-                    colorway = colorway_diary
+                    colorway = colorway_diary,
+                      hoverlabel = dict(
+                        namelength = -1 # To show the whole label name
+                      ),
+                      plot_bgcolor = '#E8E8E8'
                     )
 
     # The third plot shows the 10 most viewed categories, their average evaluation and number of views
@@ -141,7 +149,11 @@ def return_figures_opera():
     layout_three = dict(title='The most visited places',
                     xaxis=dict(title='Number of visits'),
                     yaxis=dict(title='Average evaluation'),
-                    colorway = colorway_diary
+                    colorway = colorway_diary,
+                      hoverlabel = dict(
+                        namelength = -1 # To show the whole label name
+                      ),
+                      plot_bgcolor = '#E8E8E8'
                     )
 
     # The fourth plot shows the 10 most viewed creators, their average evaluation and number of views
@@ -167,7 +179,11 @@ def return_figures_opera():
     layout_four = dict(title='The 15 most viewed directors',
                     xaxis=dict(title='Number of views'),
                     yaxis=dict(title='Average evaluation'),
-                    colorway = colorway_diary
+                    colorway = colorway_diary,
+                      hoverlabel = dict(
+                        namelength = -1 # To show the whole label name
+                      ),
+                      plot_bgcolor = '#E8E8E8'
                     )
 
     # append all charts to the figures list
