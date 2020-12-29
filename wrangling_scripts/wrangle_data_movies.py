@@ -86,12 +86,11 @@ def return_figures_movies():
                 )
                   )
 
-    graph_one.append(go.Bar(
+    graph_one.append(
                 marker = dict(
                     color = color_values,
                     colorscale = 'Viridis',
                     showscale = True
-                            )
                     )
                 )
 
@@ -100,7 +99,7 @@ def return_figures_movies():
 
     layout_one = dict(title='Development of movie categories over time',
                       xaxis=dict(title='Date'),
-                      yaxis=dict(title='Categories'),
+                      yaxis=dict(title='Count'),
                       barmode='stack'
            #           colorway = colorway_diary
                       )
