@@ -82,9 +82,7 @@ def return_figures_movies():
                 y=y_val,
                 name=item,
                 marker = dict(
-                    line = dict(
                         autocolorscale = True
-                    )
                 )
                   )
         )
@@ -98,7 +96,7 @@ def return_figures_movies():
                       barmode='stack',
                       colorscale = dict(
                           diverging = 'RdBu'
-                      ) 
+                                    ) 
                       )
 
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
