@@ -80,7 +80,12 @@ def return_figures_movies():
             go.Bar(
                 x=x_val,
                 y=y_val,
-                name=item
+                name=item,
+                marker = dict(
+                    line = dict(
+                        autocolorscale = True
+                    )
+                )
                   )
         )
 
@@ -91,7 +96,9 @@ def return_figures_movies():
                       xaxis=dict(title='Date'),
                       yaxis=dict(title='Categories'),
                       barmode='stack',
-                      colorway = ['red', 'red', 'red', 'red', 'red', 'red', 'red', 'red', 'red', 'red']  
+                      colorscale = dict(
+                          diverging = 'RdBu'
+                      ) 
                       )
 
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
