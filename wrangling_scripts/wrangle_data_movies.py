@@ -93,7 +93,10 @@ def return_figures_movies():
                       yaxis=dict(title='Count'),
                       barmode='stack',
                       colorway = colorway_diary,
-                      plot_bgcolor = '#D3D3D3'
+                      plot_bgcolor = '#D3D3D3',
+                      hoverlabel = dict(
+                        namelenght = -1 # To show the whole label name
+                      )
                       )
 
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
@@ -120,7 +123,10 @@ def return_figures_movies():
     layout_two = dict(title='The 20 most viewed items',
                     xaxis=dict(title='Number of views'),
                     yaxis=dict(title='Average evaluation'),
-                    colorway = colorway_diary
+                    colorway = colorway_diary,
+                      hoverlabel = dict(
+                        namelenght = -1 # To show the whole label name
+                      )
                     )
 
     # The third plot shows the 10 most viewed categories, their average evaluation and number of views
@@ -146,7 +152,10 @@ def return_figures_movies():
     layout_three = dict(title='The 10 most viewed categories',
                     xaxis=dict(title='Number of views'),
                     yaxis=dict(title='Average evaluation'),
-                    colorway = colorway_diary
+                    colorway = colorway_diary,
+                      hoverlabel = dict(
+                        namelenght = -1 # To show the whole label name
+                      )
                     )
 
     # The fourth plot shows the 10 most viewed creators, their average evaluation and number of views
@@ -172,7 +181,10 @@ def return_figures_movies():
     layout_four = dict(title='The 15 most viewed directors',
                     xaxis=dict(title='Number of views'),
                     yaxis=dict(title='Average evaluation'),
-                    colorway = colorway_diary
+                    colorway = colorway_diary,
+                      hoverlabel = dict(
+                        namelenght = -1 # To show the whole label name
+                      )
                     )
 
     # append all charts to the figures list
