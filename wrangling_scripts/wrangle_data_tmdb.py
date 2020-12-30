@@ -58,15 +58,19 @@ def return_figures_tmdb():
     graph_one = []
 
     for item in df['primary genre'].unique():
-        graph_one.append(go.scatter(
+        graph_one.append(
+            go.Scatter(
             x = df.loc[df['primary genre'] == item, 'evaluation'],
             y = df.loc[df['primary genre'] == item, 'evaluation_tmdb'],
             name = item,
-            mode = 'markers', 
+            mode = 'markers'
             marker = dict(
                     size = df.loc[df['primary genre'] == item, 'views'])
                         )
             )
+
+
+
 
     layout_one = dict(title='Development of movie categories over time',
                     xaxis=dict(title='Date'),
