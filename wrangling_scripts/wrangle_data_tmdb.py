@@ -62,8 +62,9 @@ def return_figures_tmdb():
             go.Scatter(
             x = df.loc[df['title'] == item, 'evaluation'],
             y = df.loc[df['title'] == item, 'evaluation_tmdb'],
-     #       name = item,
+            name = df.loc[df['title'] == item, 'primary genre'],
             mode = 'markers',
+            hoverinfo = item,
             marker = dict(
                     size = df.loc[df['title'] == item, 'views'],
                     sizemode='area',
