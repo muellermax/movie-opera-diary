@@ -57,25 +57,25 @@ def return_figures_tmdb():
 
     graph_one = []
 
-    for item in df['primary genre'].unique():
+    for item in df['title'].unique():
         graph_one.append(
             go.Scatter(
-            x = df.loc[df['primary genre'] == item, 'evaluation'],
-            y = df.loc[df['primary genre'] == item, 'evaluation_tmdb'],
-            name = item,
+            x = df.loc[df['title'] == item, 'evaluation'],
+            y = df.loc[df['title'] == item, 'evaluation_tmdb'],
+     #       name = item,
             mode = 'markers',
             marker = dict(
-                    size = df.loc[df['primary genre'] == item, 'views'],
+                    size = df.loc[df['title'] == item, 'views'],
                     sizemode='area',
-         #           sizeref=2.*max(df['evaluation'].tolist())/(40.**2),
+                    sizeref=2.*max(df['views'].tolist())/(40.**2),
                     sizemin=4)
                         )
             )
 
 
     layout_one = dict(title='Development of movie categories over time',
-                    xaxis=dict(title='Date'),
-                    yaxis=dict(title='Count'),
+                    xaxis=dict(title='TMDB Evaluation'),
+                    yaxis=dict(title='My evaluation'),
                     colorway = colorway_diary,
                     plot_bgcolor = '#E8E8E8',
                     hoverlabel = dict(
