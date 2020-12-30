@@ -64,7 +64,7 @@ def return_figures_tmdb():
             y = df.loc[df['title'] == item, 'evaluation_tmdb'],
             name = df.loc[df['title'] == item, 'primary genre'],
             mode = 'markers',
-            hoverinfo = item,
+#            hoverinfo = item,
             marker = dict(
                     size = df.loc[df['title'] == item, 'views'],
                     sizemode='area',
