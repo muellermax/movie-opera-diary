@@ -58,8 +58,7 @@ def return_figures_tmdb():
     graph_one = [go.Scatter(
             x = df['evaluation'],
             y = df['evaluation_tmdb'],
-            mode = 'markers', 
-            marker_color = df['primary genre'],
+            mode = 'markers',
             text = df['title']
     )]
 
