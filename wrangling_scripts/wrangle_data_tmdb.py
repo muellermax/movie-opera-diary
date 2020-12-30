@@ -47,8 +47,39 @@ def return_figures_tmdb():
         list (dict): list containing the four plotly visualizations
 
     """
+    # First plot: Scatterplot with my evaluation vs. TMDB evaluation
 
-    # First plot: Histogram with difference between my evaluation and tmdb    
+    df = df_movie_tmdb.copy()
+
+    # Select the relevant columns
+    df = df[['title', 'views', 'evaluation', 'evaluation_tmdb', 'primary genre']]
+
+    graph_one = []
+
+    for item in df['title']:
+        graph_one.append(go.scatter(
+            x = df.loc[df['title'] == item, 'evaluation'],
+            y = df.loc[df['title'] == item, 'evaluation_tmdb'],
+            mode = 'markers', 
+            marker = dict(
+                    size = df.loc[df['category'] == item, 'views'],
+                    sizemode = 'area'),
+            name = df.loc[df['title'] == item, 'primary genre']
+                        )
+            )
+
+    layout_one = dict(title='Development of movie categories over time',
+                    xaxis=dict(title='Date'),
+                    yaxis=dict(title='Count')
+                    colorway = colorway_diary,
+                    plot_bgcolor = '#E8E8E8',
+                    hoverlabel = dict(
+                    namelength = -1 # To show the whole label name
+                    )
+                    )
+
+
+    # Second plot: Histogram with difference between my evaluation and tmdb    
     df = df_movie_tmdb.copy()
 
     # Select only the diff-column
@@ -57,7 +88,7 @@ def return_figures_tmdb():
     bins = 60
     color_values_hist = list(range(bins))
 
-    graph_one = [go.Histogram(
+    graph_two = [go.Histogram(
         x = x,
         nbinsx = bins,
         marker = dict(
@@ -67,19 +98,19 @@ def return_figures_tmdb():
             colorscale = 'Bluered_r'
         ))]
 
-    layout_one = dict(title='Distribution of the difference between TMDBs and my own evaluation',
+    layout_two = dict(title='Distribution of the difference between TMDBs and my own evaluation',
                     xaxis=dict(title='Difference (absolute)'),
                     yaxis=dict(title='Count'),
                       plot_bgcolor = '#E8E8E8'
                     )
 
-    # Second plot: Show items with highest positive and negative difference
+    # Third plot: Show items with highest positive and negative difference
     df = me_vs_tmdb_results(df_movie_tmdb, 10)
 
     # Set number of colors for colorscale
     color_values = list(range(len(df['title'])))
 
-    graph_two = [go.Bar(
+    graph_three = [go.Bar(
         x = df['diff'],
         y = df['title'], 
         orientation = 'h',
@@ -91,7 +122,7 @@ def return_figures_tmdb():
         cliponaxis = False
     )]
 
-    layout_two = dict(title='The movies with the highest positive and negative difference',
+    layout_three = dict(title='The movies with the highest positive and negative difference',
                     xaxis=dict(title='Difference'),
                     yaxis=dict(title= dict(
                         title = 'Title',
@@ -112,6 +143,7 @@ def return_figures_tmdb():
     figures_tmdb = []
     figures_tmdb.append(dict(data=graph_one, layout=layout_one))
     figures_tmdb.append(dict(data=graph_two, layout=layout_two))
+    figures_tmdb.append(dict(data=graph_three, layout=layout_three))
 
     return figures_tmdb
 
