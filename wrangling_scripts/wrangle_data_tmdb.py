@@ -55,23 +55,29 @@ def return_figures_tmdb():
     # Select the relevant columns
     df = df[['title', 'views', 'evaluation', 'evaluation_tmdb', 'primary genre']]
 
-    graph_one = []
+    graph_one = [go.Scatter(
+            x = df['evaluation'],
+            y = df['evaluation_tmdb'],
+            mode = 'markers', 
+            marker_color = df['primary genre'],
+            text = df['title']
+    )]
 
-    for item in df['title'].unique():
-        graph_one.append(
-            go.Scatter(
-            x = df.loc[df['title'] == item, 'evaluation'],
-            y = df.loc[df['title'] == item, 'evaluation_tmdb'],
-            name = str(df.loc[df['title'] == item, 'primary genre']),
-            mode = 'markers',
-#            hoverinfo = item,
-            marker = dict(
-                    size = df.loc[df['title'] == item, 'views'],
-                    sizemode='area',
-                    sizeref=2.*max(df['views'].tolist())/(40.**2),
-                    sizemin=4)
-                        )
-            )
+#    for item in df['title'].unique():
+ #       graph_one.append(
+  #          go.Scatter(
+   #         x = df.loc[df['title'] == item, 'evaluation'],
+    ##        y = df.loc[df['title'] == item, 'evaluation_tmdb'],
+      #      name = str(df.loc[df['title'] == item, 'primary genre']),
+       #     mode = 'markers',
+#       #     hoverinfo = item,
+         #   marker = dict(
+          #          size = df.loc[df['title'] == item, 'views'],
+           #         sizemode='area',
+            #        sizeref=2.*max(df['views'].tolist())/(40.**2),
+             #       sizemin=4)
+              #          )
+            #)
 
 
     layout_one = dict(title='Development of movie categories over time',
