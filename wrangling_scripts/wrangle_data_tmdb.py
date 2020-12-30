@@ -5,6 +5,8 @@ import plotly.express as px
 
 df_movie_tmdb = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_tmdb.csv')
 
+colorway_diary = px.colors.qualitative.Prism
+
 def me_vs_tmdb_results(df, m):
     """
     Function to show the difference of the m items with the highest and lowest 
@@ -55,14 +57,14 @@ def return_figures_tmdb():
 
     graph_one = []
 
-    for item in df['title']:
+    for item in df['primary genre'].unique():
         graph_one.append(go.scatter(
-            x = df.loc[df['title'] == item, 'evaluation'],
-            y = df.loc[df['title'] == item, 'evaluation_tmdb'],
-         #   name = df.loc[df['title'] == item, 'primary genre'],
+            x = df.loc[df['primary genre'] == item, 'evaluation'],
+            y = df.loc[df['primary genre'] == item, 'evaluation_tmdb'],
+            name = item,
             mode = 'markers', 
             marker = dict(
-                    size = df.loc[df['title'] == item, 'views'])
+                    size = df.loc[df['primary genre'] == item, 'views'])
                         )
             )
 
