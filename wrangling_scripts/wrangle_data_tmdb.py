@@ -48,7 +48,6 @@ def return_figures_tmdb():
 
     """
     # First plot: Scatterplot with my evaluation vs. TMDB evaluation
-
     df = df_movie_tmdb.copy()
 
     # Select the relevant columns
@@ -70,7 +69,7 @@ def return_figures_tmdb():
 
     layout_one = dict(title='Development of movie categories over time',
                     xaxis=dict(title='Date'),
-                    yaxis=dict(title='Count')
+                    yaxis=dict(title='Count'),
                     colorway = colorway_diary,
                     plot_bgcolor = '#E8E8E8',
                     hoverlabel = dict(
