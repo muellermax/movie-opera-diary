@@ -68,15 +68,15 @@ def return_figures_tmdb():
             marker = dict(
                     size = df_name.views,
                     sizemode='area',
-                    sizeref = 5*max(df_name.views.tolist())/(40.**2),
+                    sizeref = 3*max(df_name.views.tolist())/(40.**2),
                     sizemin=1)
                     )
             )
 
 
     layout_one = dict(title='Comparison of my evaluation and TMDB evaluation',
-                    xaxis=dict(title='TMDB Evaluation'),
-                    yaxis=dict(title='My evaluation'),
+                    xaxis=dict(title='My Evaluation'),
+                    yaxis=dict(title='TMDB evaluation'),
                     colorway = colorway_diary,
                     plot_bgcolor = '#E8E8E8',
                     hoverlabel = dict(
