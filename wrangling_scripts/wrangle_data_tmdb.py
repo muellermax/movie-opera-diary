@@ -68,7 +68,7 @@ def return_figures_tmdb():
             marker = dict(
                     size = df_name.views,
                     sizemode='area',
-                    sizeref = 2,
+                    sizeref = 2.*max(df_name.views.tolist())/(40.**2),
                     sizemin=4)
                     )
             )
