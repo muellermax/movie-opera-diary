@@ -67,8 +67,8 @@ def return_figures_tmdb():
             hoverinfo = 'y + x + text',
             marker = dict(
                     size = df_name.views,
-                    sizemode='diameter',
-                    sizeref = 2.*max(df_name.views.tolist())/(40.**2),
+                    sizemode='area',
+                    sizeref = 1.5*max(df_name.views.tolist())/(40.**2),
                     sizemin=1)
                     )
             )
