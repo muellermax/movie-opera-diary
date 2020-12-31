@@ -72,6 +72,7 @@ def return_figures_tmdb():
                #     sizemin=1)
                     )
             )
+        )
 
 
     layout_one = dict(title='Comparison of my evaluation and TMDB evaluation',
