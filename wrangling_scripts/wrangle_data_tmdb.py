@@ -64,7 +64,7 @@ def return_figures_tmdb():
             text = df_name.title,
             name=genre, 
             mode='markers',
-            hoverinfo = 'y + x + text',
+            hoverinfo = 'text',
             marker = dict(
                     size = df_name.views,
                     sizemode='area',
@@ -82,7 +82,8 @@ def return_figures_tmdb():
                     hoverlabel = dict(
                     namelength = -1 # To show the whole label name
                                     ),
-                    hovermode = 'closest',
+                    hovermode = 'x',
+                    hovermode = 'y',
                     hoverdistance = -1,
                     height = 600,
                     legend = dict(
