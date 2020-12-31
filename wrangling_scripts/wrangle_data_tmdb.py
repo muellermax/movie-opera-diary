@@ -69,7 +69,7 @@ def return_figures_tmdb():
                     size = df_name.views,
                     sizemode='area',
                     sizeref = 2.*max(df_name.views.tolist())/(40.**2),
-                    sizemin=4)
+                    sizemin=1)
                     )
             )
 
