@@ -64,7 +64,7 @@ def return_figures_tmdb():
             text = df_name.title,
             name=genre, 
             mode='markers',
-            hoverinfo = 'y' + 'x' + 'name' + 'text',
+            hoverinfo = 'y + x + name + text',
             marker = dict(
                     size = df_name.views,
                     sizemode='diameter'
