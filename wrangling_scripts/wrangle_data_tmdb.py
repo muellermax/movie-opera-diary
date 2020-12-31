@@ -72,6 +72,7 @@ def return_figures_tmdb():
             #        sizemin=4)
                     )
             )
+        )
 
 
     layout_one = dict(title='Development of movie categories over time',
