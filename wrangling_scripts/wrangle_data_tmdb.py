@@ -68,7 +68,7 @@ def return_figures_tmdb():
             marker = dict(
                     size = df_name.views,
                     sizemode='area',
-                    sizeref = 1.5*max(df_name.views.tolist())/(40.**2),
+                    sizeref = 1.2*max(df_name.views.tolist())/(40.**2),
                     sizemin=1)
                     )
             )
@@ -83,6 +83,9 @@ def return_figures_tmdb():
                     namelength = -1 # To show the whole label name
                                     ),
                     height = 600,
+                    legend = dict(
+                        itemwidth = 40
+                                )
                     )
 
             # Add here info about hovermode!!! 
