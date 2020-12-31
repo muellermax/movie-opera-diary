@@ -65,7 +65,7 @@ def return_figures_tmdb():
             name=genre, 
             mode='markers',
             marker = dict(
-                    size = df.loc[df['title'] == item, 'views'],
+                    size = df_name.views,
                     sizemode='area',
                     sizemin=4)
                     )
