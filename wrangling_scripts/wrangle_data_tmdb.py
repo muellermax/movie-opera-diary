@@ -82,8 +82,8 @@ def return_figures_tmdb():
                     hoverlabel = dict(
                     namelength = -1 # To show the whole label name
                                     ),
-          #          hovermode = 'closest',
-                    hoverdistance = -1,
+                    hovermode = 'closest',
+          #          hoverdistance = -1,
                     height = 600,
                     legend = dict(
                         itemsizing = 'constant',
