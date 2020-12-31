@@ -67,7 +67,7 @@ def return_figures_tmdb():
             hoverinfo = 'y + x + text',
             marker = dict(
                     size = df_name.views,
-                    sizemode='area',
+                    sizemode='diameter',
                     sizeref = 2.*max(df_name.views.tolist())/(40.**2),
                     sizemin=1)
                     )
@@ -81,8 +81,10 @@ def return_figures_tmdb():
                     plot_bgcolor = '#E8E8E8',
                     hoverlabel = dict(
                     namelength = -1 # To show the whole label name
+                                    ),
+                    height = 600,
                     )
-                    )
+
             # Add here info about hovermode!!! 
 
     # Second plot: Histogram with difference between my evaluation and tmdb    
