@@ -68,14 +68,14 @@ def return_figures_tmdb():
             marker = dict(
                     size = df_name.views,
                     sizemode='area'
-           #         sizeref = 2,
-            #        sizemin=4)
+                    sizeref = 2,
+                    sizemin=4)
                     )
             )
         )
 
 
-    layout_one = dict(title='Development of movie categories over time',
+    layout_one = dict(title='Comparison of my evaluation and TMDB evaluation',
                     xaxis=dict(title='TMDB Evaluation'),
                     yaxis=dict(title='My evaluation'),
                     colorway = colorway_diary,
@@ -84,7 +84,7 @@ def return_figures_tmdb():
                     namelength = -1 # To show the whole label name
                     )
                     )
-
+            # Add here info about hovermode!!! 
 
     # Second plot: Histogram with difference between my evaluation and tmdb    
     df = df_movie_tmdb.copy()
