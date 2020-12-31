@@ -83,7 +83,6 @@ def return_figures_tmdb():
                     namelength = -1 # To show the whole label name
                                     ),
                     hovermode = 'x',
-                    hovermode = 'y',
                     hoverdistance = -1,
                     height = 600,
                     legend = dict(
