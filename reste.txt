@@ -193,6 +193,14 @@ def country_daily(country, df, days=7):
 
 
 
+### Working Scatterplot
+
+    graph_one = [go.Scatter(
+            x = df['evaluation'],
+            y = df['evaluation_tmdb'],
+            mode = 'markers',
+            text = df['title']
+    )]
 
 ###########################################################
       def return_figures_tmdb():

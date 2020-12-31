@@ -55,12 +55,20 @@ def return_figures_tmdb():
     # Select the relevant columns
     df = df[['title', 'views', 'evaluation', 'evaluation_tmdb', 'primary genre']]
 
-    graph_one = [go.Scatter(
-            x = df['evaluation'],
-            y = df['evaluation_tmdb'],
-            mode = 'markers',
-            text = df['title']
-    )]
+
+    fig = go.Figure()
+    for genre, df_name in df.groupby('primary genre'):
+        fig.add_scatter(x=df_name.evaluation, y=df_name.evaluation_tmdb, name=genre, mode='markers')
+
+    graph_one = [fig]
+
+
+#    graph_one = [go.Scatter(
+ #           x = df['evaluation'],
+  #          y = df['evaluation_tmdb'],
+   #         mode = 'markers',
+    #        text = df['title']
+    #)]
 
 #    for item in df['title'].unique():
  #       graph_one.append(
