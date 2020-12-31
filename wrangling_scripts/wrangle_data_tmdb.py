@@ -68,7 +68,7 @@ def return_figures_tmdb():
             marker = dict(
                     size = df_name.views,
                     sizemode='area',
-                    sizeref = 0.6*max(df_name.views.tolist())/(40.**2),
+                    sizeref = 5*max(df_name.views.tolist())/(40.**2),
                     sizemin=1)
                     )
             )
@@ -85,7 +85,7 @@ def return_figures_tmdb():
                     height = 600,
                     legend = dict(
                         itemsizing = 'constant',
-                        itemwidth = 50
+                        itemwidth = 60
                                 )
                     )
 
