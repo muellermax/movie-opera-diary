@@ -87,12 +87,12 @@ def return_figures_tmdb():
       #      name = str(df.loc[df['title'] == item, 'primary genre']),
        #     mode = 'markers',
 #       #     hoverinfo = item,
-            marker = dict(
-                    size = df.loc[df['title'] == item, 'views'],
-                    sizemode='area',
-                    sizeref=2.*max(df['views'].tolist())/(40.**2),
-                    sizemin=4)
-              #          )
+     #       marker = dict(
+      #              size = df.loc[df['title'] == item, 'views'],
+       #             sizemode='area',
+        #            sizeref=2.*max(df['views'].tolist())/(40.**2),
+         #           sizemin=4)
+          #    #          )
             #)
 
 
