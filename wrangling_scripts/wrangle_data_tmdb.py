@@ -78,7 +78,7 @@ def return_figures_tmdb():
     layout_one = dict(title='Comparison of my evaluation and TMDB evaluation',
                     xaxis=dict(title='My Evaluation'),
                     yaxis=dict(title='TMDB evaluation'),
-                    colorway = colorway_diary,
+                    colorway = px.colors.qualitative.Dark24,
                     plot_bgcolor = '#E8E8E8',
                     hoverlabel = dict(
                     namelength = -1 # To show the whole label name
@@ -89,8 +89,7 @@ def return_figures_tmdb():
                     legend = dict(
                         itemsizing = 'constant',
                         itemwidth = 60
-                                ),
-                    colorway = px.colors.qualitative.Dark24
+                                )
                     )
 
 
