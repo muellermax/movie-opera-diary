@@ -145,7 +145,7 @@ def return_figures_movies():
                     size=df.loc[df['category'] == item, 'evaluation'],
                     sizemode='diameter',
                     sizeref= 0.1, #2.*max(df['evaluation'].tolist())/(40.**2),
-                    sizemin=7),
+                    sizemin=2),
                 name=item
             )
         )
