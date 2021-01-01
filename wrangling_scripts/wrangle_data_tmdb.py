@@ -68,7 +68,7 @@ def return_figures_tmdb():
             marker = dict(
                     size = df_name.views,
                     sizemode='diameter',
-                    sizeref = 7, #4*max(df_name.views.tolist())/(40.**2)
+                    sizeref = 20, #4*max(df_name.views.tolist())/(40.**2)
                     sizemin = 7
             )
             )
@@ -89,10 +89,10 @@ def return_figures_tmdb():
                     legend = dict(
                         itemsizing = 'constant',
                         itemwidth = 60
-                                )
+                                ),
+                    colorway = px.colors.qualitative.Dark24
                     )
 
-            # Add here info about hovermode!!! 
 
     # Second plot: Histogram with difference between my evaluation and tmdb    
     df = df_movie_tmdb.copy()
