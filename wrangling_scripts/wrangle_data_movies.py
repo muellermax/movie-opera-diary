@@ -144,7 +144,7 @@ def return_figures_movies():
                 marker=dict(
                     size=df.loc[df['category'] == item, 'evaluation'],
                     sizemode ='diameter',
-                    sizeref = 30, #2.*max(df['evaluation'].tolist())/(40.**2),
+                    sizeref = 10, #2.*max(df['evaluation'].tolist())/(40.**2),
                     sizemin = 7),
                 name=item
             )
