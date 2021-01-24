@@ -17,7 +17,7 @@ def show_items_over_time(df, since, input_var):
         input_var (string): Specify the item: 'category', 'place', 'creator'
     
     Output: 
-        An Altair plot
+        df_grouped (DataFrame): The DataFrame grouped by the input_var and the total count of the items
     """
     
     # Select DataFrame since a specific date
@@ -34,7 +34,7 @@ def show_items_over_time(df, since, input_var):
 
 def show_item_vs_count(df, input_var, m):
     """
-    A function to visualize count vs. evaluation for any input variable. 
+    A function to prepare the data to visualize count vs. evaluation for any input variable. 
     
     Input: 
         df (DataFrame): The movie opera diary DataFrame
@@ -43,7 +43,8 @@ def show_item_vs_count(df, input_var, m):
         exclude_opera (bool): Choose if operas should be included
 
     Output: 
-        A seaborn scatterplot. 
+        df_all (DataFrame): The DataFrame grouped by the input_var and the mean values for evaluation
+        as well as the count of the items (via 'date': 'count')
     """
     # Group df by the input_var and get the values for evaluation and the count
     df_all = df.groupby(input_var).agg(
@@ -198,6 +199,6 @@ def return_figures_movies():
     figures_movies.append(dict(data=graph_four, layout=layout_four))
 
     return figures_movies
-#### End of 
+
 
  
