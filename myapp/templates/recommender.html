@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>The movie and opera diary</title>
+
+    <!-- Meta OG Information -->
+    <meta property="og:image" content="/static/img/graph.png">
+
+<!--import script files needed from plotly and bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <meta charset="utf-8">
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+
+</head>
+
+
+<body>
+
+<!--navbar links-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+   <a class="navbar-brand" href="index.html">The movie and opera diary</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+  data-target="#navbarTogglerDemo02"
+  aria-controls="navbarTogglerDemo02" aria-expanded="false"
+  aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<!--navbar links-->
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Movie diary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tmdb.html">Me vs. TMDB</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="opera.html">Opera diary</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!--middle section-->
+
+
+    <!--visualizations column-->
+
+
+        <!--chart descriptions-->
+        <div id="middle-info" class="row justify-content-center mt-3">
+            <h2 id="tag-line">The movie and opera diary</h2>
+        </div>
+
+        <div id="middle-info" class="row justify-content-center mt-3">
+          <h3 id="tag-line">Short term statistics for movies</h3>
+        </div>
+
+            <!--First row with main plot-->
+        <div class="container mt-3 text-center">
+              <div id="{{ids[0]}}"></div>
+        </div>
+
+        <div class="container">
+        <div class="row">
+          <p class="text-justify">It seems clear that December is always a good month to watch movies. Other noteworthy months are March and April 2020.
+            While Netflix and Mubi dominate the streaming market, Amazon Prime has not (yet) conquered my heart totally. 
+          </p>
+          </div>
+        </div>
+
+        <div id="middle-info" class="row justify-content-center mt-3">
+          <h3 id="tag-line">Long term statistics for movies</h3>
+        </div>
+
+        <!--Second row with two plots-->
+      <div class="row mb-6">
+        <div class="col-1"></div>
+          <div class="col-5">
+              <div id="{{ids[1]}}"></div>
+          </div>
+          <div class="col-5">
+              <div id="{{ids[2]}}"></div>
+          </div>
+          <div class="col-1"></div>
+      </div>
+
+        <!--Third row with one plot-->
+        <div class="container mt-3 text-center">
+          <div id="{{ids[3]}}"></div>
+    </div>
+
+<!--footer section-->
+<div id="footer" class="container">
+  <!--social media buttons column-->
+  <div class="row mt-5">
+    <h5 class="h5">Acknowledgements</h5><br>
+    </div>
+        <div class="row">
+        <p class="text-justify">To access the TMDB API I used the <a href="https://pypi.org/project/tmdbsimple/">TMDBsimple wrapper</a>, a very helpful tool. 
+          Furthermore it is simply great that <a href = "https://www.themoviedb.org/">TMDB</a> provides this API to share their data with people like me. 
+        </p>
+        </div>
+<div class="row">
+<h5 class="h5">Data</h5><br>
+</div>
+  <div class="row">
+  <p class="text-justify">Since 2016, I have my own diary with information about movies, operas, books and concerts, that I watch, read and attend. 
+    Each item is also evaluated (0-100) and I write down who accompanied me on the event. I also add data from <a href = "https://www.themoviedb.org/">The Movie Database</a> 
+    to compare my own evaluation with theirs. Furthermore, it gives me the possibility to learn more about the movies I like and eventually prepare a movie recommender. 
+    For operas, I have to check if there will be a recommender - or better if there is anybody in need of an opera recommender ;) 
+  </p>
+  </div>
+<div class="row">
+  <h5 class="h5">About</h5>
+</div>
+<div class="row">
+  <p class="text-justify">Maximilian Müller, working as a Senior Business Development Manager with strong interest in Data Science, movies and opera.</p>
+</div>
+<div class="row border-top">
+  <div id="follow-me" class="mt-3">
+      <a href="https://www.linkedin.com/in/maximilian-m%C3%BCller-92106067/">
+          <img src="/static/img/linkedinlogo.png" style="width: 50px; height: auto;" alt="linkedin" class="img-fluid mb-4 ml-2">
+      </a>
+      <a href="https://github.com/muellermax">
+          <img src="/static/img/githublogo.png" style="width: 50px; height: auto;" alt="github" class="img-fluid mb-4 ml-2">
+      </a>
+  </div>
+</div>
+<div class="row">
+  <h5 class="h5">Disclaimer</h5>
+</div>
+<div class="row">
+  <p class="text-justify">
+      <p>1. Contents of the website</p>
+      <p>contents of this website were written with due diligence and by the author’s best knowledge. We can be held liable only by general laws, especially for our own contents acc. § 7 TMG (German law on tele-media) and for external contents acc. §§ 8 – 10 TMG. As a Provider of tele-media we can be held liable for external contents only once we have knowledge of a concrete infringement of law. We reserve the right to change or delete contents of this webpage which are not subject to any contractual obligation.</p>
+
+      <p>2. Links on external Websites</p>
+      <p>Contents of external websites on which we are linking direct or indirect (through „hyperlinks“ or „deeplinks“) are beyond our responsibility and are not adopted as our own content. When the links were published, we didn’t have knowledge of any illegal activities or contents on these websites. Since we do not have any control on the contents of these websites, we distance ourselves from all contents of all linked websites, which were updated after the setting of the links. For all contents and especially damages, resulting of the use of the linked websites, only the provider of these linked websites can be held liable. If we receive knowledge of illegal contents on these linked websites, we will delete the according links.</p>
+      
+      <p>3. Intellectual property rights</p>
+      <p>All content of this website, especially texts, pictures, images, graphical presentations, music, trademarks, brands and so forth, are subject to copyright laws. The use, reproduction and so on are subject to the individual rights of the respective owner of the copyright or administrator of these rights. If you want to use such content, please let us know and we will establish contact with the respective owner/administrator.</p>
+  </p>
+</div>
+
+
+
+</div>
+
+</body>
+
+<footer>
+
+  <script type="text/javascript">
+      // plots the figure with id
+      // id much match the div id above in the html
+      var figures = {{figuresJSON | safe}};
+      var ids = {{ids | safe}};
+      for(var i in figures) {
+          Plotly.plot(ids[i],
+              figures[i].data,
+              figures[i].layout || {});
+      }
+  </script>
+  
+</footer>
+
+</html>
