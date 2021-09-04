@@ -56,6 +56,40 @@
 <!--middle section-->
 
 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.csv.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+<script src="js/csv_to_html_table.js"></script>
+
+
+<script>
+    function format_link(link) {
+        if (link)
+            return "<a href='" + link + "' target='_blank'>" + link + "</a>";
+        else return "";
+    }
+
+    CsvToHtmlTable.init({
+        csv_path: "././wrangling_scripts/top_movies.csv",
+        element: "table-container",
+        allow_download: true,
+        csv_options: {
+            separator: ",",
+            delimiter: '"'
+        },
+        datatables_options: {
+            paging: false
+        },
+        custom_formatting: [
+            [4, format_link]
+        ]
+    });
+</script>
+
+
+
     <!--visualizations column-->
 
 
