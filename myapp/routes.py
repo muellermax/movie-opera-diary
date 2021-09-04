@@ -49,3 +49,10 @@ def opera():
     figuresJSON_opera = json.dumps(figures_opera, cls=plotly.utils.PlotlyJSONEncoder)
     
     return render_template('opera.html', ids=ids_opera, figuresJSON = figuresJSON_opera)
+
+
+@app.route('/')
+@app.route('/recommender.html')
+def recommender():
+
+    return render_template('recommender.html')

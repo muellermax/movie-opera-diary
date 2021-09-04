@@ -92,50 +92,6 @@
 
     <!--visualizations column-->
 
-
-        <!--chart descriptions-->
-        <div id="middle-info" class="row justify-content-center mt-3">
-            <h2 id="tag-line">The movie and opera diary</h2>
-        </div>
-
-        <div id="middle-info" class="row justify-content-center mt-3">
-          <h3 id="tag-line">Short term statistics for movies</h3>
-        </div>
-
-            <!--First row with main plot-->
-        <div class="container mt-3 text-center">
-              <div id="{{ids[0]}}"></div>
-        </div>
-
-        <div class="container">
-        <div class="row">
-          <p class="text-justify">It seems clear that December is always a good month to watch movies. Other noteworthy months are March and April 2020.
-            While Netflix and Mubi dominate the streaming market, Amazon Prime has not (yet) conquered my heart totally. 
-          </p>
-          </div>
-        </div>
-
-        <div id="middle-info" class="row justify-content-center mt-3">
-          <h3 id="tag-line">Long term statistics for movies</h3>
-        </div>
-
-        <!--Second row with two plots-->
-      <div class="row mb-6">
-        <div class="col-1"></div>
-          <div class="col-5">
-              <div id="{{ids[1]}}"></div>
-          </div>
-          <div class="col-5">
-              <div id="{{ids[2]}}"></div>
-          </div>
-          <div class="col-1"></div>
-      </div>
-
-        <!--Third row with one plot-->
-        <div class="container mt-3 text-center">
-          <div id="{{ids[3]}}"></div>
-    </div>
-
 <!--footer section-->
 <div id="footer" class="container">
   <!--social media buttons column-->
@@ -195,20 +151,5 @@
 
 </body>
 
-<footer>
-
-  <script type="text/javascript">
-      // plots the figure with id
-      // id much match the div id above in the html
-      var figures = {{figuresJSON | safe}};
-      var ids = {{ids | safe}};
-      for(var i in figures) {
-          Plotly.plot(ids[i],
-              figures[i].data,
-              figures[i].layout || {});
-      }
-  </script>
-  
-</footer>
 
 </html>
