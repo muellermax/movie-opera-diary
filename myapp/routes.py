@@ -52,7 +52,7 @@ def opera():
 
 
 @app.route('/')
-@app.route('/top_movies.html')
+@app.route('/recommender.html')
 def recommender():
 
-    return render_template('top_movies.html')
+    return render_template('recommender.html')
