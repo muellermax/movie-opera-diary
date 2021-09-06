@@ -89,6 +89,8 @@ Every idea or contribution is welcome. My next project will be to design a recom
 Thanks to the following packages or service providers: 
 * [The TMDB community](https://www.themoviedb.org/), especially for providing an easy to use API. 
 * [The already mentioned TMDB API wrapper](https://www.themoviedb.org/) by [Celiao](https://github.com/celiao), which I use to access the TMDB database.
+* [Derek Eders](https://github.com/derekeder) tutorial about [converting CSV to HTML tables](https://github.com/derekeder/csv-to-html-table) helped me a lot when 
+preparing the tables. 
 * Of course, without Github, Heroku and Stackoverflow, the dashboard would not exist. 
 
 
