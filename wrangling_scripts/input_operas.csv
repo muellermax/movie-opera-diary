@@ -1,72 +1,72 @@
 ,date,title,creator,release_year,place,category,evaluation,imdb_id_maxi,comment,year,month,week
-7,2021-10-06,Der Fliegende Hollaender,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,90.0,,,2021,2021-10,2021-40
-28,2021-06-26,Der Freischütz,Carl Maria von Weber,,Staatsoper Berlin,Oper,88.0,,,2021,2021-06,2021-25
-29,2021-06-24,La Fanciulla del West,Giacomo Puccini,,Staatsoper Berlin,Oper,80.0,,,2021,2021-06,2021-25
-30,2021-06-22,Rheingold,Richard Wagner,,Deutsche Oper Berlin,Oper,96.0,,,2021,2021-06,2021-25
-129,2020-10-15,Les pêcheurs de perles,Georges Bizets,,Staatsoper Berlin,Oper,80.0,,,2020,2020-10,2020-41
-131,2020-10-08,Die Walkuere,Richard Wagner,,Deutsche Oper Berlin,Oper,99.0,,,2020,2020-10,2020-40
-142,2020-09-13,Ariadne auf Naxos,Richard Strauss,,Staatsoper Berlin,Oper,75.0,,,2020,2020-09,2020-37
-148,2020-09-03,6. Symphonie und 5. Symphonie,Ludwig van Beethoven,,Staatsoper Berlin,Oper,89.0,,,2020,2020-09,2020-35
-226,2020-02-23,Le Prophete,Giacomo Meyerbeer,,Deutsche Oper Berlin,Oper,83.0,,,2020,2020-02,2020-08
-232,2020-02-02,Les Huguenotes,Giacomo Meyerbeer,1836.0,Deutsche Oper Berlin,Oper,84.0,,,2020,2020-02,2020-05
-234,2020-01-29,Falstaff,Giuseppe Verdi,,Staatsoper Berlin,Oper,82.0,,,2020,2020-01,2020-04
-240,2020-01-16,Die Walkuere,Richard Wagner,,Oper Leipzig,Oper,100.0,,,2020,2020-01,2020-02
-254,2019-12-22,La Boheme,Giacomo Puccini,1896.0,Bayerische Staatsoper Muenchen,Oper,98.0,,,2019,2019-12,2019-51
-261,2019-12-08,Tristan und Isolde,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2019,2019-12,2019-49
-328,2019-06-28,Tristan und Isolde,Richard Wagner,,Staatsoper Berlin,Oper,100.0,,,2019,2019-06,2019-25
-329,2019-06-25,Tristan und Isolde,Richard Wagner,,Staatsoper Berlin,Oper,100.0,,,2019,2019-06,2019-25
-330,2019-06-23,La Boheme,Giacomo Puccini,,Bayerische Staatsoper Muenchen,Oper,99.0,,,2019,2019-06,2019-25
-334,2019-06-05,Rigoletto,Giuseppe Verdi,,Staatsoper Berlin,Oper,100.0,,,2019,2019-06,2019-22
-342,2019-05-23,Macbeth,Giuseppe Verdi,,Staatsoper Berlin,Oper,85.0,,,2019,2019-05,2019-20
-348,2019-05-09,Der Fliegende Hollaender,Richard Wagner,,Deutsche Oper Berlin,Oper,99.0,,,2019,2019-05,2019-18
-349,2019-05-08,6. Symphonie,Gustav Mahler,,Deutsche Oper Berlin,Oper,78.0,,,2019,2019-05,2019-18
-356,2019-04-21,Parsifal,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2019,2019-04,2019-16
-359,2019-04-14,Parsifal,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2019,2019-04,2019-15
-363,2019-04-05,Rienzi,Richard Wagner,,Deutsche Oper Berlin,Oper,75.0,,,2019,2019-04,2019-13
-376,2019-03-02,Salome,Richard Strauss,,Deutsche Oper Berlin,Oper,81.0,,,2019,2019-03,2019-08
-384,2019-02-12,Don Giovanni,W.A. Mozart,,Staatsoper Berlin,Oper,100.0,,,2019,2019-02,2019-06
-388,2019-02-05,Lucia di Lammermoor,Donizetti,,Deutsche Oper Berlin,Oper,86.0,,,2019,2019-02,2019-05
-394,2019-01-13,Tannhaeuser,Richard Wagner,,Deutsche Oper Berlin,Oper,98.0,,,2019,2019-01,2019-02
-401,2019-01-05,Les Contes d'Hoffmann,Jacques Offenbach,,Deutsche Oper Berlin,Oper,100.0,,,2019,2019-01,2019-00
-418,2018-12-09,Fidelio,Ludwig van Beethoven,,Staatsoper Berlin,Oper,82.0,,,2018,2018-12,2018-49
-421,2018-12-04,Les Contes d'Hoffmann,Jacques Offenbach,,Deutsche Oper Berlin,Oper,100.0,,,2018,2018-12,2018-48
-435,2018-11-01,Don Giovanni,W.A. Mozart,,Deutsche Oper Berlin,Oper,100.0,,,2018,2018-11,2018-43
-444,2018-09-29,Tristan und Isolde,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2018,2018-09,2018-38
-446,2018-09-23,Tristan und Isolde,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2018,2018-09,2018-38
-467,2018-06-20,Rigoletto,Giuseppe Verdi,,Bayerische Staatsoper Muenchen,Oper,100.0,,,2018,2018-06,2018-24
-469,2018-06-07,Carmen,Georges Bizets,,Deutsche Oper Berlin,Oper,99.0,,,2018,2018-06,2018-22
-471,2018-05-27,Don Carlo,Giuseppe Verdi,1867.0,Deutsche Oper Berlin,Oper,100.0,,,2018,2018-05,2018-21
-473,2018-05-16,La Traviata,Giuseppe Verdi,,Deutsche Oper Berlin,Oper,99.0,,,2018,2018-05,2018-19
-477,2018-05-05,Die Fledermaus,Johann Strauss,,Deutsche Oper Berlin,Oper,95.0,,,2018,2018-05,2018-17
-484,2018-04-15,Don Giovanni,W.A. Mozart,,Deutsche Oper Berlin,Oper,99.0,,,2018,2018-04,2018-15
-487,2018-04-08,Tannhaeuser,Richard Wagner,,Deutsche Oper Berlin,Oper,96.0,,,2018,2018-04,2018-14
-496,2018-03-25,Les vêpres sicilliennes,Giuseppe Verdi,,Bayerische Staatsoper Muenchen,Oper,70.0,,,2018,2018-03,2018-12
-500,2018-03-18,Tristan und Isolde,Richard Wagner,,Staatsoper Berlin,Oper,100.0,,,2018,2018-03,2018-11
-513,2018-02-08,Tosca,Giacomo Puccini,,Deutsche Oper Berlin,Oper,98.0,,,2018,2018-02,2018-05
-539,2017-12-02,Tannhaeuser,Richard Wagner,,Deutsche Oper Berlin,Oper,99.0,,,2017,2017-12,2017-48
-573,2017-07-06,Don Carlo,Giuseppe Verdi,1867.0,Deutsche Oper Berlin,Oper,100.0,,,2017,2017-07,2017-27
-574,2017-06-24,Don Carlo,Giuseppe Verdi,1867.0,Deutsche Oper Berlin,Oper,100.0,,,2017,2017-06,2017-25
-655,2015-12-22,La Boheme,Giacomo Puccini,,Staatsoper Berlin,Oper,98.0,,,2015,2015-12,2015-51
-656,2015-07-07,Tristan und Isolde,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,100.0,,,2015,2015-07,2015-27
-666,2015-12-04,Tristan und Isolde,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2015,2015-12,2015-48
-675,2014-12-27,Die Frau ohne Schatten,Richard Strauss,,Bayerische Staatsoper Muenchen,Oper,75.0,,,2014,2014-12,2014-51
-677,2014-12-28,La forza del destino,Giuseppe Verdi,,Bayerische Staatsoper Muenchen,Oper,89.0,,,2014,2014-12,2014-52
-678,2014-12-29,La forza del destino,Giuseppe Verdi,,Bayerische Staatsoper Muenchen,Oper,89.0,,,2014,2014-12,2014-52
-713,2012-06-01,Goetterdaemmerung,Richard Wagner,,Deutsche Oper Berlin,Oper,98.0,,,2012,2012-06,2012-22
-714,2012-06-02,Siegfried,Richard Wagner,,Deutsche Oper Berlin,Oper,97.0,,,2012,2012-06,2012-22
-715,2012-06-03,Die Walkuere,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2012,2012-06,2012-23
-716,2012-06-04,Rheingold,Richard Wagner,,Deutsche Oper Berlin,Oper,93.0,,,2012,2012-06,2012-23
-720,2011-01-04,Lucia di Lammermoor,Donizetti,,Deutsche Oper Berlin,Oper,80.0,,,2011,2011-01,2011-01
-723,2011-05-07,Goetterdaemmerung,Richard Wagner,,Staatsoper Berlin,Oper,98.0,,,2011,2011-05,2011-18
-724,2011-05-06,Siegfried,Richard Wagner,,Staatsoper Berlin,Oper,97.0,,,2011,2011-05,2011-18
-725,2011-05-05,Die Walkuere,Richard Wagner,,Staatsoper Berlin,Oper,100.0,,,2011,2011-05,2011-18
-726,2011-05-05,Rheingold,Richard Wagner,,Staatsoper Berlin,Oper,93.0,,,2011,2011-05,2011-18
-737,2009-04-15,Parsifal,Richard Wagner,1882.0,Bayerische Staatsoper Muenchen,Oper,100.0,,,2009,2009-04,2009-15
-751,2004-11-28,Goetterdaemmerung,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,100.0,,,2004,2004-11,2004-48
-752,2004-11-27,Siegfried,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,98.0,,,2004,2004-11,2004-47
-753,2004-11-26,Die Walkuere,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,100.0,,,2004,2004-11,2004-47
-754,2004-11-25,Rheingold,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,97.0,,,2004,2004-11,2004-47
-755,2003-12-12,Goetterdaemmerung,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,100.0,,,2003,2003-12,2003-49
-756,2003-12-11,Siegfried,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,98.0,,,2003,2003-12,2003-49
-757,2003-12-10,Die Walkuere,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,100.0,,,2003,2003-12,2003-49
-758,2003-12-09,Rheingold,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,97.0,,,2003,2003-12,2003-49
+13,2021-10-06,Der Fliegende Hollaender,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,90.0,,,2021,2021-10,2021-40
+34,2021-06-26,Der Freischütz,Carl Maria von Weber,,Staatsoper Berlin,Oper,88.0,,,2021,2021-06,2021-25
+35,2021-06-24,La Fanciulla del West,Giacomo Puccini,,Staatsoper Berlin,Oper,80.0,,,2021,2021-06,2021-25
+36,2021-06-22,Rheingold,Richard Wagner,,Deutsche Oper Berlin,Oper,96.0,,,2021,2021-06,2021-25
+135,2020-10-15,Les pêcheurs de perles,Georges Bizets,,Staatsoper Berlin,Oper,80.0,,,2020,2020-10,2020-41
+137,2020-10-08,Die Walkuere,Richard Wagner,,Deutsche Oper Berlin,Oper,99.0,,,2020,2020-10,2020-40
+148,2020-09-13,Ariadne auf Naxos,Richard Strauss,,Staatsoper Berlin,Oper,75.0,,,2020,2020-09,2020-37
+154,2020-09-03,6. Symphonie und 5. Symphonie,Ludwig van Beethoven,,Staatsoper Berlin,Oper,89.0,,,2020,2020-09,2020-35
+232,2020-02-23,Le Prophete,Giacomo Meyerbeer,,Deutsche Oper Berlin,Oper,83.0,,,2020,2020-02,2020-08
+238,2020-02-02,Les Huguenotes,Giacomo Meyerbeer,1836.0,Deutsche Oper Berlin,Oper,84.0,,,2020,2020-02,2020-05
+240,2020-01-29,Falstaff,Giuseppe Verdi,,Staatsoper Berlin,Oper,82.0,,,2020,2020-01,2020-04
+246,2020-01-16,Die Walkuere,Richard Wagner,,Oper Leipzig,Oper,100.0,,,2020,2020-01,2020-02
+260,2019-12-22,La Boheme,Giacomo Puccini,1896.0,Bayerische Staatsoper Muenchen,Oper,98.0,,,2019,2019-12,2019-51
+267,2019-12-08,Tristan und Isolde,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2019,2019-12,2019-49
+334,2019-06-28,Tristan und Isolde,Richard Wagner,,Staatsoper Berlin,Oper,100.0,,,2019,2019-06,2019-25
+335,2019-06-25,Tristan und Isolde,Richard Wagner,,Staatsoper Berlin,Oper,100.0,,,2019,2019-06,2019-25
+336,2019-06-23,La Boheme,Giacomo Puccini,,Bayerische Staatsoper Muenchen,Oper,99.0,,,2019,2019-06,2019-25
+340,2019-06-05,Rigoletto,Giuseppe Verdi,,Staatsoper Berlin,Oper,100.0,,,2019,2019-06,2019-22
+348,2019-05-23,Macbeth,Giuseppe Verdi,,Staatsoper Berlin,Oper,85.0,,,2019,2019-05,2019-20
+354,2019-05-09,Der Fliegende Hollaender,Richard Wagner,,Deutsche Oper Berlin,Oper,99.0,,,2019,2019-05,2019-18
+355,2019-05-08,6. Symphonie,Gustav Mahler,,Deutsche Oper Berlin,Oper,78.0,,,2019,2019-05,2019-18
+362,2019-04-21,Parsifal,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2019,2019-04,2019-16
+365,2019-04-14,Parsifal,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2019,2019-04,2019-15
+369,2019-04-05,Rienzi,Richard Wagner,,Deutsche Oper Berlin,Oper,75.0,,,2019,2019-04,2019-13
+382,2019-03-02,Salome,Richard Strauss,,Deutsche Oper Berlin,Oper,81.0,,,2019,2019-03,2019-08
+390,2019-02-12,Don Giovanni,W.A. Mozart,,Staatsoper Berlin,Oper,100.0,,,2019,2019-02,2019-06
+394,2019-02-05,Lucia di Lammermoor,Donizetti,,Deutsche Oper Berlin,Oper,86.0,,,2019,2019-02,2019-05
+400,2019-01-13,Tannhaeuser,Richard Wagner,,Deutsche Oper Berlin,Oper,98.0,,,2019,2019-01,2019-02
+407,2019-01-05,Les Contes d'Hoffmann,Jacques Offenbach,,Deutsche Oper Berlin,Oper,100.0,,,2019,2019-01,2019-00
+424,2018-12-09,Fidelio,Ludwig van Beethoven,,Staatsoper Berlin,Oper,82.0,,,2018,2018-12,2018-49
+427,2018-12-04,Les Contes d'Hoffmann,Jacques Offenbach,,Deutsche Oper Berlin,Oper,100.0,,,2018,2018-12,2018-48
+441,2018-11-01,Don Giovanni,W.A. Mozart,,Deutsche Oper Berlin,Oper,100.0,,,2018,2018-11,2018-43
+450,2018-09-29,Tristan und Isolde,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2018,2018-09,2018-38
+452,2018-09-23,Tristan und Isolde,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2018,2018-09,2018-38
+473,2018-06-20,Rigoletto,Giuseppe Verdi,,Bayerische Staatsoper Muenchen,Oper,100.0,,,2018,2018-06,2018-24
+475,2018-06-07,Carmen,Georges Bizets,,Deutsche Oper Berlin,Oper,99.0,,,2018,2018-06,2018-22
+477,2018-05-27,Don Carlo,Giuseppe Verdi,1867.0,Deutsche Oper Berlin,Oper,100.0,,,2018,2018-05,2018-21
+479,2018-05-16,La Traviata,Giuseppe Verdi,,Deutsche Oper Berlin,Oper,99.0,,,2018,2018-05,2018-19
+483,2018-05-05,Die Fledermaus,Johann Strauss,,Deutsche Oper Berlin,Oper,95.0,,,2018,2018-05,2018-17
+490,2018-04-15,Don Giovanni,W.A. Mozart,,Deutsche Oper Berlin,Oper,99.0,,,2018,2018-04,2018-15
+493,2018-04-08,Tannhaeuser,Richard Wagner,,Deutsche Oper Berlin,Oper,96.0,,,2018,2018-04,2018-14
+502,2018-03-25,Les vêpres sicilliennes,Giuseppe Verdi,,Bayerische Staatsoper Muenchen,Oper,70.0,,,2018,2018-03,2018-12
+506,2018-03-18,Tristan und Isolde,Richard Wagner,,Staatsoper Berlin,Oper,100.0,,,2018,2018-03,2018-11
+519,2018-02-08,Tosca,Giacomo Puccini,,Deutsche Oper Berlin,Oper,98.0,,,2018,2018-02,2018-05
+545,2017-12-02,Tannhaeuser,Richard Wagner,,Deutsche Oper Berlin,Oper,99.0,,,2017,2017-12,2017-48
+579,2017-07-06,Don Carlo,Giuseppe Verdi,1867.0,Deutsche Oper Berlin,Oper,100.0,,,2017,2017-07,2017-27
+580,2017-06-24,Don Carlo,Giuseppe Verdi,1867.0,Deutsche Oper Berlin,Oper,100.0,,,2017,2017-06,2017-25
+661,2015-12-22,La Boheme,Giacomo Puccini,,Staatsoper Berlin,Oper,98.0,,,2015,2015-12,2015-51
+662,2015-07-07,Tristan und Isolde,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,100.0,,,2015,2015-07,2015-27
+672,2015-12-04,Tristan und Isolde,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2015,2015-12,2015-48
+681,2014-12-27,Die Frau ohne Schatten,Richard Strauss,,Bayerische Staatsoper Muenchen,Oper,75.0,,,2014,2014-12,2014-51
+683,2014-12-28,La forza del destino,Giuseppe Verdi,,Bayerische Staatsoper Muenchen,Oper,89.0,,,2014,2014-12,2014-52
+684,2014-12-29,La forza del destino,Giuseppe Verdi,,Bayerische Staatsoper Muenchen,Oper,89.0,,,2014,2014-12,2014-52
+719,2012-06-01,Goetterdaemmerung,Richard Wagner,,Deutsche Oper Berlin,Oper,98.0,,,2012,2012-06,2012-22
+720,2012-06-02,Siegfried,Richard Wagner,,Deutsche Oper Berlin,Oper,97.0,,,2012,2012-06,2012-22
+721,2012-06-03,Die Walkuere,Richard Wagner,,Deutsche Oper Berlin,Oper,100.0,,,2012,2012-06,2012-23
+722,2012-06-04,Rheingold,Richard Wagner,,Deutsche Oper Berlin,Oper,93.0,,,2012,2012-06,2012-23
+726,2011-01-04,Lucia di Lammermoor,Donizetti,,Deutsche Oper Berlin,Oper,80.0,,,2011,2011-01,2011-01
+729,2011-05-07,Goetterdaemmerung,Richard Wagner,,Staatsoper Berlin,Oper,98.0,,,2011,2011-05,2011-18
+730,2011-05-06,Siegfried,Richard Wagner,,Staatsoper Berlin,Oper,97.0,,,2011,2011-05,2011-18
+731,2011-05-05,Die Walkuere,Richard Wagner,,Staatsoper Berlin,Oper,100.0,,,2011,2011-05,2011-18
+732,2011-05-05,Rheingold,Richard Wagner,,Staatsoper Berlin,Oper,93.0,,,2011,2011-05,2011-18
+743,2009-04-15,Parsifal,Richard Wagner,1882.0,Bayerische Staatsoper Muenchen,Oper,100.0,,,2009,2009-04,2009-15
+757,2004-11-28,Goetterdaemmerung,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,100.0,,,2004,2004-11,2004-48
+758,2004-11-27,Siegfried,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,98.0,,,2004,2004-11,2004-47
+759,2004-11-26,Die Walkuere,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,100.0,,,2004,2004-11,2004-47
+760,2004-11-25,Rheingold,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,97.0,,,2004,2004-11,2004-47
+761,2003-12-12,Goetterdaemmerung,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,100.0,,,2003,2003-12,2003-49
+762,2003-12-11,Siegfried,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,98.0,,,2003,2003-12,2003-49
+763,2003-12-10,Die Walkuere,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,100.0,,,2003,2003-12,2003-49
+764,2003-12-09,Rheingold,Richard Wagner,,Bayerische Staatsoper Muenchen,Oper,97.0,,,2003,2003-12,2003-49
