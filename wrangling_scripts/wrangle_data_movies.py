@@ -241,7 +241,7 @@ def return_figures_movies():
            )
          )
     
-    layout_five = dict(title='Evaluation and number of views for the 5 most viewed genres',
+    layout_five = dict(title='Evaluation and number of views for the 10 most viewed genres',
                     xaxis=dict(title='Number of views'),
                     yaxis=dict(title='Average evaluation'),
                     colorway = colorway_diary,
