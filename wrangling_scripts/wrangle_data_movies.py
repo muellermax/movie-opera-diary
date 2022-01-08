@@ -57,6 +57,34 @@ def show_item_vs_count(df, input_var, m):
     return df_all
 
 
+def genres_evaluation_views(df): 
+    """
+    A function that shows the mean evaluation for each primeray genre 
+    and how many appearences this primary genre has. 
+    
+    Input: 
+        df (DataFrame): The diary_tmdb_genres DataFrame
+    
+    Output: 
+        genres_evaluation_views (DataFrame): A DataFrame with the mean 
+        evaluation and the number of views
+    
+    """
+    
+    # Groupby primeray genre, get mean of evaluation and count the views
+    genres_evaluation_views = df.groupby('primary genre').agg(
+                                                {'evaluation': 'mean',
+                                                'title': 'count'}
+                                                ).reset_index().sort_values('evaluation', ascending = False)
+
+    # Change name of columns
+    genres_evaluation_views.columns = ['primary genre', 'evaluation', 'views']
+    
+    # Return the DataFrame
+    return genres_evaluation_views
+
+
+
 def return_figures_movies():
     """
     Creates the plotly visualizations
@@ -191,12 +219,44 @@ def return_figures_movies():
                       plot_bgcolor = '#E8E8E8'
                     )
 
+    # The fifth plot shows the evaluation for each genre and the number of views
+    graph_five = []
+
+    df = genres_evaluation_views(df_movies)
+
+    for item in df['primary genre'].unique():
+        graph_five.append(
+            go.Scatter(
+                x=df.loc[df['primary genre'] == item, 'views'],
+                y=df.loc[df['primary genre'] == item, 'evaluation'],
+                mode='markers',
+                marker=dict(
+                    size=df.loc[df['primary genre'] == item, 'evaluation'],
+                    sizemode='area',
+                    sizeref=2.*max(df['evaluation'].tolist())/(40.**2),
+                    sizemin=4),
+                name=item
+           )
+         )
+    
+    layout_five = dict(title='Evaluation and number of views for different genres',
+                    xaxis=dict(title='Number of views'),
+                    yaxis=dict(title='Average evaluation'),
+                    colorway = colorway_diary,
+                      hoverlabel = dict(
+                        namelength = -1 # To show the whole label name
+                      ),
+                      plot_bgcolor = '#E8E8E8'
+                    )
+
+
     # append all charts to the figures list
     figures_movies = []
     figures_movies.append(dict(data=graph_one, layout=layout_one))
     figures_movies.append(dict(data=graph_two, layout=layout_two))
     figures_movies.append(dict(data=graph_three, layout=layout_three))
     figures_movies.append(dict(data=graph_four, layout=layout_four))
+    figures_movies.append(dict(data=graph_five, layout=layout_five))
 
     return figures_movies
 
