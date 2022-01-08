@@ -83,7 +83,7 @@ def genres_evaluation_views(df):
     genres_evaluation_views.columns = ['primary genre', 'evaluation', 'views']
     
     # Return the DataFrame
-    return genres_evaluation_views
+    return genres_evaluation_views.head(5)
 
 
 
