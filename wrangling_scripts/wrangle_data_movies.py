@@ -5,6 +5,8 @@ import plotly.express as px
 
 df_movies = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_movies.csv')
 
+df_movies_tmdb = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_tmdb.csv')
+
 colorway_diary = px.colors.qualitative.Prism
 
 def show_items_over_time(df, since, input_var):
@@ -222,7 +224,7 @@ def return_figures_movies():
     # The fifth plot shows the evaluation for each genre and the number of views
     graph_five = []
 
-    df = genres_evaluation_views(df_movies)
+    df = genres_evaluation_views(df_movies_tmdb)
 
     for item in df['primary genre'].unique():
         graph_five.append(
