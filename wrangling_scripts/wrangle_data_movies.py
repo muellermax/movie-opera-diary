@@ -51,7 +51,7 @@ def show_item_vs_count(df, input_var, m):
     # Group df by the input_var and get the values for evaluation and the count
     df_all = df.groupby(input_var).agg(
         {'evaluation': 'mean',
-        'date': 'count'}).reset_index().sort_values('date', ascending = False).head(m)
+        'date': 'count'}).reset_index().round(1).sort_values('date', ascending = False).head(m)
 
     # Rename columns
     df_all.columns = [input_var, 'evaluation', 'count']
@@ -77,7 +77,7 @@ def genres_evaluation_views(df):
     genres_evaluation_views = df.groupby('primary genre').agg(
                                                 {'evaluation': 'mean',
                                                 'title': 'count'}
-                                                ).reset_index().sort_values('title', ascending = False)
+                                                ).reset_index().round(1).sort_values('title', ascending = False)
 
     # Change name of columns
     genres_evaluation_views.columns = ['primary genre', 'evaluation', 'views']
