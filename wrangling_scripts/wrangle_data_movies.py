@@ -51,7 +51,7 @@ def show_item_vs_count(df, input_var, m):
     # Group df by the input_var and get the values for evaluation and the count
     df_all = df.groupby(input_var).agg(
         {'evaluation': 'mean',
-        'views': 'sum'}).reset_index().round(2).sort_values('date', ascending = False).head(m)
+        'date': 'count'}).reset_index().round(2).sort_values('date', ascending = False).head(m)
 
     # Rename columns
     df_all.columns = [input_var, 'evaluation', 'count']
@@ -133,7 +133,7 @@ def return_figures_movies():
     # The second plot shows the 20 most viewed items, their average evaluation and number of views
     graph_two = []
 
-    df = show_item_vs_count(df_movies_tmdb, 'title', 20)
+    df = show_item_vs_count(df_movies, 'title', 20)
 
     for item in df['title'].unique():
         graph_two.append(
@@ -194,7 +194,7 @@ def return_figures_movies():
     # The fourth plot shows the 10 most viewed creators, their average evaluation and number of views
     graph_four = []
 
-    df = show_item_vs_count(df_movies_tmdb, 'Director_0', 15)
+    df = show_item_vs_count(df_movies, 'creator', 15)
 
     for item in df['creator'].unique():
         graph_four.append(
