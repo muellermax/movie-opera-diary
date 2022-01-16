@@ -32,7 +32,7 @@ def show_items_over_time(df, since, input_var):
     df_grouped.columns = ['month', input_var, 'count']
     
     return df_grouped
-
+  
 
 def show_item_vs_count(df, input_var, m):
     """
