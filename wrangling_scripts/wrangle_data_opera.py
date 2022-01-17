@@ -17,7 +17,7 @@ def show_items_over_time(df, since, input_var):
         input_var (string): Specify the item: 'category', 'place', 'creator'
     
     Output: 
-        An Altair plot
+        df_grouped (DataFrame): The DataFrame grouped by the input_var and the total count of the items
     """
     
     # Select DataFrame since a specific date
@@ -74,7 +74,7 @@ def return_figures_opera():
 
     for item in df['place'].unique():
         df_cat = df[df['place'] == item]
-        x_val = df_cat['month'].tolist()
+        x_val = df_cat['month']
         y_val = df_cat['count']
         graph_one.append(
             go.Bar(
