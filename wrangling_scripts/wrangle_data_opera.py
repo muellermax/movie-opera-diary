@@ -47,7 +47,7 @@ def show_item_vs_count(df, input_var, m):
     # Group df by the input_var and get the values for evaluation and the count
     df_all = df.groupby(input_var).agg(
         {'evaluation': 'mean',
-        'date': 'count'}).reset_index().sort_values('date', ascending = False).head(m)
+        'date': 'count'}).reset_index().round(2).sort_values('date', ascending = False).head(m)
 
     # Rename columns
     df_all.columns = [input_var, 'evaluation', 'count']
