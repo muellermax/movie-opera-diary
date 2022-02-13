@@ -3,7 +3,7 @@ import numpy as np
 import plotly.graph_objs as go
 import plotly.express as px
 
-df_movie_tmdb = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_tmdb.csv', econding = "UTF-8")
+df_movie_tmdb = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_tmdb.csv', encoding = "UTF-8")
 
 colorway_diary = px.colors.qualitative.Prism
 
