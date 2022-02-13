@@ -3,7 +3,7 @@ import numpy as np
 import plotly.graph_objs as go
 import plotly.express as px
 
-df_movie_tmdb = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_tmdb.csv')
+df_movie_tmdb = pd.read_csv('https://raw.githubusercontent.com/muellermax/movie-opera-diary/master/wrangling_scripts/input_tmdb.csv', econding = "UTF-8")
 
 colorway_diary = px.colors.qualitative.Prism
 
@@ -18,7 +18,7 @@ def me_vs_tmdb_results(df, m):
         m (int): How many items should be included (e.g. 'Top-30')
         
     Output: 
-        A Seaborn plot. 
+        all_results (DataFrame): A DataFrame with the difference in evaluation.  
     
     """
     
