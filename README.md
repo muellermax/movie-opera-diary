@@ -48,6 +48,7 @@ Currently I have three subpages:
 * Movie diary: It shows how many movies I watched in which category since the beginning of 2017. 
 * Me vs. TMDB: It shows the differences between my evaluation and the TMDB community. 
 * Opera diary: The operas I saw and their composers. 
+* Top 50: Showing the 50 movies with the highest evaluation. 
 
 
 ## <a class="anchor" id="findings">Findings</a>
