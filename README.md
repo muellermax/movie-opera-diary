@@ -11,7 +11,7 @@
 6. [Acknowledgements](#thx)
 7. [Author](#author)
 8. [License](#license)
-
+  
 ## <a class="anchor" id = "about">About the project and my own data</a>
 
 Two of my favorite hobbies are watching movies and going to the opera. Inspired by some friends who had good old analogue diaries, I started writing down some data every time 
