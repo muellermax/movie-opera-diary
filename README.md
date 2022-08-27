@@ -42,7 +42,7 @@ I plan to add more data sources for some recommender engines and will update thi
 
 ## <a class="anchor" id="access">Access</a>
 
-You can have a look at the dashboard via https://movie-opera-diary.herokuapp.com.
+You can have a look at the dashboard via https://movie-opera-dashboard.onrender.com.
 
 Currently I have three subpages: 
 * Movie diary: It shows how many movies I watched in which category since the beginning of 2017. 
@@ -92,7 +92,7 @@ Thanks to the following packages or service providers:
 * [The already mentioned TMDB API wrapper](https://www.themoviedb.org/) by [Celiao](https://github.com/celiao), which I use to access the TMDB database.
 * [Derek Eders](https://github.com/derekeder) tutorial about [converting CSV to HTML tables](https://github.com/derekeder/csv-to-html-table) helped me a lot when 
 preparing the tables. 
-* Of course, without Github, Heroku and Stackoverflow, the dashboard would not exist. 
+* Of course, without Github, Render and Stackoverflow, the dashboard would not exist. 
 
 
 ## <a class="anchor" id="author">Author</a>
