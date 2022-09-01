@@ -1,731 +1,732 @@
 ,date,title,creator,release_year,place,category,evaluation,imdb_id_maxi,comment,year,month
-1,2022-08-26,TENET,Christopher Nolan,2020.0,Marienburger,Amazon Prime,82.0,,,2022,2022-08
-2,2022-08-25,La jetée,Chris Marker,1962.0,Marienburger,Mubi,89.0,,,2022,2022-08
-3,2022-08-21,Cow,Andrea Arnold,2021.0,Marienburger,Mubi,65.0,,,2022,2022-08
-4,2022-08-18,Les glaneurs et la glaneuse,Agnès Varda,2000.0,Marienburger,Mubi,60.0,,,2022,2022-08
-5,2022-08-17,Top Gun,Tony Scott,1986.0,Marienburger,Netflix,70.0,,,2022,2022-08
-6,2022-08-16,Nope,Jordan Peele,2022.0,Kino International,Kino,84.0,,,2022,2022-08
-7,2022-08-15,Men,Alex Garland,2022.0,Hackesche Hoefe Kino,Kino,74.0,,,2022,2022-08
-8,2022-08-13,Blade Runner,Ridley Scott,1982.0,Kino Arena München,Kino,86.0,,,2022,2022-08
-9,2022-07-30,The Trial of the Chicago 7,Aaron Sorkin,2020.0,Prag,Netflix,82.0,,,2022,2022-07
-10,2022-07-28,Les quatre cents coups,François Truffaut,1959.0,Prag,Mubi,80.0,,,2022,2022-07
-11,2022-07-26,Solitary Land,Tiziana Panizza,2017.0,Marienburger,other Streaming,40.0,,,2022,2022-07
-12,2022-07-25,The Human Voice,Pedro Almodóvar,2020.0,Marienburger,Mubi,20.0,,,2022,2022-07
-13,2022-07-24,Everything Everywhere All at Once,Dan Kwan,2022.0,Freiluftkino Friedrichshain,Freiluftkino,75.0,,,2022,2022-07
-14,2022-07-23,C'mon C'mon,Mike Mills,2021.0,Moviemento,Kino,80.0,,,2022,2022-07
-15,2022-07-22,"I, Tonya",Craig Gillespie,2017.0,Marienburger,Netflix,80.0,,,2022,2022-07
-17,2022-06-04,Juste la fin du monde,Xavier Dolan,2016.0,Marienburger,Mubi,80.0,,,2022,2022-06
-18,2022-05-27,Ponyo,Hayao Miyazaki,2008.0,Marienburger,Netflix,77.0,,,2022,2022-05
-19,2022-05-21,No Man's Land,Danis Tanovic,2001.0,Marienburger,Mubi,80.0,,,2022,2022-05
-20,2022-05-20,Händelse vid bank,Ruben Östlund,2010.0,Marienburger,Mubi,70.0,,,2022,2022-05
-21,2022-05-20,Nimic,Yorgos Lanthimos,2019.0,Marienburger,Mubi,70.0,,,2022,2022-05
-22,2022-05-17,Memoria,Apichatpong Weerasethakul,2021.0,Kino am Friedrichshain,Kino,20.0,,,2022,2022-05
-23,2022-05-16,Lemebel,Joanna Reposi Garibaldi,2019.0,Marienburger,Mubi,55.0,,,2022,2022-05
-24,2022-05-14,Everything Everywhere All at Once,Dan Kwan,2022.0,Odeon,Kino,81.0,,,2022,2022-05
-25,2022-05-13,House of Flying Daggers,Yimou Zhang,2004.0,Marienburger,Netflix,80.0,,,2022,2022-05
-26,2022-05-11,The Northman,Robert Eggers,2022.0,Kino Central,Kino,65.0,,,2022,2022-05
-27,2022-05-07,Man spricht deutsh,Hanns Christian Müller,1.0,Eglharting,Fernsehen,70.0,,,2022,2022-05
-30,2022-05-01,Murder on the Orient Express,Sidney Lumet,1974.0,Eglharting,Fernsehen,84.0,,,2022,2022-05
-31,2022-04-30,Songs My Brothers Taught Me,Chloé Zhao,2015.0,Marienburger,Mubi,73.0,,,2022,2022-04
-33,2022-04-29,Requiem for a Dream,Darren Aronofsky,2000.0,Marienburger,Amazon Prime,90.0,,,2022,2022-04
-34,2022-04-20,Bin-jip,Kim Ki-duk,2004.0,Bonifacio,Mubi,76.0,,,2022,2022-04
-35,2022-04-20,Persona,Ingmar Bergman,1966.0,Venaco,Mubi,86.0,,,2022,2022-04
-36,2022-04-19,Transit,Christian Petzold,2018.0,Venaco,Mubi,60.0,,,2022,2022-04
-37,2022-04-15,Mustang,Deniz Gamze Ergüven,2015.0,Marienburger,Mubi,80.0,,Begonnen mit Bücherdrache,2022,2022-04
-39,2022-04-14,American Beauty,Sam Mendes,1999.0,Marienburger,Amazon Prime,89.0,,,2022,2022-04
-40,2022-04-12,Pusher,Nicolas Winding Refn,1996.0,Marienburger,Mubi,76.0,,,2022,2022-04
-42,2022-04-04,Einayim Petukhoth,Haim Tabakman,2009.0,Marienburger,Mubi,73.0,,,2022,2022-04
-43,2022-04-02,Waves,Trey Edward Shults,2019.0,Marienburger,Amazon Prime,88.0,,,2022,2022-04
-45,2022-03-26,Der Mann mit der Kamera,Dziga Vertov,1929.0,Babylon Mitte,Kino,80.0,,,2022,2022-03
-46,2022-03-25,Toivon tuolla puolen,Aki Kaurismäki,2017.0,Marienburger,Mubi,80.0,,,2022,2022-03
-47,2022-03-19,The Host,Bong Joon-Ho,2006.0,Marienburger,Blu Ray,92.0,,,2022,2022-03
-48,2022-03-16,The Batman,Matt Reeves,2022.0,Cinestar Kulturbrauerei,Kino,80.0,,,2022,2022-03
-49,2022-03-14,Le Havre,Aki Kaurismäki,2011.0,Marienburger,Mubi,74.0,,,2022,2022-03
-50,2022-03-13,Drive my Car,Ryûsuke Hamaguchi,2021.0,Kino Zukunft,Kino,79.0,,,2022,2022-03
-52,2022-03-12,Licorice Pizza,Paul Thomas Anderson,2021.0,Cinestar Kulturbrauerei,Kino,76.0,,,2022,2022-03
-53,2022-03-04,Estiu 1993,Carla Simón,2017.0,Marienburger,Mubi,70.0,,,2022,2022-03
-54,2022-02-26,L.A. Confidential,Curtis Hanson,1997.0,Marienburger,Netflix,73.0,,,2022,2022-02
-55,2022-02-21,Undine,Christian Petzold,2020.0,Marienburger,Mubi,70.0,,,2022,2022-02
-56,2022-02-20,Ta'm e guilass,Abbas Kiarostami,1997.0,Marienburger,Mubi,76.0,,,2022,2022-02
-57,2022-02-17,Oh Boy,Jan-Ole Gerster,2012.0,Marienburger,Netflix,80.0,,,2022,2022-02
-58,2022-02-16,Julieta,Pedro Almodóvar,2016.0,Marienburger,Netflix,73.0,,,2022,2022-02
-59,2022-02-15,"tick, tick...BOOM!",Lin-Manuel Miranda,2021.0,Marienburger,Netflix,70.0,,,2022,2022-02
-60,2022-02-14,È stata la mano di Dio,Paolo Sorrentino,2021.0,Marienburger,Netflix,76.0,,,2022,2022-02
-62,2022-02-05,Dunkirk,Christopher Nolan,2017.0,Marienburger,Netflix,75.0,,,2022,2022-02
-63,2022-02-04,Hiroshima mon amour,Alain Resnais,1959.0,Marienburger,Mubi,79.0,,,2022,2022-02
-64,2022-02-02,Lamb,Valdimar Jóhannsson,2021.0,Hackesche Hoefe Kino,Kino,71.0,,,2022,2022-02
-65,2022-01-31,Everest,Baltasar Kormákur,2015.0,Marienburger,Netflix,72.0,,,2022,2022-01
-66,2022-01-29,Noche de fuego,Tatiana Huezo,2021.0,Marienburger,Netflix,78.0,,,2022,2022-01
-67,2022-01-28,Call Me by Your Name,Luca Guadagnino,2017.0,Marienburger,Netflix,77.0,,,2022,2022-01
-68,2022-01-27,Full Metal Jacket,Stanley Kubrick,1987.0,Marienburger,DVD,77.0,,,2022,2022-01
-69,2022-01-26,Nuit et brouillard,Alain Resnais,1955.0,Marienburger,Mubi,79.0,,,2022,2022-01
-70,2022-01-25,The Matrix Resurrections,Lana Wachowski,2021.0,Cinestar Kulturbrauerei,Kino,74.0,,,2022,2022-01
-71,2022-01-24,They Live,John Carpenter,1988.0,Marienburger,Mubi,75.0,,,2022,2022-01
-72,2022-01-23,The Lost Daughter,Maggie Gyllenhaal,2021.0,Marienburger,Netflix,76.0,,,2022,2022-01
-73,2022-01-22,Zombieland: Double Tap,Ruben Fleischer,2019.0,Marienburger,Netflix,55.0,,,2022,2022-01
-74,2022-01-20,The Tragedy of Macbeth,Joel Coen,2021.0,Delphi Lux,Kino,73.0,,,2022,2022-01
-75,2022-01-16,Sorry we missed you,Ken Loach,2019.0,Marienburger,Mubi,80.0,,,2022,2022-01
-76,2022-01-15,Shiva Baby,Emma Seligman,2021.0,Marienburger,Mubi,73.0,,,2022,2022-01
-77,2022-01-14,The Power of the Dog,Jane Campion,2021.0,Marienburger,Netflix,79.0,,,2022,2022-01
-79,2022-01-11,Uncut Gems,Safdie Brothers,2019.0,Bei Markus,Netflix,87.0,,,2022,2022-01
-81,2022-01-08,The Forty-Year-Old Version,Radha Blank,2020.0,Marienburger,Netflix,70.0,,,2022,2022-01
-85,2022-01-03,Don't Look Up,Adam McKay,2021.0,Marienburger,Netflix,87.0,,,2022,2022-01
-86,2022-01-01,Family Plot,Alfred Hitchcock,1976.0,Eglharting,Blu Ray,73.0,,,2022,2022-01
-87,2021-12-31,Marnie,Alfred Hitchcock,1964.0,Eglharting,Blu Ray,74.0,,,2021,2021-12
-88,2021-12-29,Some Like It Hot,Billy Wilder,1959.0,Eglharting,Fernsehen,75.0,,,2021,2021-12
-89,2021-12-28,The Trouble with Harry,Alfred Hitchcock,1955.0,Eglharting,Blu Ray,70.0,,,2021,2021-12
-90,2021-12-22,Trois couleurs: Bleu,Krzysztof Kieslowski,1993.0,Eglharting,Mubi,76.0,,,2021,2021-12
-91,2021-12-21,The Santa Clause,John Pasquin,1994.0,Eglharting,Fernsehen,60.0,,,2021,2021-12
-92,2021-12-20,National Lampoon's Christmas Vacation,Jeremiah S. Chechik,1989.0,Eglharting,DVD,80.0,,,2021,2021-12
-93,2021-12-19,Single Bells,Xaver Schwarzenberg,1998.0,Eglharting,DVD,80.0,,,2021,2021-12
-94,2021-12-17,Little Lord Fauntleroy,Jack Gold,1980.0,Eglharting,Fernsehen,75.0,,,2021,2021-12
-95,2021-12-14,Ema,Pablo Larraín,2019.0,Marienburger,Amazon Prime,65.0,,,2021,2021-12
-96,2021-12-12,Interstellar,Christopher Nolan,2014.0,Marienburger,Blu Ray,98.0,,,2021,2021-12
-97,2021-12-11,Die Fälscher,Stefan Ruzowitzky,2007.0,Marienburger,Netflix,75.0,,,2021,2021-12
-98,2021-12-10,Prisoners,Denis Villeneuve,2013.0,Marienburger,Netflix,78.0,,,2021,2021-12
-101,2021-12-04,Blade Runner 2049,Denis Villeneuve,2017.0,Marienburger,Blu Ray,90.0,,,2021,2021-12
-102,2021-12-04,Blade Runner,Ridley Scott,1982.0,Marienburger,DVD,85.0,,,2021,2021-12
-103,2021-12-01,The Big Short,Adam McKay,2015.0,Marienburger,Blu Ray,99.0,,,2021,2021-12
-104,2021-11-28,The Matrix Revolutions,"Lana Wachowski, Lilly Wachowski",2003.0,Marienburger,Blu Ray,65.0,,,2021,2021-11
-105,2021-11-27,Machuca,Andrés Wood,2004.0,Marienburger,DVD,80.0,,,2021,2021-11
-107,2021-11-21,Play - Nur ein Spiel,Ruben Östlund,2011.0,Ragusa,Mubi,80.0,,,2021,2021-11
-108,2021-11-12,Last Night in Soho,Edgar Wright,2021.0,Kino Intimes,Kino,70.0,,,2021,2021-11
-109,2021-11-08,Der Baader Meinhof Komplex,Uli Edel,2008.0,Marienburger,Netflix,72.0,,,2021,2021-11
-110,2021-11-07,Capernaum,Nadine Labaki,2018.0,Marienburger,Blu Ray,90.0,,,2021,2021-11
-112,2021-11-04,The Lobster,Yorgos Lanthimos,2015.0,Marienburger,Netflix,83.0,,,2021,2021-11
-113,2021-11-03,Den skyldige,Gustav Möller,2018.0,Marienburger,Amazon Prime,80.0,,,2021,2021-11
-114,2021-11-02,My Octopus Teacher,Pippa Ehrlich,2020.0,Marienburger,Netflix,71.0,,,2021,2021-11
-115,2021-10-29,Titane,Julia Ducournau,2021.0,Kino Central,Kino,76.0,,,2021,2021-10
-116,2021-10-28,The Matrix Reloaded,"Lana Wachowski, Lilly Wachowski",2003.0,Marienburger,Blu Ray,72.0,,,2021,2021-10
-117,2021-10-22,The French Dispatch,Wes Anderson,2021.0,Kino International,Kino,73.0,,,2021,2021-10
-118,2021-10-20,No Time to Die,Cary Joji Fukunaga,2021.0,Alhambra,Kino,66.0,,,2021,2021-10
-119,2021-10-19,Matrix,"Lana Wachowski, Lilly Wachowski",1999.0,Marienburger,Blu Ray,100.0,,,2021,2021-10
-120,2021-10-16,Mad Max: Fury Road,George Miller,2015.0,Marienburger,Blu Ray,94.0,,,2021,2021-10
-121,2021-10-15,Children of Men,Alfonso Cuarón,2006.0,Marienburger,Blu Ray,90.0,,,2021,2021-10
-122,2021-10-14,Dune,Denis Villeneuve,2021.0,Kino am Friedrichshain,Kino,84.0,,,2021,2021-10
-124,2021-09-29,The Extraordinary Journey of Celeste García,Arturo Infante,2018.0,FSK,Kino,60.0,,,2021,2021-09
-125,2021-09-18,Seven Years in Tibet,Jean-Jacques Annaud,1997.0,Marienburger,Netflix,67.0,,,2021,2021-09
-126,2021-09-16,Austin Powers: International Man of Mystery,Jay Roach,1997.0,Husum,Netflix,75.0,,,2021,2021-09
-127,2021-09-15,Pacific Rim,Guillermo del Toro,2013.0,Husum,Netflix,72.0,,,2021,2021-09
-128,2021-09-14,This Is the End,Evan Goldberg,2013.0,Husum,Netflix,65.0,,,2021,2021-09
-129,2021-09-04,The Darjeeling Limited,Wes Anderson,2007.0,Marienburger,Blu Ray,84.0,,,2021,2021-09
-130,2021-09-03,The Dressmaker,Jocelyn Moorhouse,2015.0,Marienburger,Blu Ray,61.0,,,2021,2021-09
-131,2021-09-02,Ghost Rider,Mark Steven Johnson,2007.0,Bei Markus,Netflix,60.0,,,2021,2021-09
-132,2021-08-24,Sunshine,Danny Boyle,2007.0,Marienburger,Netflix,75.0,,,2021,2021-08
-133,2021-08-19,Promising Young Woman,Emerald Fennell,2020.0,Kino International,Kino,73.0,,,2021,2021-08
-134,2021-08-14,Dog Day Afternoon,Sidney Lumet,1975.0,Freiluftkino Filmrauschpalast,Freiluftkino,83.0,,,2021,2021-08
-135,2021-08-13,Pieces of a Woman,Kornél Mundruczó,2020.0,Marienburger,Netflix,70.0,,,2021,2021-08
-136,2021-08-12,Nomadland,Chloé Zhao,2020.0,Freiluftkino Rehberge,Freiluftkino,78.0,,,2021,2021-08
-137,2021-08-11,Old,M. Night Shyamalan,2021.0,Alhambra,Kino,62.0,,,2021,2021-08
-138,2021-08-01,Schtonk,Helmut Dietl,1992.0,Zug,Netflix,63.0,,,2021,2021-08
-139,2021-07-29,Druk,Thomas Vinterberg,2020.0,Hackesche Hoefe Kino,Kino,78.0,,,2021,2021-07
-140,2021-07-19,28 Days Later,Danny Boyle,2002.0,Marienburger,Netflix,84.0,,,2021,2021-07
-141,2021-07-16,The Shining,Stanley Kubrick,1980.0,Marienburger,Blu Ray,89.0,,,2021,2021-07
-142,2021-07-13,Babardeala cu bucluc sau porno balamuc,Radu Jude,2021.0,B-Ware Ladenkino,Kino,60.0,,,2021,2021-07
-143,2021-07-04,Jojo Rabbit,Taika Waititi,2019.0,Marienburger,Blu Ray,90.0,,,2021,2021-07
-147,2021-06-05,Mudbound,Dee Rees,2017.0,Marienburger,Netflix,73.0,,,2021,2021-06
-148,2021-05-28,Contagion,Steven Soderbergh,2011.0,Marienburger,Amazon Prime,68.0,,,2021,2021-05
-149,2021-05-26,Sonnenallee,Leander Haußmann,1999.0,Marienburger,Netflix,64.0,,,2021,2021-05
-150,2021-05-24,Seven Psychopaths,Martin McDonagh,2012.0,Marienburger,Netflix,63.0,,,2021,2021-05
-152,2021-05-18,Und morgen die ganze Welt,Julia von Heinz,2020.0,Marienburger,Netflix,65.0,,,2021,2021-05
-153,2021-05-01,Hostiles,Scott Cooper,2017.0,Marienburger,Netflix,74.0,,,2021,2021-05
-155,2021-04-30,Sound of Metal,Darius Marder,2020.0,Marienburger,Amazon Prime,80.0,,,2021,2021-04
-156,2021-04-25,The White Tiger,Ramin Bahrani,2021.0,Marienburger,Netflix,70.0,,,2021,2021-04
-157,2021-04-24,Godzilla,Gareth Edwards,2014.0,Bei Markus,Netflix,64.0,,,2021,2021-04
-158,2021-04-21,The School of Rock,Richard Linklater,2003.0,Marienburger,Netflix,64.0,,,2021,2021-04
-159,2021-04-16,Ma Rainey's Black Bottom,George C. Wolfe,2020.0,Marienburger,Netflix,70.0,,,2021,2021-04
-160,2021-04-15,M - Eine Stadt sucht einen Mörder,Fritz Lang,1931.0,Marienburger,Amazon Prime,82.0,,,2021,2021-04
-161,2021-04-14,Matilda,Danny DeVito,1996.0,Marienburger,Netflix,63.0,,,2021,2021-04
-162,2021-04-13,Yesterday,Danny Boyle,2019.0,Marienburger,Amazon Prime,73.0,,,2021,2021-04
-163,2021-04-12,Nadie sabe que estoy aquí,Gaspar Antillo,2020.0,Marienburger,Netflix,71.0,,,2021,2021-04
-164,2021-04-04,Berlin Alexanderplatz,Burhan Qurbani,2020.0,Marienburger,Netflix,77.0,,,2021,2021-04
-165,2021-04-03,Gundermann,Andreas Dresen,2018.0,Marienburger,Netflix,74.0,,,2021,2021-04
-166,2021-04-01,Tenkû no shiro Rapyuta,Hayao Miyazaki,1986.0,Marienburger,Netflix,83.0,,,2021,2021-04
-167,2021-03-27,Les 12 travaux d'Astérix,René Goscinny,1976.0,Eglharting,Fernsehen,77.0,,,2021,2021-03
-168,2021-03-13,La La Land,Damien Chazelle,2016.0,Marienburger,Amazon Prime,90.0,,,2021,2021-03
-169,2021-03-07,Scarface,Brian De Palma,1983.0,Marienburger,Netflix,88.0,,,2021,2021-03
-170,2021-03-06,Ya no estoy aqui,Fernando Frias,2019.0,Marienburger,Netflix,74.0,,,2021,2021-03
-171,2021-03-05,If Beale Street Could Talk,Barry Jenkins,2018.0,Marienburger,Netflix,72.0,,,2021,2021-03
-172,2021-03-03,Fierce Creatures,Fred Schepisi,1997.0,Marienburger,DVD,78.0,,,2021,2021-03
-173,2021-02-27,The Danish Girl,Tom Hooper,2015.0,Marienburger,Netflix,74.0,,,2021,2021-02
-175,2021-02-17,The Fifth Element,Luc Besson,1997.0,Bei Markus,Netflix,87.0,,,2021,2021-02
-176,2021-02-05,Mad Max: Fury Road,George Miller,2015.0,Marienburger,Blu Ray,95.0,,,2021,2021-02
-177,2021-02-01,The House That Jack Built,Lars von Trier,2018.0,Marienburger,Netflix,84.0,,,2021,2021-02
-178,2021-01-31,Fantastic Mr. Fox,Wes Anderson,2009.0,Marienburger,Mubi,82.0,,,2021,2021-01
-180,2021-01-23,The World's End,Edgar Wright,2013.0,Marienburger,DVD,80.0,,,2021,2021-01
-181,2021-01-23,Hot Fuzz,Edgar Wright,2007.0,Marienburger,DVD,85.0,,,2021,2021-01
-182,2021-01-23,Shaun of the Dead,Edgar Wright,2004.0,Marienburger,DVD,84.0,,,2021,2021-01
-184,2021-01-15,Rear Window,Alfred Hitchcock,1954.0,Eglharting,Blu Ray,82.0,,,2021,2021-01
-185,2021-01-10,Death on the Nile,John Guillermin,1978.0,Eglharting,DVD,85.0,,,2021,2021-01
-186,2021-01-09,Ghostbusters,Ivan Reitman,1984.0,Eglharting,Netflix,83.0,,,2021,2021-01
-187,2021-01-08,A Few Good Men,Rob Reiner,1992.0,Eglharting,Fernsehen,77.0,,,2021,2021-01
-188,2021-01-07,Evil under the Sun,Guy Hamilton,1982.0,Eglharting,Amazon Prime,83.0,,,2021,2021-01
-190,2021-01-06,La piscine,Jacques Deray,1969.0,Eglharting,Fernsehen,73.0,,,2021,2021-01
-191,2021-01-05,Moonrise Kingdom,Wes Anderson,2012.0,Eglharting,Netflix,83.0,,,2021,2021-01
-192,2021-01-04,How to Steal a Million,William Wyler,1966.0,Eglharting,Fernsehen,79.0,,,2021,2021-01
-193,2021-01-03,Charade,Stanley Donen,1963.0,Eglharting,Amazon Prime,80.0,,,2021,2021-01
-194,2021-01-02,Murder on the Orient Express,Sidney Lumet,1974.0,Eglharting,Amazon Prime,84.0,,,2021,2021-01
-195,2021-01-01,Kill Bill: Vol. 2,Quentin Tarantino,2004.0,Eglharting,DVD,75.0,,,2021,2021-01
-196,2020-12-31,The Mirror Crack'd,Guy Hamilton,1980.0,Eglharting,Amazon Prime,63.0,,,2020,2020-12
-197,2020-12-28,Jojo Rabbit,Taika Waititi,2019.0,Eglharting,Blu Ray,92.0,,,2020,2020-12
-198,2020-12-27,The Secret Life of Walter Mitty,Ben Stiller,2013.0,Eglharting,Netflix,84.0,,,2020,2020-12
-199,2020-12-26,Ex Machina,Alex Garland,2014.0,Eglharting,Blu Ray,90.0,,,2020,2020-12
-201,2020-12-22,'Crocodile' Dundee,Peter Faiman,1986.0,Eglharting,Fernsehen,65.0,,,2020,2020-12
-202,2020-12-21,Scrooged,Richard Donner,1988.0,Eglharting,Amazon Prime,78.0,,,2020,2020-12
-203,2020-12-20,Home alone,Chris Columbus,1990.0,Eglharting,DVD,80.0,,,2020,2020-12
-204,2020-12-19,National Lampoon's Christmas Vacation,Jeremiah S. Chechik,1989.0,Eglharting,DVD,75.0,,,2020,2020-12
-205,2020-12-18,Little Lord Fauntleroy,Jack Gold,1980.0,Eglharting,Fernsehen,73.0,,,2020,2020-12
-206,2020-12-17,O Palmenbaum,Xaver Schwarzenberg,2000.0,Eglharting,DVD,71.0,,,2020,2020-12
-207,2020-12-17,Jingle All the Way,Brian Levant,1996.0,Eglharting,Fernsehen,76.0,,,2020,2020-12
-208,2020-12-16,Single Bells,Xaver Schwarzenberg,1998.0,Eglharting,DVD,83.0,,,2020,2020-12
-209,2020-12-14,Oldboy,Park Chan-wook,2003.0,Marienburger,Blu Ray,87.0,,,2020,2020-12
-210,2020-12-13,Offret,Andrej Tarkowski,1986.0,Marienburger,Mubi,84.0,,,2020,2020-12
-211,2020-12-12,Das schweigende Klassenzimmer,Lars Kraume,2018.0,Marienburger,Netflix,73.0,,,2020,2020-12
-212,2020-12-11,Mother,Bong Joon-Ho,2009.0,Marienburger,Mubi,79.0,,,2020,2020-12
-213,2020-12-10,The Juniper Tree,Nietzchka Keene,1990.0,Marienburger,Mubi,65.0,,,2020,2020-12
-214,2020-12-09,Jojo Rabbit,Taika Waititi,2019.0,Marienburger,Blu Ray,92.0,,,2020,2020-12
-215,2020-12-08,Cléo de 5 à 7,Agnés Varda,1962.0,Marienburger,Mubi,70.0,,,2020,2020-12
-217,2020-12-05,Apocalypse Now,Francis Ford Coppola,1979.0,Marienburger,Blu Ray,89.0,,,2020,2020-12
-218,2020-12-04,Styx,Wolfgang Fischer,2018.0,Marienburger,Mubi,80.0,,,2020,2020-12
-219,2020-12-03,Interstellar,Christopher Nolan,2014.0,Bei Yash,Netflix,100.0,,,2020,2020-12
-220,2020-12-02,Velvet Buzzsaw,Dan Gilroy,2019.0,Bei Markus,Netflix,64.0,,,2020,2020-12
-221,2020-12-01,Bronson,Nicolas Winding Refn,2008.0,Marienburger,Mubi,70.0,,,2020,2020-12
-222,2020-11-30,Donna Haraway: Story Telling for Earthly Survival,Fabrizio Terranova,2016.0,Marienburger,other Streaming,30.0,,,2020,2020-11
-223,2020-11-25,The Shawshank Redemption,Frank Darabont,1994.0,Marienburger,Netflix,90.0,,,2020,2020-11
-224,2020-11-21,Mononoke-hime,Hayao Miyazaki,1997.0,Marienburger,Netflix,82.0,,,2020,2020-11
-225,2020-11-18,A Beautiful Day,Lynne Ramsay,2018.0,Marienburger,Netflix,74.0,,,2020,2020-11
-226,2020-11-16,Training Day,Antoine Fuqua,2001.0,Bei Markus,Netflix,74.0,,,2020,2020-11
-227,2020-11-15,Memento,Christopher Nolan,2000.0,Marienburger,Netflix,88.0,,,2020,2020-11
-228,2020-11-13,Buena Vista Social Club,Wim Wenders,1999.0,Marienburger,Amazon Prime,67.0,,,2020,2020-11
-229,2020-11-12,Nattvardsgästerna,Ingmar Bergman,1963.0,Marienburger,Mubi,76.0,,,2020,2020-11
-230,2020-11-11,The Host,Bong Joon-Ho,2006.0,Marienburger,Blu Ray,95.0,,,2020,2020-11
-231,2020-11-09,Westfront 1918: Vier von der Infanterie,G.W. Pabst,1930.0,Marienburger,Mubi,73.0,,,2020,2020-11
-233,2020-11-07,Tallulah,Sian Heder,2016.0,Marienburger,Netflix,40.0,,,2020,2020-11
-234,2020-11-06,Portrait de la jeune fille en feu,Celine Sciamma,2019.0,Marienburger,Amazon Prime,74.0,,,2020,2020-11
-235,2020-11-05,Ava,Léa Mysius,2017.0,Marienburger,Mubi,72.0,,,2020,2020-11
-236,2020-11-04,Ansiktet,Ingmar Bergman,1958.0,Marienburger,Mubi,78.0,,,2020,2020-11
-237,2020-11-02,Suntan,Argyris Papadimitropoulos,2016.0,Marienburger,Mubi,75.0,,,2020,2020-11
-238,2020-10-31,The Wolf of Wall Street,Martin Scorsese,2013.0,Marienburger,Netflix,84.0,,,2020,2020-10
-239,2020-10-30,Espero tua (re)volta,Eliza Capai,2019.0,Marienburger,Mubi,64.0,,,2020,2020-10
-240,2020-10-24,Matrix,"Lana Wachowski, Lilly Wachowski",1999.0,Marienburger,Blu Ray,100.0,,,2020,2020-10
-241,2020-10-23,Mignonnes,Maïmouna Doucouré,2020.0,Marienburger,Netflix,78.0,,,2020,2020-10
-242,2020-10-19,Slumdog Millionaire,Danny Boyle,2008.0,Marienburger,Mubi,80.0,,,2020,2020-10
-243,2020-10-18,Smultronstället,Ingmar Bergman,1957.0,Marienburger,Mubi,79.0,,,2020,2020-10
-244,2020-10-17,The Dark Knight,Christopher Nolan,2008.0,Marienburger,Blu Ray,95.0,,,2020,2020-10
-246,2020-10-14,Cobra Verde,Werner Herzog,1987.0,Marienburger,Mubi,70.0,,,2020,2020-10
-248,2020-10-07,I'm thinking of ending things,Charlie Kaufmann,2020.0,Marienburger,Netflix,63.0,,,2020,2020-10
-249,2020-10-01,Lovesong,So Yong Kim,2017.0,Marienburger,Netflix,60.0,,,2020,2020-10
-250,2020-09-28,Ödipussi,Loriot,1988.0,Eglharting,Netflix,90.0,,,2020,2020-09
-251,2020-09-27,Astérix chez les Bretons,Pino Van Lamsweerde,1986.0,Eglharting,Amazon Prime,72.0,,,2020,2020-09
-252,2020-09-26,Venom,Ruben Fleischer,2018.0,Eglharting,Netflix,60.0,,,2020,2020-09
-253,2020-09-25,The Man Who Knew Too Much,Alfred Hitchcock,1956.0,Oberstdorf,Amazon Prime,85.0,49470.0,,2020,2020-09
-255,2020-09-20,Star Wars: Episode V - The Empire Strikes Back,Irvin Kershner,1980.0,Eglharting,DVD,85.0,,,2020,2020-09
-256,2020-09-18,Star Wars: Episode VI - Return of the Jedi,Richard Marquand,1983.0,Eglharting,DVD,74.0,,,2020,2020-09
-257,2020-09-14,Jack goes boating,Philip Seymour Hoffman,2010.0,Marienburger,Mubi,70.0,,,2020,2020-09
-259,2020-09-12,Adú,Salvador Calvo,2020.0,Marienburger,Netflix,67.0,,,2020,2020-09
-260,2020-09-11,Patch Adams,Tom Shadyac,1998.0,Marienburger,Netflix,80.0,,,2020,2020-09
-261,2020-09-10,Fear and Loathing in Las Vegas,Terry Gilliam,1998.0,Marienburger,Netflix,81.0,,,2020,2020-09
-262,2020-09-09,Nader and Simin,Asghar Farhadi,2011.0,Marienburger,Mubi,82.0,1832382.0,,2020,2020-09
-263,2020-09-04,Le scaphandre et le papillon,Julian Schnabel,2007.0,Marienburger,Mubi,84.0,,,2020,2020-09
-265,2020-08-31,Bergmál,Rúnar Rúnarsson,2019.0,Marienburger,Mubi,74.0,9296808.0,,2020,2020-08
-266,2020-08-30,TENET,Christopher Nolan,2020.0,Cinestar Kulturbrauerei,Kino,82.0,,,2020,2020-08
-267,2020-08-25,Waves,Trey Edward Shults,2019.0,Filmrauschpalast,Kino,81.0,8652728.0,,2020,2020-08
-268,2020-08-24,Dolor y gloria,Pedro Almodovar,2019.0,Marienburger,Amazon Prime,65.0,,,2020,2020-08
-269,2020-08-21,Da Five Bloods,Spike Lee,2020.0,Marienburger,Netflix,83.0,,,2020,2020-08
-270,2020-08-20,Cold War,Pawel Pawlikowski,2018.0,Marienburger,Netflix,63.0,,,2020,2020-08
-271,2020-08-16,Avengers: Endgame,Joe Russo,2019.0,Marienburger,Blu Ray,83.0,,,2020,2020-08
-272,2020-08-05,The Truman Show,Peter Weir,1998.0,Eglharting,DVD,93.0,,,2020,2020-08
-273,2020-08-04,The Breakfast Club,John Hughes,1985.0,Eglharting,Netflix,65.0,,,2020,2020-08
-274,2020-08-03,Pappa ante portas,Loriot,1991.0,Eglharting,DVD,95.0,,,2020,2020-08
-275,2020-08-02,Rope,Alfred Hitchcock,1948.0,Eglharting,DVD,85.0,,,2020,2020-08
-276,2020-07-26,Avengers: Infinity War,Joe Russo,2018.0,Marienburger,Blu Ray,90.0,,,2020,2020-07
-277,2020-07-23,Primer,Shane Carruth,2004.0,Marienburger,Mubi,81.0,,,2020,2020-07
-278,2020-07-20,En passion,Ingmar Bergman,1969.0,Marienburger,Mubi,82.0,,,2020,2020-07
-279,2020-07-19,Naked Lunch,David Cronenberg,1991.0,Marienburger,Mubi,72.0,,,2020,2020-07
-280,2020-07-18,Monos,Alejandro Landes,2019.0,B-Ware Ladenkino,Kino,80.0,,,2020,2020-07
-281,2020-07-10,Nostalgia de Luz,Patricio Guzman,2010.0,Marienburger,Mubi,73.0,,,2020,2020-07
-282,2020-07-06,The Last Airbender,M. Night Shyamalan,2010.0,Marienburger,Netflix,45.0,,,2020,2020-07
-283,2020-07-04,Color Out of Space,Richard Stanley,2020.0,Kino Zukunft,Kino,65.0,,,2020,2020-07
-284,2020-07-03,Dark Staffel 3,Baran bo Odar,2020.0,Marienburger,Netflix,70.0,,,2020,2020-07
-285,2020-06-30,The Raid,Gareth Evans,2011.0,Bei Markus,DVD,84.0,,,2020,2020-06
-286,2020-06-21,Death on the Nile,John Guillermin,1978.0,Eglharting,DVD,89.0,,,2020,2020-06
-287,2020-06-20,Casablanca,Michael Curtiz,1942.0,Eglharting,DVD,92.0,,,2020,2020-06
-288,2020-06-19,Evil under the Sun,Guy Hamilton,1982.0,Eglharting,Amazon Prime,79.0,,,2020,2020-06
-289,2020-06-18,Airplane!,David Zucker,1980.0,Eglharting,Netflix,75.0,,,2020,2020-06
-291,2020-06-15,I am not your negro,Raoul Peck,2017.0,Marienburger,Netflix,78.0,,,2020,2020-06
-292,2020-06-13,Stranger Than Paradise,Jim Jarmusch,1.0,Marienburger,Mubi,81.0,,,2020,2020-06
-293,2020-05-25,The Housemaid,Sang-soo Im,2010.0,Marienburger,Mubi,75.0,1314652.0,,2020,2020-05
-294,2020-05-24,Paranza,Claudio Giovannesi,2019.0,Marienburger,Amazon Prime,81.0,,,2020,2020-05
-295,2020-05-18,Detachment,Tony Kaye,2011.0,Marienburger,Mubi,85.0,,,2020,2020-05
-296,2020-05-17,Little Miss Sunshine,Jonathan Dayton,2006.0,Marienburger,Netflix,85.0,,,2020,2020-05
-297,2020-05-16,Permanent Vacation,Jim Jarmusch,1980.0,Marienburger,Mubi,70.0,,,2020,2020-05
-298,2020-05-15,The Butler,Lee Daniels,2013.0,Marienburger,Mubi,83.0,,,2020,2020-05
-299,2020-05-13,Vladimir et Rosa,Jean-Luc Godard,1971.0,Marienburger,Mubi,61.0,,,2020,2020-05
-300,2020-05-08,Cidade de Deus,Fernando Meirelles,2002.0,Marienburger,Amazon Prime,89.0,,,2020,2020-05
-301,2020-05-04,Slow West,John Maclean,2015.0,Marienburger,Mubi,78.0,,,2020,2020-05
-302,2020-05-02,Au hasard Balthazar,Robert Bresson,1966.0,Marienburger,Mubi,75.0,,,2020,2020-05
-303,2020-05-01,Kill Bill: Vol. 1,Quentin Tarantino,2003.0,Marienburger,DVD,99.0,,,2020,2020-05
-304,2020-04-30,"Nona. Si me mojan, yo los quemo",Camila José Donoso,2019.0,Marienburger,Mubi,57.0,9461680.0,,2020,2020-04
-305,2020-04-25,"Three Billboards outside Ebbing, Missouri",Martin McDonagh,2017.0,Marienburger,Blu Ray,83.0,,,2020,2020-04
-306,2020-04-24,Climax,Gaspard Noé,2018.0,Marienburger,Netflix,83.0,,,2020,2020-04
-307,2020-04-20,Southland Tales,Richard Kelly,2007.0,Marienburger,Mubi,65.0,,,2020,2020-04
-308,2020-04-18,Sen to Chihiro no kamikakushi,Hayao Miyazaki,2001.0,Marienburger,Netflix,79.0,,,2020,2020-04
-309,2020-04-17,Bacurau,Juliano Dornelles,2019.0,Marienburger,Mubi,79.0,,,2020,2020-04
-310,2020-04-14,Suffragette,Sarah Gavron,2015.0,Marienburger,Netflix,77.0,,,2020,2020-04
-311,2020-04-13,Roads,Sebastian Schipper,2019.0,Marienburger,Amazon Prime,75.0,,,2020,2020-04
-312,2020-04-12,The Big Lebowski,Coen Brueder,1998.0,Marienburger,Amazon Prime,89.0,,,2020,2020-04
-314,2020-04-11,Idioterne,Lars von Trier,1998.0,Marienburger,Mubi,80.0,,,2020,2020-04
-315,2020-04-10,Hauru no ugoku shiro,Hayao Miyazaki,2004.0,Marienburger,Netflix,77.0,,,2020,2020-04
-316,2020-04-09,The Great Dictator,Charlie Chaplin,1940.0,Marienburger,Mubi,82.0,,,2020,2020-04
-317,2020-04-07,Tonari no Totoro,Hayao Miyazaki,1988.0,Marienburger,Netflix,80.0,,,2020,2020-04
-318,2020-04-04,El Hoyo,Galder Gaztelu-Urrutia,2019.0,Marienburger,Netflix,74.0,,,2020,2020-04
-319,2020-04-03,Safari,Ulrich Seidl,2016.0,Marienburger,Mubi,79.0,5901212.0,,2020,2020-04
-320,2020-04-01,The Lost World: Jurassic Park,Steven Spielberg,1997.0,Marienburger,Netflix,71.0,,,2020,2020-04
-321,2020-03-29,Her,Spike Jonze,2013.0,Marienburger,Blu Ray,73.0,,,2020,2020-03
-322,2020-03-27,Suburbicon,George Clooney,2017.0,Marienburger,Netflix,59.0,,,2020,2020-03
-323,2020-03-26,Hidden Figures,Theodore Melfi,2016.0,Marienburger,Netflix,79.0,,,2020,2020-03
-324,2020-03-25,The Red Phallus,Tashi Gyeltshen,2019.0,Marienburger,Mubi,77.0,,,2020,2020-03
-326,2020-03-23,Uncut Gems,Safdie Brothers,2019.0,Marienburger,Netflix,79.0,,,2020,2020-03
-327,2020-03-21,Manbiki kazoku,Hirokazu Koreeda,2018.0,Marienburger,Amazon Prime,68.0,,,2020,2020-03
-328,2020-03-19,Bouyancy,Rodd Rathjen,2020.0,Marienburger,Mubi,76.0,,,2020,2020-03
-329,2020-03-19,Vormittagsspuk,Hans Richter,1928.0,Marienburger,Mubi,66.0,,,2020,2020-03
-330,2020-03-16,Tsotsi,Gavin Hood,2005.0,Marienburger,Mubi,75.0,,,2020,2020-03
-331,2020-03-14,The Cabin the Woods,Drew Goddard,2012.0,Marienburger,Netflix,71.0,,,2020,2020-03
-332,2020-03-12,The Gentlemen,Guy Ritchie,2019.0,Passage Kino,Kino,74.0,,,2020,2020-03
-333,2020-03-10,The Big Short,Adam McKay,2015.0,Marienburger,Blu Ray,90.0,,,2020,2020-03
-334,2020-03-08,The Departed,Martin Scorsese,2006.0,Marienburger,Netflix,83.0,,,2020,2020-03
-335,2020-03-07,Für Sama,Waad al-Kateab,2019.0,Cinestar Kulturbrauerei,Kino,79.0,,,2020,2020-03
-336,2020-03-02,Systemsprenger,Nora Fingscheidt,2019.0,Marienburger,Netflix,78.0,,,2020,2020-03
-337,2020-03-01,What did Jack do?,David Lynch,2017.0,Marienburger,Netflix,76.0,,,2020,2020-03
-338,2020-02-28,Jojo Rabbit,Taika Waititi,2019.0,Hackesche Hoefe Kino,Kino,87.0,,,2020,2020-02
-339,2020-02-27,J'accuse,Roman Polanski,2019.0,Tilsiter Lichtspiele,Kino,76.0,,,2020,2020-02
-343,2020-02-21,A Hidden Life,Terrence Malick,2019.0,Cinestar Kulturbrauerei,Kino,88.0,,,2020,2020-02
-344,2020-02-19,Once upon a Time in Hollywood,Quentin Tarantino,2019.0,Marienburger,Blu Ray,89.0,,,2020,2020-02
-345,2020-02-09,To catch a thief,Alfred Hitchcock,1955.0,Eglharting,Amazon Prime,73.0,,,2020,2020-02
-346,2020-02-08,Still Alice,Richard Glatzer,2014.0,Eglharting,Netflix,75.0,,,2020,2020-02
-347,2020-02-06,1917,Sam Mendes,2019.0,Cinestar Kulturbrauerei,Kino,80.0,,,2020,2020-02
-349,2020-01-31,Jojo Rabbit,Taika Waititi,2019.0,Cinestar Kulturbrauerei,Kino,84.0,,,2020,2020-01
-351,2020-01-27,Les miserables,Ladj Ly,2019.0,Hackesche Hoefe Kino,Kino,76.0,,,2020,2020-01
-353,2020-01-25,Queen & Slim,Melina Matsoukas,2019.0,Cinestar Kulturbrauerei,Kino,73.0,,"Road movie, keine wirkliche Entwicklung der Protagonisten, einfach Liebesgeschichte. Sch�nes Ende. ",2020,2020-01
-354,2020-01-24,Countdown,Justin Dec,2019.0,UCI Colosseum,Kino,51.0,,Sneak,2020,2020-01
-355,2020-01-22,Ex Machina,Alex Garland,2014.0,Marienburger,Blu Ray,95.0,,,2020,2020-01
-357,2020-01-13,The Kid,Charlie Chaplin,1921.0,Marienburger,Mubi,79.0,,,2020,2020-01
-358,2020-01-09,Snowpiercer,Bong Joon-Ho,2013.0,Marienburger,Netflix,90.0,,,2020,2020-01
-359,2020-01-08,Knives out,Rian Johnson,2019.0,Cinestar Kulturbrauerei,Kino,73.0,,,2020,2020-01
-360,2020-01-07,J'ai perdu mon corps,Jérémy Clapin,2019.0,Marienburger,Netflix,65.0,,,2020,2020-01
-361,2020-01-05,Magnolia,Paul Thomas Anderson,1999.0,Marienburger,Blu Ray,99.0,,,2020,2020-01
-362,2020-01-02,Dogman,Matteo Garrone,2018.0,Marienburger,Mubi,85.0,,,2020,2020-01
-363,2019-12-30,Murder on the Orient Express,Sidney Lumet,1974.0,Eglharting,Amazon Prime,80.0,,,2019,2019-12
-364,2019-12-29,Ödipussi,Loriot,1988.0,Eglharting,DVD,86.0,,,2019,2019-12
-365,2019-12-27,Okja,Bong Joon-Ho,2017.0,Eglharting,Netflix,81.0,,,2019,2019-12
-366,2019-12-27,Star Wars: Episode IX - The Rise of Skywalker,J.J. Abrams,2019.0,Mathaeser Muenchen,Kino,65.0,,,2019,2019-12
-368,2019-12-25,Home alone,Chris Columbus,1990.0,Eglharting,DVD,80.0,,,2019,2019-12
-371,2019-12-20,Little Lord Fauntleroy,Jack Gold,1980.0,Eglharting,Fernsehen,73.0,,,2019,2019-12
-372,2019-12-18,National Lampoon's Christmas Vacation,Jeremiah S. Chechik,1989.0,Eglharting,DVD,80.0,,,2019,2019-12
-373,2019-12-17,O Palmenbaum,Xaver Schwarzenberg,2000.0,Eglharting,DVD,71.0,,,2019,2019-12
-374,2019-12-16,Single Bells,Xaver Schwarzenberg,1998.0,Eglharting,DVD,80.0,,,2019,2019-12
-375,2019-12-12,The Lighthouse,Robert Eggers,2019.0,Kino Central,Kino,75.0,,,2019,2019-12
-378,2019-12-06,The Irishman,Martin Scorsese,2019.0,Tilsiter Lichtspiele,Kino,75.0,,,2019,2019-12
-380,2019-12-04,Paranoid Park,Gus van Sant,2007.0,Marienburger,Mubi,79.0,,,2019,2019-12
-382,2019-11-24,Walk the Line,James Mangold,2005.0,Eglharting,Netflix,73.0,,,2019,2019-11
-384,2019-11-20,The Wailing,Na Hong-Jin,2016.0,Marienburger,Mubi,73.0,,,2019,2019-11
-385,2019-11-17,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,2001.0,Marienburger,Blu Ray,93.0,,,2019,2019-11
-386,2019-11-15,The Host,Bong Joon-Ho,2006.0,Babylon Mitte,Kino,95.0,,,2019,2019-11
-388,2019-11-14,Memories of Murder,Bong Joon-Ho,2003.0,Babylon Mitte,Kino,79.0,,,2019,2019-11
-389,2019-11-11,Isle Of Dogs,Wes Anderson,2018.0,Marienburger,Blu Ray,90.0,,,2019,2019-11
-390,2019-11-08,Donnie Darko,Richard Kelly,2001.0,Marienburger,Blu Ray,85.0,,,2019,2019-11
-393,2019-11-01,The King's Speech,Tom Hooper,2010.0,Eglharting,Netflix,81.0,,,2019,2019-11
-394,2019-10-31,Joker,Todd Philipps,2019.0,Kino Central,Kino,77.0,,"Darstellung der Wut in der Gesellschaft nicht �berzeugend, sehr generisch. Ebenso die Darstellung der Motivation/der Entwicklung des Hauptdarstellers",2019,2019-10
-395,2019-10-29,Parasite,Bong Joon-Ho,2019.0,Hackesche Hoefe Kino,Kino,81.0,,,2019,2019-10
-396,2019-10-23,The Hangover,Todd Philipps,2009.0,Dubai,Netflix,64.0,,,2019,2019-10
-397,2019-10-22,Edge of Tomorrow,Doug Liman,2014.0,Dubai,Netflix,78.0,,,2019,2019-10
-398,2019-10-20,Iron Man 2,Jon Favreau,2010.0,Emirates,Flugzeug,69.0,,,2019,2019-10
-399,2019-10-19,The Social Network,David Fincher,2010.0,Chamonix,Netflix,71.0,,,2019,2019-10
-400,2019-10-12,It: Chapter Two,Andres Muschietti,2019.0,Cinestar Potsdamer Platz,Kino,80.0,,,2019,2019-10
-401,2019-10-11,Super 8,J.J. Abrams,2011.0,Marienburger,Netflix,78.0,,,2019,2019-10
-402,2019-10-10,Good Bye Lenin!,Wolfgang Becker,2003.0,Babylon Mitte,Kino,79.0,,,2019,2019-10
-403,2019-10-06,Tomboy,Celine Sciamma,2011.0,Marienburger,Mubi,79.0,,,2019,2019-10
-404,2019-10-05,Ad Astra,James Gray,2019.0,Kino am Friedrichshain,Kino,73.0,,,2019,2019-10
-405,2019-10-04,Scott Pilgrim vs. The World,Edgar Wright,2010.0,Marienburger,Mubi,80.0,,,2019,2019-10
-406,2019-10-03,Benny's Video,Michael Haneke,1993.0,Marienburger,Mubi,72.0,,,2019,2019-10
-407,2019-10-02,Noah,Darren Aronofsky,2014.0,Marienburger,Netflix,79.0,,,2019,2019-10
-408,2019-09-28,Tschick,Fatih Akin,2016.0,Marienburger,Netflix,70.0,,,2019,2019-09
-409,2019-09-27,Drive,Nicolas Winding Refn,2011.0,Marienburger,Netflix,75.0,,,2019,2019-09
-410,2019-09-25,Love,Gaspard Noé,2015.0,Marienburger,Mubi,80.0,,,2019,2019-09
-412,2019-09-09,Le petit soldat,Jean-Luc Godard,1963.0,Marienburger,Mubi,77.0,,,2019,2019-09
-413,2019-09-07,Midnight Express,Alan Parker,1978.0,Glasgow,Netflix,74.0,,,2019,2019-09
-414,2019-09-06,The Theory of Everything,James Marsh,2014.0,Kinlochleven,Netflix,73.0,,,2019,2019-09
-415,2019-09-04,I Am Mother,Grant Sputore,2019.0,Tyndrum,Netflix,72.0,,,2019,2019-09
-416,2019-08-24,Exit through the gift shop,Banksy,2010.0,Marienburger,Mubi,71.0,,,2019,2019-08
-417,2019-08-23,Solaris,Andrej Tarkowski,1972.0,Arsenal Berlin,Kino,86.0,,,2019,2019-08
-418,2019-08-22,Once upon a Time in Hollywood,Quentin Tarantino,2019.0,Cinestar Kulturbrauerei,Kino,86.0,,,2019,2019-08
-419,2019-08-21,Todos lo saben,Asghar Farhadi,2018.0,Marienburger,Amazon Prime,49.0,,,2019,2019-08
-420,2019-08-20,IP Man,Wilson Yip,2008.0,Bei Markus,Netflix,67.0,,,2019,2019-08
-422,2019-08-17,Easy Rider,Dennis Hopper,1969.0,Eglharting,Netflix,81.0,,,2019,2019-08
-423,2019-08-16,Shame,Steve McQueen,2011.0,Eglharting,Netflix,71.0,,,2019,2019-08
-424,2019-08-15,Gran Budapest Hotel,Wes Anderson,2014.0,Marienburger,Blu Ray,89.0,,,2019,2019-08
-425,2019-08-14,The Game,David Fincher,1997.0,Marienburger,DVD,90.0,,,2019,2019-08
-426,2019-08-12,Hoestsonaten,Ingmar Bergman,1978.0,Marienburger,Mubi,81.0,,,2019,2019-08
-427,2019-08-11,Caché,Michael Haneke,2005.0,Marienburger,Mubi,83.0,,,2019,2019-08
-428,2019-08-08,Seom,Kim Ki Duk,2000.0,Marienburger,Mubi,80.0,,,2019,2019-08
-429,2019-08-07,Lucky,John Caroll Lynch,2017.0,Marienburger,Mubi,61.0,,,2019,2019-08
-430,2019-07-31,Salo o le 120 giornate di Sodoma,Pier Paolo Pasolini,1975.0,Babylon Mitte,Kino,78.0,,,2019,2019-07
-431,2019-07-30,Viskningar och rop,Ingmar Bergman,1972.0,Marienburger,Mubi,73.0,,,2019,2019-07
-433,2019-07-25,Once upon a Time in the West,Sergio Leone,1968.0,Babylon Mitte,Kino,84.0,,,2019,2019-07
-434,2019-07-19,Inception,Christopher Nolan,2010.0,Marienburger,Netflix,95.0,,,2019,2019-07
-436,2019-07-17,Vargtimmen,Ingmar Bergman,1968.0,Marienburger,Mubi,83.0,,,2019,2019-07
-438,2019-07-13,I dont feel at home in this world anymore,Macon Blair,2017.0,Marienburger,Netflix,51.0,,,2019,2019-07
-439,2019-07-12,Ausser Atem,Jean-Luc Godard,1960.0,Marienburger,DVD,76.0,,,2019,2019-07
-440,2019-07-11,Killing them softly,Andrew Dominik,2012.0,Marienburger,Blu Ray,32.0,,,2019,2019-07
-441,2019-07-07,The Dark Tower,Nikolaj Arcel,2017.0,Marienburger,Netflix,54.0,,,2019,2019-07
-443,2019-06-28,The Dead Don't Die,Jim Jarmusch,2019.0,Cinestar Kulturbrauerei,Kino,67.0,,,2019,2019-06
-448,2019-06-07,"Yes, Man",Peyton Reed,2008.0,Marienburger,Netflix,68.0,,,2019,2019-06
-449,2019-06-06,Lommbock,Christian Zübert,2017.0,Marienburger,Blu Ray,79.0,,,2019,2019-06
-451,2019-06-01,The Girl on the train,Tate Taylor,2016.0,Marienburger,Blu Ray,65.0,,,2019,2019-06
-452,2019-05-31,Taxi Driver,Martin Scorsese,1976.0,Babylon Mitte,Kino,89.0,,,2019,2019-05
-453,2019-05-30,The Hours,Stephen Daldry,2002.0,Marienburger,Netflix,70.0,,,2019,2019-05
-455,2019-05-28,Alien,Ridley Scott,1979.0,Babylon Mitte,Kino,91.0,,,2019,2019-05
-456,2019-05-27,La Hora de los hornos,Octavio Getino,1968.0,Marienburger,DVD,60.0,,,2019,2019-05
-457,2019-05-25,The Thing,John Carpenter,1982.0,Marienburger,Netflix,69.0,,,2019,2019-05
-459,2019-05-22,Avengers: Endgame,Anthony Russo,2019.0,Cinestar Potsdamer Platz,Kino,59.0,,,2019,2019-05
-460,2019-05-21,Rear Window,Alfred Hitchcock,1954.0,Marienburger,Blu Ray,91.0,,,2019,2019-05
-461,2019-05-18,Blues Brothers,John Landis,1980.0,Eglharting,Netflix,79.0,,,2019,2019-05
-463,2019-05-11,Fitzcarraldo,Werner Herzog,1982.0,Marienburger,DVD,69.0,,,2019,2019-05
-464,2019-05-10,Verachtung,Christoffer Boe,2018.0,UCI Colosseum,Kino,49.0,,Sneak,2019,2019-05
-467,2019-05-03,Fight Club,David Fincher,1999.0,Marienburger,DVD,98.0,,,2019,2019-05
-468,2019-05-01,Demolition,Jean-Marc Vallée,2016.0,Marienburger,Netflix,61.0,,,2019,2019-05
-469,2019-04-29,Climax,Gaspard Noé,2018.0,Marienburger,Blu Ray,73.0,,,2019,2019-04
-470,2019-04-27,Zodiac,David Fincher,2007.0,Marienburger,Netflix,78.0,,,2019,2019-04
-471,2019-04-24,Patong Girl,Susanna Salonen,2014.0,Marienburger,Netflix,71.0,,,2019,2019-04
-472,2019-04-23,At Eternity's Gate,Julian Schnabel,2018.0,Cinestar Kulturbrauerei,Kino,76.0,,,2019,2019-04
-474,2019-04-20,Anchorman,Adam McKay,2004.0,Marienburger,Netflix,69.0,,,2019,2019-04
-475,2019-04-15,The Old Man & the Gun,David Lowery,2018.0,Cinestar Kulturbrauerei,Kino,56.0,,,2019,2019-04
-477,2019-04-11,Der goldene Handschuh,Fatih Akin,2019.0,B-Ware Ladenkino,Kino,70.0,,,2019,2019-04
-478,2019-04-10,Green Book,Peter Farrelly,2018.0,Hackesche Hoefe Kino,Kino,75.0,,,2019,2019-04
-479,2019-04-09,Free Solo,Jimmy Chin,2018.0,Rollberg Kinos,Kino,70.0,,,2019,2019-04
-481,2019-03-30,There is nothing out there,Rolfe Kanefsky,1991.0,Bei Benni,DVD,63.0,,,2019,2019-03
-482,2019-03-29,Taken,Pierre Morel,2008.0,Eglharting,Netflix,69.0,,,2019,2019-03
-483,2019-03-26,Twarz,Malgorzata Szumowska,2018.0,Hackesche Hoefe Kino,Kino,51.0,,,2019,2019-03
-484,2019-03-23,127 Hours,Danny Boyle,2010.0,Eglharting,Netflix,77.0,,,2019,2019-03
-485,2019-03-22,Sully,Clint Eastwood,2016.0,Eglharting,Netflix,74.0,,,2019,2019-03
-486,2019-03-19,Captain Marvel,Anna Boden,2019.0,Cinestar Kulturbrauerei,Kino,69.0,,,2019,2019-03
-487,2019-03-18,The Mule,Clint Eastwood,2018.0,Cinestar Kulturbrauerei,Kino,65.0,,,2019,2019-03
-488,2019-03-15,8 Mile,Curtis Hanson,2002.0,Eglharting,Netflix,70.0,,,2019,2019-03
-489,2019-03-09,Hanami,Dorris Doerie,2008.0,Eglharting,Fernsehen,100.0,,,2019,2019-03
-490,2019-03-07,Moonlight,Barry Jenkins,2016.0,Eglharting,Netflix,74.0,,,2019,2019-03
-491,2019-03-06,Rush,Ron Howard,2013.0,Eglharting,Netflix,74.0,,,2019,2019-03
-492,2019-03-03,Vice,Adam McKay,2018.0,Kino International,Kino,79.0,,,2019,2019-03
-494,2019-02-24,The Godfather: Part II,Francis Ford Coppola,1974.0,Marienburger,Amazon Prime,92.0,,,2019,2019-02
-495,2019-02-22,The Godfather,Francis Ford Coppola,1972.0,Marienburger,Amazon Prime,95.0,,,2019,2019-02
-496,2019-02-22,Un chien andalou,Luis Bunuel,1929.0,Marienburger,Amazon Prime,63.0,,,2019,2019-02
-497,2019-02-17,Black Swan,Darren Aronofsky,2010.0,Marienburger,Netflix,85.0,,,2019,2019-02
-498,2019-02-16,Dawn of the Dead,Zack Snyder,2004.0,Marienburger,Netflix,76.0,,,2019,2019-02
-499,2019-02-15,Schindler's List,Steven Spielberg,1993.0,Marienburger,Amazon Prime,79.0,,,2019,2019-02
-500,2019-02-13,The Big Short,Adam McKay,2015.0,Marienburger,Blu Ray,97.0,,,2019,2019-02
-502,2019-02-10,By the name of Tania,,2019.0,Haus der Kulturen der Welt,Kino,60.0,,Berlinale,2019,2019-02
-503,2019-02-09,Capernaum,Nadine Labaki,2018.0,FSK,Kino,95.0,,,2019,2019-02
-504,2019-02-06,BlackkKlansman,Spike Lee,2018.0,Marienburger,Blu Ray,85.0,,,2019,2019-02
-506,2019-02-01,Face/Off,John Woo,1997.0,Porto,Netflix,76.0,,,2019,2019-02
-507,2019-01-28,The Ballad of Buster Scruggs,Coen Brueder,2018.0,Marienburger,Netflix,70.0,,,2019,2019-01
-508,2019-01-25,The Favourite,Yorgos Lanthimos,2018.0,Hackesche Hoefe Kino,Kino,71.0,,,2019,2019-01
-509,2019-01-24,Black Mirror: Bandersnatch,,2018.0,Marienburger,Netflix,73.0,,,2019,2019-01
-510,2019-01-18,Relatos salvajes,Damián Szifron,2014.0,Marienburger,Blu Ray,83.0,,,2019,2019-01
-512,2019-01-12,The House That Jack Built,Lars von Trier,2018.0,B-Ware Ladenkino,Kino,76.0,,,2019,2019-01
-513,2019-01-11,Shaun of the Dead,Edgar Wright,2004.0,Bei Markus,Netflix,85.0,,,2019,2019-01
-514,2019-01-10,Capernaum,Nadine Labaki,2018.0,Babylon Mitte,Kino,95.0,,Film des Jahres?,2019,2019-01
-516,2019-01-08,Bird Box,Susanne Bier,2018.0,Marienburger,Netflix,41.0,,Urgs,2019,2019-01
-517,2019-01-06,Metropolis,Fritz Lang,1927.0,Babylon Mitte,Kino,70.0,,Mit Live-Orchester,2019,2019-01
-520,2018-12-29,Roma,Alfonso Cuarón,2018.0,Torbole,Netflix,79.0,,,2018,2018-12
-521,2018-12-28,Sideways,Alexander Payne,2004.0,Bei Olli,DVD,69.0,,,2018,2018-12
-522,2018-12-27,Fantastic Beasts: The Crimes of Grindelwald,David Yates,2018.0,Mathaeser Muenchen,Kino,35.0,,,2018,2018-12
-523,2018-12-26,The Florida Project,Sean Baker,2017.0,Bei Lukas,Blu Ray,92.0,,,2018,2018-12
-524,2018-12-25,Ödipussi,Loriot,1988.0,Eglharting,DVD,92.0,,,2018,2018-12
-525,2018-12-23,Miracle on 34th Street,Les Mayfield,1994.0,Eglharting,Netflix,79.0,,,2018,2018-12
-527,2018-12-19,National Lampoon's Christmas Vacation,Jeremiah Chechik,1989.0,Eglharting,DVD,80.0,,,2018,2018-12
-528,2018-12-19,O Palmenbaum,Xaver Schwarzenberg,2000.0,Eglharting,DVD,83.0,,,2018,2018-12
-529,2018-12-18,Single Bells,Xaver Schwarzenberg,1998.0,Eglharting,DVD,79.0,,,2018,2018-12
-530,2018-12-16,Coco,Lee Unkrich,2017.0,Marienburger,Blu Ray,55.0,,,2018,2018-12
-531,2018-12-16,The Lord of the Rings: The Return of the King,Peter Jackson,2003.0,Marienburger,Blu Ray,96.0,,,2018,2018-12
-532,2018-12-13,Interstellar,Christopher Nolan,2014.0,Marienburger,Blu Ray,99.0,,,2018,2018-12
-533,2018-12-12,Blade Runner 2049,Denis Villeneuve,2017.0,Marienburger,Blu Ray,98.0,,,2018,2018-12
-536,2018-12-08,The Lord of the Rings: The Two Towers,Peter Jackson,2002.0,Marienburger,Blu Ray,98.0,,,2018,2018-12
-537,2018-12-08,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,2001.0,Marienburger,Blu Ray,93.0,,,2018,2018-12
-539,2018-12-02,Source Code,Duncan Jones,2011.0,Granada,Netflix,79.0,,,2018,2018-12
-540,2018-12-01,Nocturnal Animals,Tom Ford,2016.0,Granada,Netflix,72.0,,,2018,2018-12
-541,2018-12-01,Snatch,Guy Ritchie,2000.0,Granada,Netflix,70.0,,,2018,2018-12
-542,2018-11-28,Pi,Darren Aronofsky,1998.0,Bei Markus,DVD,79.0,,,2018,2018-11
-543,2018-11-20,The Machinist,Brad Anderson,2004.0,Marienburger,Netflix,77.0,,,2018,2018-11
-544,2018-11-18,Nosferatu,Friedrich Wilhelm Murnau,1922.0,Babylon Mitte,Kino,65.0,,"Mit Live-Orchester ""Metropolis""",2018,2018-11
-545,2018-11-14,The World's End,Edgar Wright,2013.0,Bei Markus,DVD,80.0,,,2018,2018-11
-546,2018-11-14,Das weiße Band - Eine deutsche Kindergeschichte,Michael Haneke,2009.0,Marienburger,Blu Ray,75.0,,,2018,2018-11
-547,2018-11-13,First Man,Damien Chazelle,2018.0,Hackesche Hoefe Kino,Kino,78.0,,,2018,2018-11
-548,2018-11-11,Catch me if you can,Steven Spielberg,2002.0,Marienburger,Netflix,81.0,,,2018,2018-11
-549,2018-11-09,Cabros de Mierda,Gonzalo Justiniano,2017.0,Babylon Mitte,Kino,63.0,,,2018,2018-11
-550,2018-11-04,Apocalypse Now,Francis Ford Coppola,1979.0,Marienburger,Blu Ray,98.0,,,2018,2018-11
-551,2018-11-02,Johnny English Strikes Again,David Kerr,2018.0,Cinestar Potsdamer Platz,Kino,51.0,,,2018,2018-11
-553,2018-10-21,Same Same But Different,Detlev Buck,2009.0,Marienburger,DVD,65.0,,,2018,2018-10
-554,2018-10-20,Deadpool 2,David Leitch,2018.0,KLM,Flugzeug,73.0,,Flug von BKK - AMS,2018,2018-10
-555,2018-10-20,Jurassic World: Fallen Kingdom,J.A. Bayona,2018.0,KLM,Flugzeug,53.0,,Flug von BKK - AMS,2018,2018-10
-556,2018-10-20,Jumanji: Welcome to the Jungle,Jake Kasdan,2017.0,KLM,Flugzeug,55.0,,Flug von BKK - AMS,2018,2018-10
-557,2018-10-20,Frozen,Chris Buck,2013.0,KLM,Flugzeug,56.0,,Flug von BKK - AMS,2018,2018-10
-558,2018-10-15,Iron Man,Jon Favreau,2008.0,Koh Rong Samloen,Netflix,78.0,,,2018,2018-10
-559,2018-10-04,Solo: A Star Wars Story,Ron Howard,2018.0,KLM,Flugzeug,60.0,,Flug AMS - BKK,2018,2018-10
-560,2018-10-04,Ready Player One,Steven Spielberg,2018.0,KLM,Flugzeug,80.0,,Flug AMS - BKK,2018,2018-10
-562,2018-09-28,The Man Who Killed Don Quixote,Terry Gilliam,2018.0,Hackesche Hoefe Kino,Kino,45.0,,,2018,2018-09
-565,2018-09-13,Paradies: Hoffnung,Ulrich Seidl,2013.0,Marienburger,Netflix,74.0,,,2018,2018-09
-566,2018-09-09,Germania anno zero,Roberto Rossellini,1948.0,Marienburger,DVD,71.0,,,2018,2018-09
-567,2018-09-08,Ex Machina,Alex Garland,2014.0,Marienburger,Blu Ray,93.0,,,2018,2018-09
-568,2018-09-05,Paradies: Glaube,Ulrich Seidl,2012.0,Marienburger,Netflix,72.0,,,2018,2018-09
-569,2018-09-04,Breaking Bad: Pilot,,1.0,Marienburger,Netflix,49.0,,,2018,2018-09
-570,2018-09-03,Mad Max: Fury Road,George Miller,2015.0,Marienburger,Blu Ray,95.0,,,2018,2018-09
-571,2018-09-15,Dark - Staffel 1,,1.0,Marienburger,Netflix,36.0,,,2018,2018-09
-572,2018-09-15,Das Leben der Anderen,Florian Henckel von Donnersmarck,2006.0,Marienburger,Netflix,86.0,,,2018,2018-09
-573,2018-08-26,The Great Gatsby,Baz Luhrmann,2013.0,Marienburger,Netflix,67.0,,,2018,2018-08
-574,2018-08-20,Life of Brian,Terry Jones,1979.0,Marienburger,Netflix,78.0,,,2018,2018-08
-575,2018-08-18,Watchmen,Zack Snyder,2009.0,Marienburger,Netflix,74.0,,,2018,2018-08
-576,2018-08-16,Train to Busan,Sang-ho Yeon,2016.0,Marienburger,Netflix,74.0,,,2018,2018-08
-577,2018-08-14,The Big Lebowski,Coen Brueder,1998.0,Babylon Mitte,Kino,92.0,,,2018,2018-08
-579,2018-08-03,Avatar,James Cameron,2009.0,Marienburger,Blu Ray,91.0,,Erster Film mit neuem Blu Ray Player,2018,2018-08
-580,2018-07-21,Back to the Future Part III,Robert Zemeckis,1990.0,Marienburger,Netflix,92.0,,,2018,2018-07
-581,2018-07-15,The Secret Life of Walter Mitty,Ben Stiller,2013.0,Marienburger,Netflix,86.0,,,2018,2018-07
-583,2018-07-06,2001: A Space Odyssey,Stanley Kubrick,1968.0,Freiluftkino Pompeji,Freiluftkino,96.0,,,2018,2018-07
-585,2018-06-10,Isle Of Dogs,Wes Anderson,2018.0,Hackesche Hoefe Kino,Kino,89.0,,Film des Jahres?,2018,2018-06
-591,2018-05-15,The Incredible Hulk,Louis Leterrier,2008.0,Rodenbergstrasse,Netflix,68.0,,,2018,2018-05
-592,2018-05-11,Avengers: Infinity War,Joe Russo,2018.0,Cinestar Potsdamer Platz,Kino,95.0,,Film des Jahres?,2018,2018-05
-593,2018-05-09,Robin Hood,Ridley Scott,2010.0,Rodenbergstrasse,Netflix,59.0,,,2018,2018-05
-595,2018-05-04,A Quiet Place,John Krasinski,2018.0,B-Ware Ladenkino,Kino,70.0,,,2018,2018-05
-596,2018-04-30,Son of Saul,László Nemes,2015.0,Rodenbergstrasse,Blu Ray,78.0,,,2018,2018-04
-597,2018-04-28,The People vs. Larry Flynt,Milos Forman,1996.0,Pirna,Netflix,75.0,,,2018,2018-04
-598,2018-04-26,The Motorcycle Diaries,Walter Salles,2004.0,Rodenbergstrasse,Netflix,68.0,,,2018,2018-04
-599,2018-04-22,Paradies: Liebe,Ulrich Seidl,2012.0,Rodenbergstrasse,Netflix,73.0,,,2018,2018-04
-600,2018-04-20,Lady Bird,Greta Gerwig,2017.0,Hackesche Hoefe Kino,Kino,70.0,,,2018,2018-04
-602,2018-04-13,Avatar,James Cameron,2009.0,Rodenbergstrasse,Blu Ray,91.0,,,2018,2018-04
-603,2018-04-09,Centurion,Neil Marshall,2010.0,Rodenbergstrasse,Netflix,63.0,,,2018,2018-04
-605,2018-04-06,Annihilation,Alex Garland,2018.0,Rodenbergstrasse,Netflix,79.0,,,2018,2018-04
-606,2018-04-01,Death on the Nile,John Guillermin,1978.0,Eglharting,Fernsehen,90.0,,,2018,2018-04
-607,2018-04-01,Breakfast at Tiffany's,Blake Edwards,1961.0,Eglharting,Fernsehen,85.0,,,2018,2018-04
-609,2018-03-30,All is Lost,J. C. Chandor,2013.0,Eglharting,Fernsehen,79.0,,,2018,2018-03
-610,2018-03-30,The Green Mile,Frank Darabont,1999.0,Eglharting,Fernsehen,89.0,,teilweise mit Mami,2018,2018-03
-612,2018-03-28,The Florida Project,Sean Baker,2017.0,Hackesche Hoefe Kino,Kino,89.0,,,2018,2018-03
-614,2018-03-24,Wir Wunderkinder,Kurt Hoffmann,1958.0,Eglharting,DVD,79.0,,,2018,2018-03
-615,2018-03-21,Wonder Woman,Patty Jenkins,2017.0,Rodenbergstrasse,Blu Ray,70.0,,,2018,2018-03
-616,2018-03-19,Paul,Greg Mottola,2011.0,Bei Markus,DVD,61.0,,,2018,2018-03
-618,2018-03-18,Loving Vincent,"Dorota Kobiela, Hugh Welchman",2017.0,Cinestar Kulturbrauerei,Kino,92.0,,,2018,2018-03
-619,2018-03-17,Rear Window,Alfred Hitchcock,1954.0,Rodenbergstrasse,DVD,93.0,,,2018,2018-03
-620,2018-03-16,The Mummy Returns,Stephen Sommers,2001.0,Rodenbergstrasse,DVD,74.0,,,2018,2018-03
-621,2018-03-15,The Mummy,Stephen Sommers,1999.0,Rodenbergstrasse,DVD,77.0,,,2018,2018-03
-622,2018-03-14,Arthur and Claire,Miguel Alexandre,2017.0,Hackesche Hoefe Kino,Kino,70.0,,,2018,2018-03
-623,2018-03-10,Symphonie einer Weltstadt,Leo de Laforgue,1950.0,Passionskirche,Kino,70.0,,,2018,2018-03
-624,2018-03-08,The Post,Steven Spielberg,2017.0,Hackesche Hoefe Kino,Kino,71.0,,,2018,2018-03
-625,2018-03-07,La La Land,Damien Chazelle,2016.0,Rodenbergstrasse,Blu Ray,83.0,,,2018,2018-03
-626,2018-03-06,Interstellar,Christopher Nolan,2014.0,Rodenbergstrasse,Blu Ray,97.0,,,2018,2018-03
-627,2018-02-23,The Disaster Artist,James Franco,2017.0,Hackesche Hoefe Kino,Kino,92.0,,,2018,2018-02
-628,2018-02-22,The Shape of Water,Guillermo del Toro,2017.0,Babylon Kreuzberg,Kino,79.0,,,2018,2018-02
-629,2018-02-09,Phantom Thread,Paul Thomas Anderson,2017.0,Hackesche Hoefe Kino,Kino,73.0,,,2018,2018-02
-631,2018-02-04,"Three Billboards outside Ebbing, Missouri",Martin McDonagh,2017.0,Hackesche Hoefe Kino,Kino,94.0,,Film des Jahres?,2018,2018-02
-632,2018-01-29,The Fountain,Darren Aronofsky,2006.0,Rodenbergstrasse,DVD,76.0,,,2018,2018-01
-634,2018-01-24,Solaris,Andrej Tarkowski,1972.0,Babylon Mitte,Kino,85.0,,,2018,2018-01
-635,2018-01-21,Eyes Wide Shut,Stanley Kubrick,1999.0,Rodenbergstrasse,Blu Ray,75.0,,,2018,2018-01
-636,2018-01-19,The Host,Bong Joon-Ho,2006.0,Rodenbergstrasse,DVD,90.0,,,2018,2018-01
-637,2018-01-18,Loving Vincent,"Dorota Kobiela, Hugh Welchman",2017.0,Hackesche Hoefe Kino,Kino,89.0,,,2018,2018-01
-638,2018-01-08,Dogtooth,Yorgos Lanthimos,2009.0,Babylon Mitte,Kino,79.0,,,2018,2018-01
-639,2018-01-07,(500) Days of Summer,Marc Webb,2009.0,Rodenbergstrasse,Netflix,75.0,,,2018,2018-01
-640,2018-01-06,Modern Times,Charlie Chaplin,1936.0,Babylon Mitte,Kino,75.0,,,2018,2018-01
-641,2018-01-05,The Killing of a Sacred Deer,Yorgos Lanthimos,2017.0,Cinestar Kulturbrauerei,Kino,85.0,,,2018,2018-01
-643,2018-01-04,Soul Kitchen,Fatih Akin,2009.0,Rodenbergstrasse,Netflix,85.0,,,2018,2018-01
-644,2018-01-02,Stand by Me,Rob Reiner,1986.0,Rodenbergstrasse,DVD,81.0,,,2018,2018-01
-645,2018-01-01,Cloud Atlas,"Tom Tykwer, Lana Wachowski, Lilly Wachowski",2012.0,Rodenbergstrasse,Blu Ray,79.0,,,2018,2018-01
-646,2018-03-13,Interstellar,Christopher Nolan,2014.0,Rodenbergstrasse,Blu Ray,100.0,,,2018,2018-03
-647,2017-05-05,Jurassic World,Colin Trevorrow,2015.0,Rodenbergstrasse,Blu Ray,78.0,,,2017,2017-05
-648,2017-12-27,Star Wars: Episode VIII - The Last Jedi,Rian Johnson,2017.0,Mathaeser Muenchen,Kino,65.0,,,2017,2017-12
-649,2017-12-28,Mad Max: Fury Road,George Miller,2015.0,Bei Lukas,Blu Ray,90.0,,,2017,2017-12
-652,2017-12-15,Inside Out,Pete Docter,2015.0,Rodenbergstrasse,Netflix,60.0,,,2017,2017-12
-653,2017-12-08,The Lord of the Rings: The Return of the King,Peter Jackson,2003.0,Rodenbergstrasse,Blu Ray,95.0,,,2017,2017-12
-654,2017-12-05,Manifesto,Julian Rosefeldt,2015.0,Hackesche Hoefe Kino,Kino,67.0,,,2017,2017-12
-655,2017-12-04,Aus dem Nichts,Fatih Akin,2017.0,Hackesche Hoefe Kino,Kino,85.0,,,2017,2017-12
-657,2017-12-01,Detroit,Kathryn Bigelow,2017.0,Hackesche Hoefe Kino,Kino,92.0,,,2017,2017-12
-660,2017-11-29,Stranger Things Staffel 2,,1.0,Rodenbergstrasse,Netflix,52.0,,,2017,2017-11
-661,2017-11-26,The Lord of the Rings: The Two Towers,Peter Jackson,2002.0,Rodenbergstrasse,DVD,97.0,,,2017,2017-11
-662,2017-11-25,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,2001.0,Rodenbergstrasse,Blu Ray,96.0,,,2017,2017-11
-663,2017-11-14,Fear and Loathing in Las Vegas,Terry Gilliam,1998.0,Rodenbergstrasse,Blu Ray,85.0,,,2017,2017-11
-664,2017-11-12,The Dark Knight,Christopher Nolan,2008.0,Rodenbergstrasse,Blu Ray,98.0,,Premiere des Beamers,2017,2017-11
-665,2017-11-10,Simpel,Markus Goller,2017.0,UCI Colosseum,Kino,59.0,,Sneak,2017,2017-11
-667,2017-11-04,Stranger Things Staffel 1,,1.0,Rodenbergstrasse,Netflix,65.0,,,2017,2017-11
-668,2017-10-29,Mother!,Darren Aronofsky,2017.0,Kino Zukunft,Kino,74.0,,,2017,2017-10
-669,2017-10-15,La grande bellezza,Paolo Sorrentino,2013.0,Rodenbergstrasse,Blu Ray,65.0,,,2017,2017-10
-670,2017-10-27,Baby Driver,Edgar Wright,2017.0,UCI Colosseum,Kino,65.0,,Sneak,2017,2017-10
-671,2017-06-06,The Square,Ruben Östlund,2017.0,Hackesche Hoefe Kino,Kino,85.0,,,2017,2017-06
-672,2017-10-23,Blade Runner 2049,Denis Villeneuve,2017.0,Hackesche Hoefe Kino,Kino,95.0,,,2017,2017-10
-673,2017-10-22,Happy End,Michael Haneke,2017.0,Hackesche Hoefe Kino,Kino,64.0,,,2017,2017-10
-674,2017-10-19,La Strada,Federico Fellini,1954.0,Babylon Mitte,,73.0,,,2017,2017-10
-675,2017-10-18,Elle,Paul Verhoeven,2016.0,Rodenbergstrasse,Blu Ray,76.0,,,2017,2017-10
-676,2017-09-15,It: Chapter One,Andres Muschietti,2017.0,Cinestar Potsdamer Platz,Kino,76.0,,,2017,2017-09
-677,2017-08-15,Dunkirk,Christopher Nolan,2017.0,Cinestar Potsdamer Platz,Kino,84.0,,,2017,2017-08
-678,2017-08-27,The Lobster,Yorgos Lanthimos,2015.0,Rodenbergstrasse,DVD,87.0,,,2017,2017-08
-679,2017-08-23,Valerian and the City of a Thousand Planets,Luc Besson,2017.0,Cinestar Potsdamer Platz,Kino,65.0,,,2017,2017-08
-680,2017-08-21,"Maria, ihm schmeckt's nicht!",Neele Vollmar,2009.0,Rodenbergstrasse,Netflix,60.0,,,2017,2017-08
-681,2017-08-14,The Party,Ben Falcone,2018.0,Cinestar Kulturbrauerei,Kino,73.0,,,2017,2017-08
-683,2017-07-23,300: Rise of an Empire,Noam Murro,2014.0,Rodenbergstrasse,Blu Ray,70.0,,,2017,2017-07
-684,2017-07-22,The Beguiled,Sophia Coppola,2017.0,Hackesche Hoefe Kino,Kino,65.0,,,2017,2017-07
-685,2017-07-21,300,Zack Snyder,2007.0,Rodenbergstrasse,Blu Ray,85.0,,,2017,2017-07
-686,2017-07-16,Der Himmel ueber Berlin,Wim Wenders,1987.0,Lichtblick-Kino,Kino,79.0,,,2017,2017-07
-687,2017-07-12,Blade Runner,Ridley Scott,1982.0,Cassiopeia,Freiluftkino,94.0,,,2017,2017-07
-688,2017-07-15,War for the Planet of the Apes,Matt Reeves,2017.0,Rodenbergstrasse,Blu Ray,81.0,,,2017,2017-07
-689,2017-07-15,Rise of the Planet of the Apes,Rupert Wyatt,2011.0,Rodenbergstrasse,Blu Ray,84.0,,,2017,2017-07
-690,2017-07-15,Dawn of the Planet of the Apes,Matt Reeves,2014.0,Rodenbergstrasse,Blu Ray,83.0,,,2017,2017-07
-691,2017-07-15,Get Out,Jordan Peele,2017.0,Babylon Mitte,Kino,75.0,,,2017,2017-07
-695,2017-05-25,Wall-E,Andrew Stanton,2008.0,British Airways,Flugzeug,70.0,,,2017,2017-05
-696,2017-05-25,Suicide Squad,David Ayer,2016.0,British Airways,Flugzeug,60.0,,,2017,2017-05
-697,2017-05-15,Alien: Covenant,Ridley Scott,2017.0,Kino in Punta Arenas,Kino,71.0,,,2017,2017-05
-698,2017-05-15,Batman Begins,Christopher Nolan,2005.0,Ushuaia,Fernsehen,79.0,,,2017,2017-05
-699,2017-05-15,Inside Man,Spike Lee,2006.0,Ushuaia,Fernsehen,86.0,,,2017,2017-05
-700,2017-05-15,Logan,James Mangold,2017.0,Im Bus in Patagonien,Fernsehen,70.0,,,2017,2017-05
-701,2017-05-15,X-Men Origins: Wolverine,Gavin Hood,2009.0,Im Bus in Patagonien,Fernsehen,65.0,,,2017,2017-05
-702,2017-04-11,Doctor Strange,Scott Derrickson,2016.0,British Airways,Flugzeug,69.0,,,2017,2017-04
-703,2017-04-11,The Lego Batman Movie,,2017.0,British Airways,Flugzeug,65.0,,,2017,2017-04
-704,2017-04-11,Passengers,Morten Tyldum,2016.0,British Airways,Flugzeug,69.0,,,2017,2017-04
-705,2017-04-11,The Day The Earth Stood Still,Scott Derrickson,2008.0,British Airways,Flugzeug,65.0,,,2017,2017-04
-706,2017-03-15,Trainspotting,Danny Boyle,1996.0,Rodenbergstrasse,DVD,87.0,,,2017,2017-03
-707,2017-03-08,The Wrestler,Darren Aronofsky,2008.0,Rodenbergstrasse,DVD,85.0,,,2017,2017-03
-709,2017-03-06,Inception,Christopher Nolan,2010.0,Rodenbergstrasse,DVD,94.0,,,2017,2017-03
-710,2017-02-18,No Country for old Men,Coen Brueder,2007.0,Rodenbergstrasse,DVD,89.0,,,2017,2017-02
-711,2017-02-16,Manchester by the Sea,David Lowery,2016.0,Babylon Kreuzberg,Kino,83.0,,,2017,2017-02
-712,2017-02-06,Night on Earth,Jim Jarmusch,1991.0,Babylon Mitte,Kino,83.0,,,2017,2017-02
-713,2017-02-15,T2 Trainspotting,Danny Boyle,2017.0,Kino Central,Kino,74.0,,,2017,2017-02
-714,2017-01-21,Split,M. Night Shyamalan,2016.0,Kino Central,Kino,75.0,,,2017,2017-01
-715,2017-01-15,Arrival,Denis Villeneuve,2016.0,Kino Central,Kino,80.0,,,2017,2017-01
-716,2017-01-15,Wild,Jean-Marc Vallée,2014.0,Rodenbergstrasse,Blu Ray,72.0,,,2017,2017-01
-717,2017-01-15,Brazil,Terry Gilliam,1985.0,Rodenbergstrasse,DVD,87.0,,,2017,2017-01
-718,2017-01-15,Aliens,James Cameron,1986.0,Rodenbergstrasse,Blu Ray,95.0,,,2017,2017-01
-719,2017-01-15,Alien 3,David Fincher,1992.0,Rodenbergstrasse,Blu Ray,91.0,,,2017,2017-01
-720,2017-01-15,Alien: Resurrection,Jean-Pierre Jeunet,1997.0,Rodenbergstrasse,Blu Ray,73.0,,,2017,2017-01
-721,2017-01-15,Prometheus,Ridley Scott,2012.0,Rodenbergstrasse,Blu Ray,80.0,,,2017,2017-01
-722,2016-12-16,Interstellar,Christopher Nolan,2014.0,Zug,Blu Ray,99.0,,,2016,2016-12
-723,2016-12-30,Alien,Ridley Scott,1979.0,Rodenbergstrasse,DVD,95.0,,,2016,2016-12
-724,2016-12-28,Star Wars: Episode II - Attack of the Clones,George Lucas,2002.0,Eglharting,DVD,75.0,,,2016,2016-12
-725,2016-12-26,Rogue One,Gareth Edwards,2016.0,Cinemaxx Muenchen,Kino,70.0,,,2016,2016-12
-727,2016-12-15,La Piel Que Habito,Pedro Almodovar,2011.0,Bei Lukas,Netflix,79.0,,,2016,2016-12
-728,2016-12-15,Ex Machina,Alex Garland,2014.0,Bei Lukas,Blu Ray,96.0,,,2016,2016-12
-729,2016-12-17,Single Bells,Xaver Schwarzenberg,1998.0,Eglharting,DVD,85.0,,,2016,2016-12
-730,2016-12-17,O Palmenbaum,Xaver Schwarzenberg,2000.0,Eglharting,DVD,84.0,,,2016,2016-12
-731,2016-12-01,Money Monster,Jodie Foster,2016.0,British Airways,Flugzeug,75.0,,,2016,2016-12
-732,2016-12-15,The Lord of the Rings: The Return of the King,Peter Jackson,2003.0,Rodenbergstrasse,Blu Ray,97.0,,,2016,2016-12
-733,2016-12-15,The Lord of the Rings: The Two Towers,Peter Jackson,2002.0,Rodenbergstrasse,DVD,96.0,,,2016,2016-12
-734,2016-12-15,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,2001.0,Rodenbergstrasse,DVD,95.0,,,2016,2016-12
-735,2016-11-27,X-Men Origins: Wolverine,Gavin Hood,2009.0,British Airways,Flugzeug,65.0,,,2016,2016-11
-737,2016-11-01,Schneider vs. Bax,Alex van Warmerdam,2015.0,B-Ware Ladenkino,Kino,65.0,,,2016,2016-11
-738,2016-10-02,The Big Short,Adam McKay,2015.0,Stockholm,Netflix,95.0,,,2016,2016-10
-739,2016-10-01,Pulp Fiction,Quentin Tarantino,1994.0,Stockholm,Netflix,96.0,,,2016,2016-10
-740,2016-09-01,Cars,John Lasseter,2006.0,KLM,Flugzeug,70.0,,Flug nach Manila,2016,2016-09
-741,2016-09-01,The Jungle Book,Jon Favreau,2016.0,KLM,Flugzeug,60.0,,Flug nach Manila,2016,2016-09
-742,2016-09-01,The Jungle Book,Wolfgang Reitherman,1967.0,KLM,Flugzeug,80.0,,Flug nach Manila,2016,2016-09
-743,2016-08-01,Batman v Superman: Dawn of Justice,Zack Snyder,2016.0,KLM,Flugzeug,81.0,,,2016,2016-08
-744,2016-08-01,Man of Steel,Zack Snyder,2013.0,KLM,Flugzeug,80.0,,,2016,2016-08
-745,2016-08-01,Captain America: Civil War,Joe Russo,2016.0,KLM,Flugzeug,84.0,,,2016,2016-08
-746,2016-08-01,Iron Man,Jon Favreau,2008.0,KLM,Flugzeug,83.0,,,2016,2016-08
-747,2016-08-01,X-Men Apocalypse,Bryan Singer,2016.0,KLM,Flugzeug,76.0,,,2016,2016-08
-748,2016-07-22,Colonia,Florian Gallenberger,2015.0,Freiluftkino Kreuzberg,Freiluftkino,74.0,,,2016,2016-07
-749,2016-07-14,Warcraft,Duncan Jones,2016.0,UCI Colosseum,Kino,70.0,,,2016,2016-07
-750,2016-03-29,a pigeon sat on a branch reflecting on existence,Roy Andersson,2014.0,Bologna,other Streaming,83.0,,,2016,2016-03
-751,2016-03-25,Angst Essen Seele auf,Rainer Werner Fassbinder,1974.0,Rodenbergstrasse,other Streaming,83.0,,,2016,2016-03
-752,2016-03-19,Room,Lenny Abrahamson,2015.0,Hackesche Hoefe Kino,Kino,84.0,,,2016,2016-03
-753,2016-03-18,The Finest Hours,Craig Gillespie,2016.0,UCI Colosseum,Kino,59.0,,Sneak,2016,2016-03
-754,2016-03-11,Criminal Activities,Jackie Earle Haley,2015.0,UCI Colosseum,Kino,42.0,,Sneak,2016,2016-03
-755,2016-03-07,"Hail, Caesar!",Coen Brueder,2016.0,Cinestar Kulturbrauerei,Kino,64.0,,,2016,2016-03
-756,2016-03-05,Spotlight,Tom McCarthy,2015.0,Kino Central,Kino,70.0,,,2016,2016-03
-757,2016-02-20,The Martian,Ridley Scott,2015.0,SAS,Flugzeug,80.0,,,2016,2016-02
-758,2016-02-20,Steve Jobs,Danny Boyle,2015.0,SAS,Flugzeug,75.0,,,2016,2016-02
-759,2016-02-20,Pixels,Chris Columbus,2015.0,SAS,Flugzeug,65.0,,,2016,2016-02
-761,2016-02-07,Fight Club,David Fincher,1999.0,Bei Markus,DVD,95.0,,,2016,2016-02
-762,2016-01-29,The Hateful Eight,Quentin Tarantino,2015.0,Hackesche Hoefe Kino,Kino,97.0,,,2016,2016-01
-763,2016-01-29,Festen,Thomas Vinterberg,1998.0,Bei Markus,DVD,91.0,,,2016,2016-01
-764,2016-01-22,Victor Frankenstein,Paul McGuigan,2015.0,UCI Colosseum,Kino,61.0,,Sneak,2016,2016-01
-765,2016-01-18,Le tout nouveau testament,Jaco Van Dormael,2015.0,Kino Zukunft,Kino,60.0,,,2016,2016-01
-766,2016-01-17,The Big Short,Adam McKay,2015.0,Kino Central,Kino,95.0,,,2016,2016-01
-768,2016-01-09,Snowpiercer,Bong Joon-Ho,2013.0,Bei Andrea,DVD,86.0,,,2016,2016-01
-769,2016-01-15,Goosebumps,Rob Letterman,2015.0,UCI Colosseum,Kino,65.0,,Sneak,2016,2016-01
-770,2016-01-12,Carol,Todd Haynes,2015.0,Kino am Friedrichshain,Kino,74.0,,,2016,2016-01
-771,2016-01-10,The Revenant,Guillermo del Toro,2015.0,Kino am Friedrichshain,Kino,81.0,,,2016,2016-01
-773,2016-08-24,Seefeuer,Gianfranco Rosi,2016.0,Freiluftkino Friedrichshain,Freiluftkino,75.0,,,2016,2016-08
-776,2015-12-15,a pigeon sat on a branch reflecting on existence,Roy Andersson,2014.0,Babylon Kreuzberg,Kino,83.0,,,2015,2015-12
-777,2015-12-20,National Lampoon's Christmas Vacation,Jeremiah S. Chechik,1989.0,Eglharting,DVD,80.0,,,2015,2015-12
-778,2015-12-28,Ex Machina,Alex Garland,2014.0,Bei Lukas,Blu Ray,95.0,,,2015,2015-12
-779,2015-12-27,Star Wars: Episode VII - The Force Awakens,J.J. Abrams,2015.0,Mathaeser Muenchen,Kino,73.0,,,2015,2015-12
-781,2015-12-16,Back to the Future Part III,Robert Zemeckis,1990.0,Berchtesgaden,DVD,95.0,,,2015,2015-12
-782,2015-12-16,Back to the Future Part II,Robert Zemeckis,1989.0,Berchtesgaden,DVD,90.0,,,2015,2015-12
-783,2015-12-16,Back to the Future,Robert Zemeckis,1985.0,Berchtesgaden,DVD,96.0,,,2015,2015-12
-784,2015-12-14,Jurassic Park,Steven Spielberg,1993.0,Berchtesgaden,DVD,93.0,,,2015,2015-12
-786,2015-11-15,The Lord of the Rings: The Return of the King,Peter Jackson,2003.0,Rodenbergstrasse,Blu Ray,95.0,,,2015,2015-11
-787,2015-11-15,The Lord of the Rings: The Two Towers,Peter Jackson,2002.0,Rodenbergstrasse,Blu Ray,98.0,,,2015,2015-11
-788,2015-11-15,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,2001.0,Rodenbergstrasse,Blu Ray,93.0,,,2015,2015-11
-789,2015-08-20,A Fish called Wanda,Charles Crichton,1988.0,Bei Andrea,DVD,89.0,,,2015,2015-08
-790,2015-05-14,Mad Max: Fury Road,George Miller,2015.0,Kino am Friedrichshain,Kino,95.0,,,2015,2015-05
-791,2015-02-23,Iwans Kindheit,Andrej Tarkowski,1962.0,Rodenbergstrasse,other Streaming,71.0,,,2015,2015-02
-792,2015-03-11,Ida,Pawel Pawlikowski,2013.0,Rodenbergstrasse,other Streaming,65.0,,,2015,2015-03
-793,2015-03-25,Turist,Ruben Östlund,2014.0,Rodenbergstrasse,other Streaming,85.0,,,2015,2015-03
-794,2015-08-08,Das Salz der Erde,Wim Wenders,2014.0,Freiluftkino Rehberge,Freiluftkino,83.0,,,2015,2015-08
-796,2015-11-11,Turtles,Jonathan Liebesman,2014.0,UCI Colosseum,Kino,56.0,,,2015,2015-11
-799,2014-12-30,Avatar,James Cameron,2009.0,Eglharting,Blu Ray,92.0,,,2014,2014-12
-800,2014-12-28,Children of Men,Alfonso Cuaron,2006.0,Eglharting,Blu Ray,85.0,,,2014,2014-12
-802,2014-11-14,Interstellar,Christopher Nolan,2014.0,Cinestar Potsdamer Platz,Kino,99.0,,,2014,2014-11
-803,2014-08-12,Jeder für sich und Gott gegen alle,Werner Herzog,1974.0,Rodenbergstrasse,DVD,65.0,,,2014,2014-08
-804,2014-08-26,Magnolia,Paul Thomas Anderson,1999.0,Rodenbergstrasse,DVD,100.0,,,2014,2014-08
-805,2014-08-04,2001: A Space Odyssey,Stanley Kubrick,1968.0,Freiluftkino Friedrichshain,Freiluftkino,99.0,,,2014,2014-08
-807,2014-01-13,All is Lost,J. C. Chandor,2013.0,Hackesche Hoefe Kino,Kino,82.0,,,2014,2014-01
-808,2014-04-30,Snowpiercer,Bong Joon-Ho,2013.0,Kino International,Kino,85.0,,,2014,2014-04
-809,2014-08-12,Boyhood,Richard Linklater,2014.0,Freiluftkino Rehberge,Freiluftkino,70.0,,,2014,2014-08
-811,2013-11-12,Tanz der Teufel 2 - Jetzt wird noch mehr getanzt,Sam Raimi,1987.0,Rodenbergstrasse,DVD,81.0,,,2013,2013-11
-812,2013-08-11,The Shining,Stanley Kubrick,1980.0,Lichtblick-Kino,Kino,89.0,,,2013,2013-08
-813,2013-08-11,Kohlhaas oder die Verhältnismäßigkeit der Mittel,Aron Lehmann,2013.0,Lichtblick-Kino,Kino,65.0,,,2013,2013-08
-814,2013-06-11,"Dude, where's my car?",Danny Leiner,2000.0,Bei Dagmar,DVD,80.0,,,2013,2013-06
-815,2013-11-05,Inglourious Basterds,Quentin Tarantino,2009.0,Rodenbergstrasse,DVD,95.0,,,2013,2013-11
-816,2013-11-03,Evil Dead,Aaron Morton,2013.0,Rodenbergstrasse,DVD,75.0,,,2013,2013-11
-817,2013-03-12,Tropa de Elite 2,José Padilha,2010.0,Brasilien,Cuevana,80.0,,,2013,2013-03
-818,2013-03-12,Tropa de Elite,José Padilha,2007.0,Brasilien,Cuevana,90.0,,,2013,2013-03
-819,2013-03-10,The Shawshank Redemption,Frank Darabont,1994.0,Brasilien,Cuevana,99.0,,,2013,2013-03
-820,2013-02-04,Amour,Michael Haneke,2012.0,Chile,Kino,82.0,,,2013,2013-02
-822,2014-12-28,The Hobbit: The Battle of the Five Armies,Peter Jackson,2014.0,Mathaeser Muenchen,Kino,70.0,,,2014,2014-12
-823,2013-12-28,The Hobbit: The Desolation of Smaug,Peter Jackson,2013.0,Mathaeser Muenchen,Kino,70.0,,,2013,2013-12
-824,2012-12-28,The Hobbit: An Unexpected Journey,Peter Jackson,2012.0,Mathaeser Muenchen,Kino,70.0,,,2012,2012-12
-826,2012-02-01,Kill Bill: Vol. 2,Quentin Tarantino,2004.0,Eglharting,DVD,94.0,,,2012,2012-02
-827,2012-02-01,Kill Bill: Vol. 1,Quentin Tarantino,2003.0,Eglharting,DVD,96.0,,,2012,2012-02
-828,2012-11-13,Napoleon Dynamite,Jared Hess,2004.0,Bei Andrea,DVD,77.0,,,2012,2012-11
-829,2012-09-05,Amour,Michael Haneke,2012.0,Kant Kino,Kino,82.0,,,2012,2012-09
-830,2012-09-06,Salo o le 120 giornate di Sodoma,Pier Paolo Pasolini,1975.0,Filmrauschpalast,Kino,70.0,,,2012,2012-09
-831,2012-06-15,The Dark Knight Rises,Christopher Nolan,2012.0,Odeon,Kino,75.0,,,2012,2012-06
-832,2012-08-25,Idioterne,Lars von Trier,1998.0,Bei Andrea,DVD,75.0,,,2012,2012-08
-833,2012-08-12,Y también la lluvia,Icíar Bollaín,2010.0,Freiluftkino Hasenheide,Freiluftkino,65.0,,,2012,2012-08
-838,2012-05-12,Mulholland Dr.,David Lynch,2001.0,Bei Andrea,DVD,95.0,,,2012,2012-05
-840,2011-01-01,The Ides of March,George Clooney,2011.0,,Kino,75.0,,,2011,2011-01
-842,2011-08-11,Donnie Darko,Richard Kelly,2001.0,Eglharting,DVD,95.0,,,2011,2011-08
-843,2011-02-02,Black Swan,Darren Aronofsky,2010.0,Hackesche Hoefe Kino,Kino,85.0,,,2011,2011-02
-848,2011-01-20,Drive,Nicolas Winding Refn,2011.0,,Kino,75.0,,,2011,2011-01
-850,2010-09-24,Machuca,Andrés Wood,2004.0,Bei Dali,DVD,80.0,,,2010,2010-09
-851,2010-05-09,Inglourious Basterds,Quentin Tarantino,2009.0,Bei Dali,DVD,95.0,,,2010,2010-05
-852,2010-09-12,Das weiße Band - Eine deutsche Kindergeschichte,Michael Haneke,2009.0,Chile,Kino,85.0,,,2010,2010-09
-853,2010-07-13,Irreversible,Gaspard Noé,2002.0,Bei Dali,DVD,63.0,,,2010,2010-07
-854,2010-04-16,Avatar,James Cameron,2009.0,Capitol Grafing,Kino,87.0,,,2010,2010-04
-855,2010-02-01,Avatar,James Cameron,2009.0,Cinemaxx Passau,Kino,87.0,,,2010,2010-02
-856,2010-02-01,Magnolia,Paul Thomas Anderson,1999.0,Passau,DVD,100.0,,,2010,2010-02
-857,2010-02-08,Magnolia,Paul Thomas Anderson,1999.0,Passau,DVD,100.0,,,2010,2010-02
-858,2010-02-26,Shutter Island,Martin Scorsese,2010.0,Cinemaxx Passau,Kino,92.0,,,2010,2010-02
-860,2009-11-11,La Buena Vida,Andrés Wood,2008.0,Normandie,Kino,67.0,,,2009,2009-11
-861,2009-08-02,Solaris,Andrej Tarkowski,1972.0,Passau,Kino,83.0,,,2009,2009-08
-862,2008-10-04,Lisbon Story,Wim Wenders,1994.0,Bei Dali,DVD,60.0,,,2008,2008-10
-863,2008-09-05,Eternal Sunshine of a Spotless Mind,Michael Gondry,2004.0,Bei Dali,DVD,84.0,,,2008,2008-09
-864,2008-09-28,Die Fälscher,Stefan Ruzowitzky,2007.0,Normandie,Kino,75.0,,,2008,2008-09
-865,2008-09-17,Fight Club,David Fincher,1999.0,Bei Dali,DVD,97.0,,,2008,2008-09
-866,2008-09-19,Le scaphandre et le papillon,Julian Schnabel,2007.0,,Kino,89.0,,,2008,2008-09
-867,2008-07-15,The Darjeeling Limited,Wes Anderson,2007.0,Eglharting,DVD,83.0,,,2008,2008-07
-868,2008-06-19,Magnolia,Paul Thomas Anderson,1999.0,Passau,DVD,100.0,,,2008,2008-06
-869,2008-06-06,Funny Games U.S.,Michael Haneke,2007.0,Passau,Kino,67.0,,,2008,2008-06
-870,2008-07-06,The Man Who Knew Too Much,Alfred Hitchcock,1956.0,Eglharting,DVD,85.0,,,2008,2008-07
-871,2008-08-06,Psycho,Alfred Hitchcock,1960.0,Eglharting,DVD,80.0,,,2008,2008-08
-872,2008-08-06,Vertigo,Alfred Hitchcock,1958.0,Eglharting,DVD,80.0,,,2008,2008-08
-873,2008-06-06,The Birds,Alfred Hitchcock,1963.0,Eglharting,DVD,80.0,,,2008,2008-06
-874,2006-10-29,Down by Law,Jim Jarmusch,1986.0,Passau,Kino,65.0,,,2006,2006-10
-875,2006-03-16,28 Days Later,Danny Boyle,2002.0,Ebersberg,DVD,83.0,,,2006,2006-03
-876,2005-11-24,Blade Runner,Ridley Scott,1982.0,Spiegelau,DVD,91.0,,,2005,2005-11
-877,2004-04-19,Kill Bill: Vol. 2,Quentin Tarantino,2004.0,Muenchen,Kino,94.0,,,2004,2004-04
-878,2003-10-17,Kill Bill: Vol. 1,Quentin Tarantino,2003.0,Muenchen,Kino,96.0,,,2003,2003-10
-887,2002-03-05,A Beautiful Mind,Ron Howard,2001.0,Cinemaxx Muenchen,Kino,90.0,,,2002,2002-03
+1,2022-09-02,Bullet Train,David Leitch,2022.0,Kino am Friedrichshain,Kino,74.0,,,2022,2022-09
+2,2022-08-26,TENET,Christopher Nolan,2020.0,Marienburger,Amazon Prime,82.0,,,2022,2022-08
+3,2022-08-25,La jetée,Chris Marker,1962.0,Marienburger,Mubi,89.0,,,2022,2022-08
+4,2022-08-21,Cow,Andrea Arnold,2021.0,Marienburger,Mubi,65.0,,,2022,2022-08
+5,2022-08-18,Les glaneurs et la glaneuse,Agnès Varda,2000.0,Marienburger,Mubi,60.0,,,2022,2022-08
+6,2022-08-17,Top Gun,Tony Scott,1986.0,Marienburger,Netflix,70.0,,,2022,2022-08
+7,2022-08-16,Nope,Jordan Peele,2022.0,Kino International,Kino,84.0,,,2022,2022-08
+8,2022-08-15,Men,Alex Garland,2022.0,Hackesche Hoefe Kino,Kino,74.0,,,2022,2022-08
+9,2022-08-13,Blade Runner,Ridley Scott,1982.0,Kino Arena München,Kino,86.0,,,2022,2022-08
+10,2022-07-30,The Trial of the Chicago 7,Aaron Sorkin,2020.0,Prag,Netflix,82.0,,,2022,2022-07
+11,2022-07-28,Les quatre cents coups,François Truffaut,1959.0,Prag,Mubi,80.0,,,2022,2022-07
+12,2022-07-26,Solitary Land,Tiziana Panizza,2017.0,Marienburger,other Streaming,40.0,,,2022,2022-07
+13,2022-07-25,The Human Voice,Pedro Almodóvar,2020.0,Marienburger,Mubi,20.0,,,2022,2022-07
+14,2022-07-24,Everything Everywhere All at Once,Dan Kwan,2022.0,Freiluftkino Friedrichshain,Freiluftkino,75.0,,,2022,2022-07
+15,2022-07-23,C'mon C'mon,Mike Mills,2021.0,Moviemento,Kino,80.0,,,2022,2022-07
+16,2022-07-22,"I, Tonya",Craig Gillespie,2017.0,Marienburger,Netflix,80.0,,,2022,2022-07
+18,2022-06-04,Juste la fin du monde,Xavier Dolan,2016.0,Marienburger,Mubi,80.0,,,2022,2022-06
+19,2022-05-27,Ponyo,Hayao Miyazaki,2008.0,Marienburger,Netflix,77.0,,,2022,2022-05
+20,2022-05-21,No Man's Land,Danis Tanovic,2001.0,Marienburger,Mubi,80.0,,,2022,2022-05
+21,2022-05-20,Händelse vid bank,Ruben Östlund,2010.0,Marienburger,Mubi,70.0,,,2022,2022-05
+22,2022-05-20,Nimic,Yorgos Lanthimos,2019.0,Marienburger,Mubi,70.0,,,2022,2022-05
+23,2022-05-17,Memoria,Apichatpong Weerasethakul,2021.0,Kino am Friedrichshain,Kino,20.0,,,2022,2022-05
+24,2022-05-16,Lemebel,Joanna Reposi Garibaldi,2019.0,Marienburger,Mubi,55.0,,,2022,2022-05
+25,2022-05-14,Everything Everywhere All at Once,Dan Kwan,2022.0,Odeon,Kino,81.0,,,2022,2022-05
+26,2022-05-13,House of Flying Daggers,Yimou Zhang,2004.0,Marienburger,Netflix,80.0,,,2022,2022-05
+27,2022-05-11,The Northman,Robert Eggers,2022.0,Kino Central,Kino,65.0,,,2022,2022-05
+28,2022-05-07,Man spricht deutsh,Hanns Christian Müller,1.0,Eglharting,Fernsehen,70.0,,,2022,2022-05
+31,2022-05-01,Murder on the Orient Express,Sidney Lumet,1974.0,Eglharting,Fernsehen,84.0,,,2022,2022-05
+32,2022-04-30,Songs My Brothers Taught Me,Chloé Zhao,2015.0,Marienburger,Mubi,73.0,,,2022,2022-04
+34,2022-04-29,Requiem for a Dream,Darren Aronofsky,2000.0,Marienburger,Amazon Prime,90.0,,,2022,2022-04
+35,2022-04-20,Bin-jip,Kim Ki-duk,2004.0,Bonifacio,Mubi,76.0,,,2022,2022-04
+36,2022-04-20,Persona,Ingmar Bergman,1966.0,Venaco,Mubi,86.0,,,2022,2022-04
+37,2022-04-19,Transit,Christian Petzold,2018.0,Venaco,Mubi,60.0,,,2022,2022-04
+38,2022-04-15,Mustang,Deniz Gamze Ergüven,2015.0,Marienburger,Mubi,80.0,,Begonnen mit Bücherdrache,2022,2022-04
+40,2022-04-14,American Beauty,Sam Mendes,1999.0,Marienburger,Amazon Prime,89.0,,,2022,2022-04
+41,2022-04-12,Pusher,Nicolas Winding Refn,1996.0,Marienburger,Mubi,76.0,,,2022,2022-04
+43,2022-04-04,Einayim Petukhoth,Haim Tabakman,2009.0,Marienburger,Mubi,73.0,,,2022,2022-04
+44,2022-04-02,Waves,Trey Edward Shults,2019.0,Marienburger,Amazon Prime,88.0,,,2022,2022-04
+46,2022-03-26,Der Mann mit der Kamera,Dziga Vertov,1929.0,Babylon Mitte,Kino,80.0,,,2022,2022-03
+47,2022-03-25,Toivon tuolla puolen,Aki Kaurismäki,2017.0,Marienburger,Mubi,80.0,,,2022,2022-03
+48,2022-03-19,The Host,Bong Joon-Ho,2006.0,Marienburger,Blu Ray,92.0,,,2022,2022-03
+49,2022-03-16,The Batman,Matt Reeves,2022.0,Cinestar Kulturbrauerei,Kino,80.0,,,2022,2022-03
+50,2022-03-14,Le Havre,Aki Kaurismäki,2011.0,Marienburger,Mubi,74.0,,,2022,2022-03
+51,2022-03-13,Drive my Car,Ryûsuke Hamaguchi,2021.0,Kino Zukunft,Kino,79.0,,,2022,2022-03
+53,2022-03-12,Licorice Pizza,Paul Thomas Anderson,2021.0,Cinestar Kulturbrauerei,Kino,76.0,,,2022,2022-03
+54,2022-03-04,Estiu 1993,Carla Simón,2017.0,Marienburger,Mubi,70.0,,,2022,2022-03
+55,2022-02-26,L.A. Confidential,Curtis Hanson,1997.0,Marienburger,Netflix,73.0,,,2022,2022-02
+56,2022-02-21,Undine,Christian Petzold,2020.0,Marienburger,Mubi,70.0,,,2022,2022-02
+57,2022-02-20,Ta'm e guilass,Abbas Kiarostami,1997.0,Marienburger,Mubi,76.0,,,2022,2022-02
+58,2022-02-17,Oh Boy,Jan-Ole Gerster,2012.0,Marienburger,Netflix,80.0,,,2022,2022-02
+59,2022-02-16,Julieta,Pedro Almodóvar,2016.0,Marienburger,Netflix,73.0,,,2022,2022-02
+60,2022-02-15,"tick, tick...BOOM!",Lin-Manuel Miranda,2021.0,Marienburger,Netflix,70.0,,,2022,2022-02
+61,2022-02-14,È stata la mano di Dio,Paolo Sorrentino,2021.0,Marienburger,Netflix,76.0,,,2022,2022-02
+63,2022-02-05,Dunkirk,Christopher Nolan,2017.0,Marienburger,Netflix,75.0,,,2022,2022-02
+64,2022-02-04,Hiroshima mon amour,Alain Resnais,1959.0,Marienburger,Mubi,79.0,,,2022,2022-02
+65,2022-02-02,Lamb,Valdimar Jóhannsson,2021.0,Hackesche Hoefe Kino,Kino,71.0,,,2022,2022-02
+66,2022-01-31,Everest,Baltasar Kormákur,2015.0,Marienburger,Netflix,72.0,,,2022,2022-01
+67,2022-01-29,Noche de fuego,Tatiana Huezo,2021.0,Marienburger,Netflix,78.0,,,2022,2022-01
+68,2022-01-28,Call Me by Your Name,Luca Guadagnino,2017.0,Marienburger,Netflix,77.0,,,2022,2022-01
+69,2022-01-27,Full Metal Jacket,Stanley Kubrick,1987.0,Marienburger,DVD,77.0,,,2022,2022-01
+70,2022-01-26,Nuit et brouillard,Alain Resnais,1955.0,Marienburger,Mubi,79.0,,,2022,2022-01
+71,2022-01-25,The Matrix Resurrections,Lana Wachowski,2021.0,Cinestar Kulturbrauerei,Kino,74.0,,,2022,2022-01
+72,2022-01-24,They Live,John Carpenter,1988.0,Marienburger,Mubi,75.0,,,2022,2022-01
+73,2022-01-23,The Lost Daughter,Maggie Gyllenhaal,2021.0,Marienburger,Netflix,76.0,,,2022,2022-01
+74,2022-01-22,Zombieland: Double Tap,Ruben Fleischer,2019.0,Marienburger,Netflix,55.0,,,2022,2022-01
+75,2022-01-20,The Tragedy of Macbeth,Joel Coen,2021.0,Delphi Lux,Kino,73.0,,,2022,2022-01
+76,2022-01-16,Sorry we missed you,Ken Loach,2019.0,Marienburger,Mubi,80.0,,,2022,2022-01
+77,2022-01-15,Shiva Baby,Emma Seligman,2021.0,Marienburger,Mubi,73.0,,,2022,2022-01
+78,2022-01-14,The Power of the Dog,Jane Campion,2021.0,Marienburger,Netflix,79.0,,,2022,2022-01
+80,2022-01-11,Uncut Gems,Safdie Brothers,2019.0,Bei Markus,Netflix,87.0,,,2022,2022-01
+82,2022-01-08,The Forty-Year-Old Version,Radha Blank,2020.0,Marienburger,Netflix,70.0,,,2022,2022-01
+86,2022-01-03,Don't Look Up,Adam McKay,2021.0,Marienburger,Netflix,87.0,,,2022,2022-01
+87,2022-01-01,Family Plot,Alfred Hitchcock,1976.0,Eglharting,Blu Ray,73.0,,,2022,2022-01
+88,2021-12-31,Marnie,Alfred Hitchcock,1964.0,Eglharting,Blu Ray,74.0,,,2021,2021-12
+89,2021-12-29,Some Like It Hot,Billy Wilder,1959.0,Eglharting,Fernsehen,75.0,,,2021,2021-12
+90,2021-12-28,The Trouble with Harry,Alfred Hitchcock,1955.0,Eglharting,Blu Ray,70.0,,,2021,2021-12
+91,2021-12-22,Trois couleurs: Bleu,Krzysztof Kieslowski,1993.0,Eglharting,Mubi,76.0,,,2021,2021-12
+92,2021-12-21,The Santa Clause,John Pasquin,1994.0,Eglharting,Fernsehen,60.0,,,2021,2021-12
+93,2021-12-20,National Lampoon's Christmas Vacation,Jeremiah S. Chechik,1989.0,Eglharting,DVD,80.0,,,2021,2021-12
+94,2021-12-19,Single Bells,Xaver Schwarzenberg,1998.0,Eglharting,DVD,80.0,,,2021,2021-12
+95,2021-12-17,Little Lord Fauntleroy,Jack Gold,1980.0,Eglharting,Fernsehen,75.0,,,2021,2021-12
+96,2021-12-14,Ema,Pablo Larraín,2019.0,Marienburger,Amazon Prime,65.0,,,2021,2021-12
+97,2021-12-12,Interstellar,Christopher Nolan,2014.0,Marienburger,Blu Ray,98.0,,,2021,2021-12
+98,2021-12-11,Die Fälscher,Stefan Ruzowitzky,2007.0,Marienburger,Netflix,75.0,,,2021,2021-12
+99,2021-12-10,Prisoners,Denis Villeneuve,2013.0,Marienburger,Netflix,78.0,,,2021,2021-12
+102,2021-12-04,Blade Runner 2049,Denis Villeneuve,2017.0,Marienburger,Blu Ray,90.0,,,2021,2021-12
+103,2021-12-04,Blade Runner,Ridley Scott,1982.0,Marienburger,DVD,85.0,,,2021,2021-12
+104,2021-12-01,The Big Short,Adam McKay,2015.0,Marienburger,Blu Ray,99.0,,,2021,2021-12
+105,2021-11-28,The Matrix Revolutions,"Lana Wachowski, Lilly Wachowski",2003.0,Marienburger,Blu Ray,65.0,,,2021,2021-11
+106,2021-11-27,Machuca,Andrés Wood,2004.0,Marienburger,DVD,80.0,,,2021,2021-11
+108,2021-11-21,Play - Nur ein Spiel,Ruben Östlund,2011.0,Ragusa,Mubi,80.0,,,2021,2021-11
+109,2021-11-12,Last Night in Soho,Edgar Wright,2021.0,Kino Intimes,Kino,70.0,,,2021,2021-11
+110,2021-11-08,Der Baader Meinhof Komplex,Uli Edel,2008.0,Marienburger,Netflix,72.0,,,2021,2021-11
+111,2021-11-07,Capernaum,Nadine Labaki,2018.0,Marienburger,Blu Ray,90.0,,,2021,2021-11
+113,2021-11-04,The Lobster,Yorgos Lanthimos,2015.0,Marienburger,Netflix,83.0,,,2021,2021-11
+114,2021-11-03,Den skyldige,Gustav Möller,2018.0,Marienburger,Amazon Prime,80.0,,,2021,2021-11
+115,2021-11-02,My Octopus Teacher,Pippa Ehrlich,2020.0,Marienburger,Netflix,71.0,,,2021,2021-11
+116,2021-10-29,Titane,Julia Ducournau,2021.0,Kino Central,Kino,76.0,,,2021,2021-10
+117,2021-10-28,The Matrix Reloaded,"Lana Wachowski, Lilly Wachowski",2003.0,Marienburger,Blu Ray,72.0,,,2021,2021-10
+118,2021-10-22,The French Dispatch,Wes Anderson,2021.0,Kino International,Kino,73.0,,,2021,2021-10
+119,2021-10-20,No Time to Die,Cary Joji Fukunaga,2021.0,Alhambra,Kino,66.0,,,2021,2021-10
+120,2021-10-19,Matrix,"Lana Wachowski, Lilly Wachowski",1999.0,Marienburger,Blu Ray,100.0,,,2021,2021-10
+121,2021-10-16,Mad Max: Fury Road,George Miller,2015.0,Marienburger,Blu Ray,94.0,,,2021,2021-10
+122,2021-10-15,Children of Men,Alfonso Cuarón,2006.0,Marienburger,Blu Ray,90.0,,,2021,2021-10
+123,2021-10-14,Dune,Denis Villeneuve,2021.0,Kino am Friedrichshain,Kino,84.0,,,2021,2021-10
+125,2021-09-29,The Extraordinary Journey of Celeste García,Arturo Infante,2018.0,FSK,Kino,60.0,,,2021,2021-09
+126,2021-09-18,Seven Years in Tibet,Jean-Jacques Annaud,1997.0,Marienburger,Netflix,67.0,,,2021,2021-09
+127,2021-09-16,Austin Powers: International Man of Mystery,Jay Roach,1997.0,Husum,Netflix,75.0,,,2021,2021-09
+128,2021-09-15,Pacific Rim,Guillermo del Toro,2013.0,Husum,Netflix,72.0,,,2021,2021-09
+129,2021-09-14,This Is the End,Evan Goldberg,2013.0,Husum,Netflix,65.0,,,2021,2021-09
+130,2021-09-04,The Darjeeling Limited,Wes Anderson,2007.0,Marienburger,Blu Ray,84.0,,,2021,2021-09
+131,2021-09-03,The Dressmaker,Jocelyn Moorhouse,2015.0,Marienburger,Blu Ray,61.0,,,2021,2021-09
+132,2021-09-02,Ghost Rider,Mark Steven Johnson,2007.0,Bei Markus,Netflix,60.0,,,2021,2021-09
+133,2021-08-24,Sunshine,Danny Boyle,2007.0,Marienburger,Netflix,75.0,,,2021,2021-08
+134,2021-08-19,Promising Young Woman,Emerald Fennell,2020.0,Kino International,Kino,73.0,,,2021,2021-08
+135,2021-08-14,Dog Day Afternoon,Sidney Lumet,1975.0,Freiluftkino Filmrauschpalast,Freiluftkino,83.0,,,2021,2021-08
+136,2021-08-13,Pieces of a Woman,Kornél Mundruczó,2020.0,Marienburger,Netflix,70.0,,,2021,2021-08
+137,2021-08-12,Nomadland,Chloé Zhao,2020.0,Freiluftkino Rehberge,Freiluftkino,78.0,,,2021,2021-08
+138,2021-08-11,Old,M. Night Shyamalan,2021.0,Alhambra,Kino,62.0,,,2021,2021-08
+139,2021-08-01,Schtonk,Helmut Dietl,1992.0,Zug,Netflix,63.0,,,2021,2021-08
+140,2021-07-29,Druk,Thomas Vinterberg,2020.0,Hackesche Hoefe Kino,Kino,78.0,,,2021,2021-07
+141,2021-07-19,28 Days Later,Danny Boyle,2002.0,Marienburger,Netflix,84.0,,,2021,2021-07
+142,2021-07-16,The Shining,Stanley Kubrick,1980.0,Marienburger,Blu Ray,89.0,,,2021,2021-07
+143,2021-07-13,Babardeala cu bucluc sau porno balamuc,Radu Jude,2021.0,B-Ware Ladenkino,Kino,60.0,,,2021,2021-07
+144,2021-07-04,Jojo Rabbit,Taika Waititi,2019.0,Marienburger,Blu Ray,90.0,,,2021,2021-07
+148,2021-06-05,Mudbound,Dee Rees,2017.0,Marienburger,Netflix,73.0,,,2021,2021-06
+149,2021-05-28,Contagion,Steven Soderbergh,2011.0,Marienburger,Amazon Prime,68.0,,,2021,2021-05
+150,2021-05-26,Sonnenallee,Leander Haußmann,1999.0,Marienburger,Netflix,64.0,,,2021,2021-05
+151,2021-05-24,Seven Psychopaths,Martin McDonagh,2012.0,Marienburger,Netflix,63.0,,,2021,2021-05
+153,2021-05-18,Und morgen die ganze Welt,Julia von Heinz,2020.0,Marienburger,Netflix,65.0,,,2021,2021-05
+154,2021-05-01,Hostiles,Scott Cooper,2017.0,Marienburger,Netflix,74.0,,,2021,2021-05
+156,2021-04-30,Sound of Metal,Darius Marder,2020.0,Marienburger,Amazon Prime,80.0,,,2021,2021-04
+157,2021-04-25,The White Tiger,Ramin Bahrani,2021.0,Marienburger,Netflix,70.0,,,2021,2021-04
+158,2021-04-24,Godzilla,Gareth Edwards,2014.0,Bei Markus,Netflix,64.0,,,2021,2021-04
+159,2021-04-21,The School of Rock,Richard Linklater,2003.0,Marienburger,Netflix,64.0,,,2021,2021-04
+160,2021-04-16,Ma Rainey's Black Bottom,George C. Wolfe,2020.0,Marienburger,Netflix,70.0,,,2021,2021-04
+161,2021-04-15,M - Eine Stadt sucht einen Mörder,Fritz Lang,1931.0,Marienburger,Amazon Prime,82.0,,,2021,2021-04
+162,2021-04-14,Matilda,Danny DeVito,1996.0,Marienburger,Netflix,63.0,,,2021,2021-04
+163,2021-04-13,Yesterday,Danny Boyle,2019.0,Marienburger,Amazon Prime,73.0,,,2021,2021-04
+164,2021-04-12,Nadie sabe que estoy aquí,Gaspar Antillo,2020.0,Marienburger,Netflix,71.0,,,2021,2021-04
+165,2021-04-04,Berlin Alexanderplatz,Burhan Qurbani,2020.0,Marienburger,Netflix,77.0,,,2021,2021-04
+166,2021-04-03,Gundermann,Andreas Dresen,2018.0,Marienburger,Netflix,74.0,,,2021,2021-04
+167,2021-04-01,Tenkû no shiro Rapyuta,Hayao Miyazaki,1986.0,Marienburger,Netflix,83.0,,,2021,2021-04
+168,2021-03-27,Les 12 travaux d'Astérix,René Goscinny,1976.0,Eglharting,Fernsehen,77.0,,,2021,2021-03
+169,2021-03-13,La La Land,Damien Chazelle,2016.0,Marienburger,Amazon Prime,90.0,,,2021,2021-03
+170,2021-03-07,Scarface,Brian De Palma,1983.0,Marienburger,Netflix,88.0,,,2021,2021-03
+171,2021-03-06,Ya no estoy aqui,Fernando Frias,2019.0,Marienburger,Netflix,74.0,,,2021,2021-03
+172,2021-03-05,If Beale Street Could Talk,Barry Jenkins,2018.0,Marienburger,Netflix,72.0,,,2021,2021-03
+173,2021-03-03,Fierce Creatures,Fred Schepisi,1997.0,Marienburger,DVD,78.0,,,2021,2021-03
+174,2021-02-27,The Danish Girl,Tom Hooper,2015.0,Marienburger,Netflix,74.0,,,2021,2021-02
+176,2021-02-17,The Fifth Element,Luc Besson,1997.0,Bei Markus,Netflix,87.0,,,2021,2021-02
+177,2021-02-05,Mad Max: Fury Road,George Miller,2015.0,Marienburger,Blu Ray,95.0,,,2021,2021-02
+178,2021-02-01,The House That Jack Built,Lars von Trier,2018.0,Marienburger,Netflix,84.0,,,2021,2021-02
+179,2021-01-31,Fantastic Mr. Fox,Wes Anderson,2009.0,Marienburger,Mubi,82.0,,,2021,2021-01
+181,2021-01-23,The World's End,Edgar Wright,2013.0,Marienburger,DVD,80.0,,,2021,2021-01
+182,2021-01-23,Hot Fuzz,Edgar Wright,2007.0,Marienburger,DVD,85.0,,,2021,2021-01
+183,2021-01-23,Shaun of the Dead,Edgar Wright,2004.0,Marienburger,DVD,84.0,,,2021,2021-01
+185,2021-01-15,Rear Window,Alfred Hitchcock,1954.0,Eglharting,Blu Ray,82.0,,,2021,2021-01
+186,2021-01-10,Death on the Nile,John Guillermin,1978.0,Eglharting,DVD,85.0,,,2021,2021-01
+187,2021-01-09,Ghostbusters,Ivan Reitman,1984.0,Eglharting,Netflix,83.0,,,2021,2021-01
+188,2021-01-08,A Few Good Men,Rob Reiner,1992.0,Eglharting,Fernsehen,77.0,,,2021,2021-01
+189,2021-01-07,Evil under the Sun,Guy Hamilton,1982.0,Eglharting,Amazon Prime,83.0,,,2021,2021-01
+191,2021-01-06,La piscine,Jacques Deray,1969.0,Eglharting,Fernsehen,73.0,,,2021,2021-01
+192,2021-01-05,Moonrise Kingdom,Wes Anderson,2012.0,Eglharting,Netflix,83.0,,,2021,2021-01
+193,2021-01-04,How to Steal a Million,William Wyler,1966.0,Eglharting,Fernsehen,79.0,,,2021,2021-01
+194,2021-01-03,Charade,Stanley Donen,1963.0,Eglharting,Amazon Prime,80.0,,,2021,2021-01
+195,2021-01-02,Murder on the Orient Express,Sidney Lumet,1974.0,Eglharting,Amazon Prime,84.0,,,2021,2021-01
+196,2021-01-01,Kill Bill: Vol. 2,Quentin Tarantino,2004.0,Eglharting,DVD,75.0,,,2021,2021-01
+197,2020-12-31,The Mirror Crack'd,Guy Hamilton,1980.0,Eglharting,Amazon Prime,63.0,,,2020,2020-12
+198,2020-12-28,Jojo Rabbit,Taika Waititi,2019.0,Eglharting,Blu Ray,92.0,,,2020,2020-12
+199,2020-12-27,The Secret Life of Walter Mitty,Ben Stiller,2013.0,Eglharting,Netflix,84.0,,,2020,2020-12
+200,2020-12-26,Ex Machina,Alex Garland,2014.0,Eglharting,Blu Ray,90.0,,,2020,2020-12
+202,2020-12-22,'Crocodile' Dundee,Peter Faiman,1986.0,Eglharting,Fernsehen,65.0,,,2020,2020-12
+203,2020-12-21,Scrooged,Richard Donner,1988.0,Eglharting,Amazon Prime,78.0,,,2020,2020-12
+204,2020-12-20,Home alone,Chris Columbus,1990.0,Eglharting,DVD,80.0,,,2020,2020-12
+205,2020-12-19,National Lampoon's Christmas Vacation,Jeremiah S. Chechik,1989.0,Eglharting,DVD,75.0,,,2020,2020-12
+206,2020-12-18,Little Lord Fauntleroy,Jack Gold,1980.0,Eglharting,Fernsehen,73.0,,,2020,2020-12
+207,2020-12-17,O Palmenbaum,Xaver Schwarzenberg,2000.0,Eglharting,DVD,71.0,,,2020,2020-12
+208,2020-12-17,Jingle All the Way,Brian Levant,1996.0,Eglharting,Fernsehen,76.0,,,2020,2020-12
+209,2020-12-16,Single Bells,Xaver Schwarzenberg,1998.0,Eglharting,DVD,83.0,,,2020,2020-12
+210,2020-12-14,Oldboy,Park Chan-wook,2003.0,Marienburger,Blu Ray,87.0,,,2020,2020-12
+211,2020-12-13,Offret,Andrej Tarkowski,1986.0,Marienburger,Mubi,84.0,,,2020,2020-12
+212,2020-12-12,Das schweigende Klassenzimmer,Lars Kraume,2018.0,Marienburger,Netflix,73.0,,,2020,2020-12
+213,2020-12-11,Mother,Bong Joon-Ho,2009.0,Marienburger,Mubi,79.0,,,2020,2020-12
+214,2020-12-10,The Juniper Tree,Nietzchka Keene,1990.0,Marienburger,Mubi,65.0,,,2020,2020-12
+215,2020-12-09,Jojo Rabbit,Taika Waititi,2019.0,Marienburger,Blu Ray,92.0,,,2020,2020-12
+216,2020-12-08,Cléo de 5 à 7,Agnés Varda,1962.0,Marienburger,Mubi,70.0,,,2020,2020-12
+218,2020-12-05,Apocalypse Now,Francis Ford Coppola,1979.0,Marienburger,Blu Ray,89.0,,,2020,2020-12
+219,2020-12-04,Styx,Wolfgang Fischer,2018.0,Marienburger,Mubi,80.0,,,2020,2020-12
+220,2020-12-03,Interstellar,Christopher Nolan,2014.0,Bei Yash,Netflix,100.0,,,2020,2020-12
+221,2020-12-02,Velvet Buzzsaw,Dan Gilroy,2019.0,Bei Markus,Netflix,64.0,,,2020,2020-12
+222,2020-12-01,Bronson,Nicolas Winding Refn,2008.0,Marienburger,Mubi,70.0,,,2020,2020-12
+223,2020-11-30,Donna Haraway: Story Telling for Earthly Survival,Fabrizio Terranova,2016.0,Marienburger,other Streaming,30.0,,,2020,2020-11
+224,2020-11-25,The Shawshank Redemption,Frank Darabont,1994.0,Marienburger,Netflix,90.0,,,2020,2020-11
+225,2020-11-21,Mononoke-hime,Hayao Miyazaki,1997.0,Marienburger,Netflix,82.0,,,2020,2020-11
+226,2020-11-18,A Beautiful Day,Lynne Ramsay,2018.0,Marienburger,Netflix,74.0,,,2020,2020-11
+227,2020-11-16,Training Day,Antoine Fuqua,2001.0,Bei Markus,Netflix,74.0,,,2020,2020-11
+228,2020-11-15,Memento,Christopher Nolan,2000.0,Marienburger,Netflix,88.0,,,2020,2020-11
+229,2020-11-13,Buena Vista Social Club,Wim Wenders,1999.0,Marienburger,Amazon Prime,67.0,,,2020,2020-11
+230,2020-11-12,Nattvardsgästerna,Ingmar Bergman,1963.0,Marienburger,Mubi,76.0,,,2020,2020-11
+231,2020-11-11,The Host,Bong Joon-Ho,2006.0,Marienburger,Blu Ray,95.0,,,2020,2020-11
+232,2020-11-09,Westfront 1918: Vier von der Infanterie,G.W. Pabst,1930.0,Marienburger,Mubi,73.0,,,2020,2020-11
+234,2020-11-07,Tallulah,Sian Heder,2016.0,Marienburger,Netflix,40.0,,,2020,2020-11
+235,2020-11-06,Portrait de la jeune fille en feu,Celine Sciamma,2019.0,Marienburger,Amazon Prime,74.0,,,2020,2020-11
+236,2020-11-05,Ava,Léa Mysius,2017.0,Marienburger,Mubi,72.0,,,2020,2020-11
+237,2020-11-04,Ansiktet,Ingmar Bergman,1958.0,Marienburger,Mubi,78.0,,,2020,2020-11
+238,2020-11-02,Suntan,Argyris Papadimitropoulos,2016.0,Marienburger,Mubi,75.0,,,2020,2020-11
+239,2020-10-31,The Wolf of Wall Street,Martin Scorsese,2013.0,Marienburger,Netflix,84.0,,,2020,2020-10
+240,2020-10-30,Espero tua (re)volta,Eliza Capai,2019.0,Marienburger,Mubi,64.0,,,2020,2020-10
+241,2020-10-24,Matrix,"Lana Wachowski, Lilly Wachowski",1999.0,Marienburger,Blu Ray,100.0,,,2020,2020-10
+242,2020-10-23,Mignonnes,Maïmouna Doucouré,2020.0,Marienburger,Netflix,78.0,,,2020,2020-10
+243,2020-10-19,Slumdog Millionaire,Danny Boyle,2008.0,Marienburger,Mubi,80.0,,,2020,2020-10
+244,2020-10-18,Smultronstället,Ingmar Bergman,1957.0,Marienburger,Mubi,79.0,,,2020,2020-10
+245,2020-10-17,The Dark Knight,Christopher Nolan,2008.0,Marienburger,Blu Ray,95.0,,,2020,2020-10
+247,2020-10-14,Cobra Verde,Werner Herzog,1987.0,Marienburger,Mubi,70.0,,,2020,2020-10
+249,2020-10-07,I'm thinking of ending things,Charlie Kaufmann,2020.0,Marienburger,Netflix,63.0,,,2020,2020-10
+250,2020-10-01,Lovesong,So Yong Kim,2017.0,Marienburger,Netflix,60.0,,,2020,2020-10
+251,2020-09-28,Ödipussi,Loriot,1988.0,Eglharting,Netflix,90.0,,,2020,2020-09
+252,2020-09-27,Astérix chez les Bretons,Pino Van Lamsweerde,1986.0,Eglharting,Amazon Prime,72.0,,,2020,2020-09
+253,2020-09-26,Venom,Ruben Fleischer,2018.0,Eglharting,Netflix,60.0,,,2020,2020-09
+254,2020-09-25,The Man Who Knew Too Much,Alfred Hitchcock,1956.0,Oberstdorf,Amazon Prime,85.0,49470.0,,2020,2020-09
+256,2020-09-20,Star Wars: Episode V - The Empire Strikes Back,Irvin Kershner,1980.0,Eglharting,DVD,85.0,,,2020,2020-09
+257,2020-09-18,Star Wars: Episode VI - Return of the Jedi,Richard Marquand,1983.0,Eglharting,DVD,74.0,,,2020,2020-09
+258,2020-09-14,Jack goes boating,Philip Seymour Hoffman,2010.0,Marienburger,Mubi,70.0,,,2020,2020-09
+260,2020-09-12,Adú,Salvador Calvo,2020.0,Marienburger,Netflix,67.0,,,2020,2020-09
+261,2020-09-11,Patch Adams,Tom Shadyac,1998.0,Marienburger,Netflix,80.0,,,2020,2020-09
+262,2020-09-10,Fear and Loathing in Las Vegas,Terry Gilliam,1998.0,Marienburger,Netflix,81.0,,,2020,2020-09
+263,2020-09-09,Nader and Simin,Asghar Farhadi,2011.0,Marienburger,Mubi,82.0,1832382.0,,2020,2020-09
+264,2020-09-04,Le scaphandre et le papillon,Julian Schnabel,2007.0,Marienburger,Mubi,84.0,,,2020,2020-09
+266,2020-08-31,Bergmál,Rúnar Rúnarsson,2019.0,Marienburger,Mubi,74.0,9296808.0,,2020,2020-08
+267,2020-08-30,TENET,Christopher Nolan,2020.0,Cinestar Kulturbrauerei,Kino,82.0,,,2020,2020-08
+268,2020-08-25,Waves,Trey Edward Shults,2019.0,Filmrauschpalast,Kino,81.0,8652728.0,,2020,2020-08
+269,2020-08-24,Dolor y gloria,Pedro Almodovar,2019.0,Marienburger,Amazon Prime,65.0,,,2020,2020-08
+270,2020-08-21,Da Five Bloods,Spike Lee,2020.0,Marienburger,Netflix,83.0,,,2020,2020-08
+271,2020-08-20,Cold War,Pawel Pawlikowski,2018.0,Marienburger,Netflix,63.0,,,2020,2020-08
+272,2020-08-16,Avengers: Endgame,Joe Russo,2019.0,Marienburger,Blu Ray,83.0,,,2020,2020-08
+273,2020-08-05,The Truman Show,Peter Weir,1998.0,Eglharting,DVD,93.0,,,2020,2020-08
+274,2020-08-04,The Breakfast Club,John Hughes,1985.0,Eglharting,Netflix,65.0,,,2020,2020-08
+275,2020-08-03,Pappa ante portas,Loriot,1991.0,Eglharting,DVD,95.0,,,2020,2020-08
+276,2020-08-02,Rope,Alfred Hitchcock,1948.0,Eglharting,DVD,85.0,,,2020,2020-08
+277,2020-07-26,Avengers: Infinity War,Joe Russo,2018.0,Marienburger,Blu Ray,90.0,,,2020,2020-07
+278,2020-07-23,Primer,Shane Carruth,2004.0,Marienburger,Mubi,81.0,,,2020,2020-07
+279,2020-07-20,En passion,Ingmar Bergman,1969.0,Marienburger,Mubi,82.0,,,2020,2020-07
+280,2020-07-19,Naked Lunch,David Cronenberg,1991.0,Marienburger,Mubi,72.0,,,2020,2020-07
+281,2020-07-18,Monos,Alejandro Landes,2019.0,B-Ware Ladenkino,Kino,80.0,,,2020,2020-07
+282,2020-07-10,Nostalgia de Luz,Patricio Guzman,2010.0,Marienburger,Mubi,73.0,,,2020,2020-07
+283,2020-07-06,The Last Airbender,M. Night Shyamalan,2010.0,Marienburger,Netflix,45.0,,,2020,2020-07
+284,2020-07-04,Color Out of Space,Richard Stanley,2020.0,Kino Zukunft,Kino,65.0,,,2020,2020-07
+285,2020-07-03,Dark Staffel 3,Baran bo Odar,2020.0,Marienburger,Netflix,70.0,,,2020,2020-07
+286,2020-06-30,The Raid,Gareth Evans,2011.0,Bei Markus,DVD,84.0,,,2020,2020-06
+287,2020-06-21,Death on the Nile,John Guillermin,1978.0,Eglharting,DVD,89.0,,,2020,2020-06
+288,2020-06-20,Casablanca,Michael Curtiz,1942.0,Eglharting,DVD,92.0,,,2020,2020-06
+289,2020-06-19,Evil under the Sun,Guy Hamilton,1982.0,Eglharting,Amazon Prime,79.0,,,2020,2020-06
+290,2020-06-18,Airplane!,David Zucker,1980.0,Eglharting,Netflix,75.0,,,2020,2020-06
+292,2020-06-15,I am not your negro,Raoul Peck,2017.0,Marienburger,Netflix,78.0,,,2020,2020-06
+293,2020-06-13,Stranger Than Paradise,Jim Jarmusch,1.0,Marienburger,Mubi,81.0,,,2020,2020-06
+294,2020-05-25,The Housemaid,Sang-soo Im,2010.0,Marienburger,Mubi,75.0,1314652.0,,2020,2020-05
+295,2020-05-24,Paranza,Claudio Giovannesi,2019.0,Marienburger,Amazon Prime,81.0,,,2020,2020-05
+296,2020-05-18,Detachment,Tony Kaye,2011.0,Marienburger,Mubi,85.0,,,2020,2020-05
+297,2020-05-17,Little Miss Sunshine,Jonathan Dayton,2006.0,Marienburger,Netflix,85.0,,,2020,2020-05
+298,2020-05-16,Permanent Vacation,Jim Jarmusch,1980.0,Marienburger,Mubi,70.0,,,2020,2020-05
+299,2020-05-15,The Butler,Lee Daniels,2013.0,Marienburger,Mubi,83.0,,,2020,2020-05
+300,2020-05-13,Vladimir et Rosa,Jean-Luc Godard,1971.0,Marienburger,Mubi,61.0,,,2020,2020-05
+301,2020-05-08,Cidade de Deus,Fernando Meirelles,2002.0,Marienburger,Amazon Prime,89.0,,,2020,2020-05
+302,2020-05-04,Slow West,John Maclean,2015.0,Marienburger,Mubi,78.0,,,2020,2020-05
+303,2020-05-02,Au hasard Balthazar,Robert Bresson,1966.0,Marienburger,Mubi,75.0,,,2020,2020-05
+304,2020-05-01,Kill Bill: Vol. 1,Quentin Tarantino,2003.0,Marienburger,DVD,99.0,,,2020,2020-05
+305,2020-04-30,"Nona. Si me mojan, yo los quemo",Camila José Donoso,2019.0,Marienburger,Mubi,57.0,9461680.0,,2020,2020-04
+306,2020-04-25,"Three Billboards outside Ebbing, Missouri",Martin McDonagh,2017.0,Marienburger,Blu Ray,83.0,,,2020,2020-04
+307,2020-04-24,Climax,Gaspard Noé,2018.0,Marienburger,Netflix,83.0,,,2020,2020-04
+308,2020-04-20,Southland Tales,Richard Kelly,2007.0,Marienburger,Mubi,65.0,,,2020,2020-04
+309,2020-04-18,Sen to Chihiro no kamikakushi,Hayao Miyazaki,2001.0,Marienburger,Netflix,79.0,,,2020,2020-04
+310,2020-04-17,Bacurau,Juliano Dornelles,2019.0,Marienburger,Mubi,79.0,,,2020,2020-04
+311,2020-04-14,Suffragette,Sarah Gavron,2015.0,Marienburger,Netflix,77.0,,,2020,2020-04
+312,2020-04-13,Roads,Sebastian Schipper,2019.0,Marienburger,Amazon Prime,75.0,,,2020,2020-04
+313,2020-04-12,The Big Lebowski,Coen Brueder,1998.0,Marienburger,Amazon Prime,89.0,,,2020,2020-04
+315,2020-04-11,Idioterne,Lars von Trier,1998.0,Marienburger,Mubi,80.0,,,2020,2020-04
+316,2020-04-10,Hauru no ugoku shiro,Hayao Miyazaki,2004.0,Marienburger,Netflix,77.0,,,2020,2020-04
+317,2020-04-09,The Great Dictator,Charlie Chaplin,1940.0,Marienburger,Mubi,82.0,,,2020,2020-04
+318,2020-04-07,Tonari no Totoro,Hayao Miyazaki,1988.0,Marienburger,Netflix,80.0,,,2020,2020-04
+319,2020-04-04,El Hoyo,Galder Gaztelu-Urrutia,2019.0,Marienburger,Netflix,74.0,,,2020,2020-04
+320,2020-04-03,Safari,Ulrich Seidl,2016.0,Marienburger,Mubi,79.0,5901212.0,,2020,2020-04
+321,2020-04-01,The Lost World: Jurassic Park,Steven Spielberg,1997.0,Marienburger,Netflix,71.0,,,2020,2020-04
+322,2020-03-29,Her,Spike Jonze,2013.0,Marienburger,Blu Ray,73.0,,,2020,2020-03
+323,2020-03-27,Suburbicon,George Clooney,2017.0,Marienburger,Netflix,59.0,,,2020,2020-03
+324,2020-03-26,Hidden Figures,Theodore Melfi,2016.0,Marienburger,Netflix,79.0,,,2020,2020-03
+325,2020-03-25,The Red Phallus,Tashi Gyeltshen,2019.0,Marienburger,Mubi,77.0,,,2020,2020-03
+327,2020-03-23,Uncut Gems,Safdie Brothers,2019.0,Marienburger,Netflix,79.0,,,2020,2020-03
+328,2020-03-21,Manbiki kazoku,Hirokazu Koreeda,2018.0,Marienburger,Amazon Prime,68.0,,,2020,2020-03
+329,2020-03-19,Bouyancy,Rodd Rathjen,2020.0,Marienburger,Mubi,76.0,,,2020,2020-03
+330,2020-03-19,Vormittagsspuk,Hans Richter,1928.0,Marienburger,Mubi,66.0,,,2020,2020-03
+331,2020-03-16,Tsotsi,Gavin Hood,2005.0,Marienburger,Mubi,75.0,,,2020,2020-03
+332,2020-03-14,The Cabin the Woods,Drew Goddard,2012.0,Marienburger,Netflix,71.0,,,2020,2020-03
+333,2020-03-12,The Gentlemen,Guy Ritchie,2019.0,Passage Kino,Kino,74.0,,,2020,2020-03
+334,2020-03-10,The Big Short,Adam McKay,2015.0,Marienburger,Blu Ray,90.0,,,2020,2020-03
+335,2020-03-08,The Departed,Martin Scorsese,2006.0,Marienburger,Netflix,83.0,,,2020,2020-03
+336,2020-03-07,Für Sama,Waad al-Kateab,2019.0,Cinestar Kulturbrauerei,Kino,79.0,,,2020,2020-03
+337,2020-03-02,Systemsprenger,Nora Fingscheidt,2019.0,Marienburger,Netflix,78.0,,,2020,2020-03
+338,2020-03-01,What did Jack do?,David Lynch,2017.0,Marienburger,Netflix,76.0,,,2020,2020-03
+339,2020-02-28,Jojo Rabbit,Taika Waititi,2019.0,Hackesche Hoefe Kino,Kino,87.0,,,2020,2020-02
+340,2020-02-27,J'accuse,Roman Polanski,2019.0,Tilsiter Lichtspiele,Kino,76.0,,,2020,2020-02
+344,2020-02-21,A Hidden Life,Terrence Malick,2019.0,Cinestar Kulturbrauerei,Kino,88.0,,,2020,2020-02
+345,2020-02-19,Once upon a Time in Hollywood,Quentin Tarantino,2019.0,Marienburger,Blu Ray,89.0,,,2020,2020-02
+346,2020-02-09,To catch a thief,Alfred Hitchcock,1955.0,Eglharting,Amazon Prime,73.0,,,2020,2020-02
+347,2020-02-08,Still Alice,Richard Glatzer,2014.0,Eglharting,Netflix,75.0,,,2020,2020-02
+348,2020-02-06,1917,Sam Mendes,2019.0,Cinestar Kulturbrauerei,Kino,80.0,,,2020,2020-02
+350,2020-01-31,Jojo Rabbit,Taika Waititi,2019.0,Cinestar Kulturbrauerei,Kino,84.0,,,2020,2020-01
+352,2020-01-27,Les miserables,Ladj Ly,2019.0,Hackesche Hoefe Kino,Kino,76.0,,,2020,2020-01
+354,2020-01-25,Queen & Slim,Melina Matsoukas,2019.0,Cinestar Kulturbrauerei,Kino,73.0,,"Road movie, keine wirkliche Entwicklung der Protagonisten, einfach Liebesgeschichte. Sch�nes Ende. ",2020,2020-01
+355,2020-01-24,Countdown,Justin Dec,2019.0,UCI Colosseum,Kino,51.0,,Sneak,2020,2020-01
+356,2020-01-22,Ex Machina,Alex Garland,2014.0,Marienburger,Blu Ray,95.0,,,2020,2020-01
+358,2020-01-13,The Kid,Charlie Chaplin,1921.0,Marienburger,Mubi,79.0,,,2020,2020-01
+359,2020-01-09,Snowpiercer,Bong Joon-Ho,2013.0,Marienburger,Netflix,90.0,,,2020,2020-01
+360,2020-01-08,Knives out,Rian Johnson,2019.0,Cinestar Kulturbrauerei,Kino,73.0,,,2020,2020-01
+361,2020-01-07,J'ai perdu mon corps,Jérémy Clapin,2019.0,Marienburger,Netflix,65.0,,,2020,2020-01
+362,2020-01-05,Magnolia,Paul Thomas Anderson,1999.0,Marienburger,Blu Ray,99.0,,,2020,2020-01
+363,2020-01-02,Dogman,Matteo Garrone,2018.0,Marienburger,Mubi,85.0,,,2020,2020-01
+364,2019-12-30,Murder on the Orient Express,Sidney Lumet,1974.0,Eglharting,Amazon Prime,80.0,,,2019,2019-12
+365,2019-12-29,Ödipussi,Loriot,1988.0,Eglharting,DVD,86.0,,,2019,2019-12
+366,2019-12-27,Okja,Bong Joon-Ho,2017.0,Eglharting,Netflix,81.0,,,2019,2019-12
+367,2019-12-27,Star Wars: Episode IX - The Rise of Skywalker,J.J. Abrams,2019.0,Mathaeser Muenchen,Kino,65.0,,,2019,2019-12
+369,2019-12-25,Home alone,Chris Columbus,1990.0,Eglharting,DVD,80.0,,,2019,2019-12
+372,2019-12-20,Little Lord Fauntleroy,Jack Gold,1980.0,Eglharting,Fernsehen,73.0,,,2019,2019-12
+373,2019-12-18,National Lampoon's Christmas Vacation,Jeremiah S. Chechik,1989.0,Eglharting,DVD,80.0,,,2019,2019-12
+374,2019-12-17,O Palmenbaum,Xaver Schwarzenberg,2000.0,Eglharting,DVD,71.0,,,2019,2019-12
+375,2019-12-16,Single Bells,Xaver Schwarzenberg,1998.0,Eglharting,DVD,80.0,,,2019,2019-12
+376,2019-12-12,The Lighthouse,Robert Eggers,2019.0,Kino Central,Kino,75.0,,,2019,2019-12
+379,2019-12-06,The Irishman,Martin Scorsese,2019.0,Tilsiter Lichtspiele,Kino,75.0,,,2019,2019-12
+381,2019-12-04,Paranoid Park,Gus van Sant,2007.0,Marienburger,Mubi,79.0,,,2019,2019-12
+383,2019-11-24,Walk the Line,James Mangold,2005.0,Eglharting,Netflix,73.0,,,2019,2019-11
+385,2019-11-20,The Wailing,Na Hong-Jin,2016.0,Marienburger,Mubi,73.0,,,2019,2019-11
+386,2019-11-17,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,2001.0,Marienburger,Blu Ray,93.0,,,2019,2019-11
+387,2019-11-15,The Host,Bong Joon-Ho,2006.0,Babylon Mitte,Kino,95.0,,,2019,2019-11
+389,2019-11-14,Memories of Murder,Bong Joon-Ho,2003.0,Babylon Mitte,Kino,79.0,,,2019,2019-11
+390,2019-11-11,Isle Of Dogs,Wes Anderson,2018.0,Marienburger,Blu Ray,90.0,,,2019,2019-11
+391,2019-11-08,Donnie Darko,Richard Kelly,2001.0,Marienburger,Blu Ray,85.0,,,2019,2019-11
+394,2019-11-01,The King's Speech,Tom Hooper,2010.0,Eglharting,Netflix,81.0,,,2019,2019-11
+395,2019-10-31,Joker,Todd Philipps,2019.0,Kino Central,Kino,77.0,,"Darstellung der Wut in der Gesellschaft nicht �berzeugend, sehr generisch. Ebenso die Darstellung der Motivation/der Entwicklung des Hauptdarstellers",2019,2019-10
+396,2019-10-29,Parasite,Bong Joon-Ho,2019.0,Hackesche Hoefe Kino,Kino,81.0,,,2019,2019-10
+397,2019-10-23,The Hangover,Todd Philipps,2009.0,Dubai,Netflix,64.0,,,2019,2019-10
+398,2019-10-22,Edge of Tomorrow,Doug Liman,2014.0,Dubai,Netflix,78.0,,,2019,2019-10
+399,2019-10-20,Iron Man 2,Jon Favreau,2010.0,Emirates,Flugzeug,69.0,,,2019,2019-10
+400,2019-10-19,The Social Network,David Fincher,2010.0,Chamonix,Netflix,71.0,,,2019,2019-10
+401,2019-10-12,It: Chapter Two,Andres Muschietti,2019.0,Cinestar Potsdamer Platz,Kino,80.0,,,2019,2019-10
+402,2019-10-11,Super 8,J.J. Abrams,2011.0,Marienburger,Netflix,78.0,,,2019,2019-10
+403,2019-10-10,Good Bye Lenin!,Wolfgang Becker,2003.0,Babylon Mitte,Kino,79.0,,,2019,2019-10
+404,2019-10-06,Tomboy,Celine Sciamma,2011.0,Marienburger,Mubi,79.0,,,2019,2019-10
+405,2019-10-05,Ad Astra,James Gray,2019.0,Kino am Friedrichshain,Kino,73.0,,,2019,2019-10
+406,2019-10-04,Scott Pilgrim vs. The World,Edgar Wright,2010.0,Marienburger,Mubi,80.0,,,2019,2019-10
+407,2019-10-03,Benny's Video,Michael Haneke,1993.0,Marienburger,Mubi,72.0,,,2019,2019-10
+408,2019-10-02,Noah,Darren Aronofsky,2014.0,Marienburger,Netflix,79.0,,,2019,2019-10
+409,2019-09-28,Tschick,Fatih Akin,2016.0,Marienburger,Netflix,70.0,,,2019,2019-09
+410,2019-09-27,Drive,Nicolas Winding Refn,2011.0,Marienburger,Netflix,75.0,,,2019,2019-09
+411,2019-09-25,Love,Gaspard Noé,2015.0,Marienburger,Mubi,80.0,,,2019,2019-09
+413,2019-09-09,Le petit soldat,Jean-Luc Godard,1963.0,Marienburger,Mubi,77.0,,,2019,2019-09
+414,2019-09-07,Midnight Express,Alan Parker,1978.0,Glasgow,Netflix,74.0,,,2019,2019-09
+415,2019-09-06,The Theory of Everything,James Marsh,2014.0,Kinlochleven,Netflix,73.0,,,2019,2019-09
+416,2019-09-04,I Am Mother,Grant Sputore,2019.0,Tyndrum,Netflix,72.0,,,2019,2019-09
+417,2019-08-24,Exit through the gift shop,Banksy,2010.0,Marienburger,Mubi,71.0,,,2019,2019-08
+418,2019-08-23,Solaris,Andrej Tarkowski,1972.0,Arsenal Berlin,Kino,86.0,,,2019,2019-08
+419,2019-08-22,Once upon a Time in Hollywood,Quentin Tarantino,2019.0,Cinestar Kulturbrauerei,Kino,86.0,,,2019,2019-08
+420,2019-08-21,Todos lo saben,Asghar Farhadi,2018.0,Marienburger,Amazon Prime,49.0,,,2019,2019-08
+421,2019-08-20,IP Man,Wilson Yip,2008.0,Bei Markus,Netflix,67.0,,,2019,2019-08
+423,2019-08-17,Easy Rider,Dennis Hopper,1969.0,Eglharting,Netflix,81.0,,,2019,2019-08
+424,2019-08-16,Shame,Steve McQueen,2011.0,Eglharting,Netflix,71.0,,,2019,2019-08
+425,2019-08-15,Gran Budapest Hotel,Wes Anderson,2014.0,Marienburger,Blu Ray,89.0,,,2019,2019-08
+426,2019-08-14,The Game,David Fincher,1997.0,Marienburger,DVD,90.0,,,2019,2019-08
+427,2019-08-12,Hoestsonaten,Ingmar Bergman,1978.0,Marienburger,Mubi,81.0,,,2019,2019-08
+428,2019-08-11,Caché,Michael Haneke,2005.0,Marienburger,Mubi,83.0,,,2019,2019-08
+429,2019-08-08,Seom,Kim Ki Duk,2000.0,Marienburger,Mubi,80.0,,,2019,2019-08
+430,2019-08-07,Lucky,John Caroll Lynch,2017.0,Marienburger,Mubi,61.0,,,2019,2019-08
+431,2019-07-31,Salo o le 120 giornate di Sodoma,Pier Paolo Pasolini,1975.0,Babylon Mitte,Kino,78.0,,,2019,2019-07
+432,2019-07-30,Viskningar och rop,Ingmar Bergman,1972.0,Marienburger,Mubi,73.0,,,2019,2019-07
+434,2019-07-25,Once upon a Time in the West,Sergio Leone,1968.0,Babylon Mitte,Kino,84.0,,,2019,2019-07
+435,2019-07-19,Inception,Christopher Nolan,2010.0,Marienburger,Netflix,95.0,,,2019,2019-07
+437,2019-07-17,Vargtimmen,Ingmar Bergman,1968.0,Marienburger,Mubi,83.0,,,2019,2019-07
+439,2019-07-13,I dont feel at home in this world anymore,Macon Blair,2017.0,Marienburger,Netflix,51.0,,,2019,2019-07
+440,2019-07-12,Ausser Atem,Jean-Luc Godard,1960.0,Marienburger,DVD,76.0,,,2019,2019-07
+441,2019-07-11,Killing them softly,Andrew Dominik,2012.0,Marienburger,Blu Ray,32.0,,,2019,2019-07
+442,2019-07-07,The Dark Tower,Nikolaj Arcel,2017.0,Marienburger,Netflix,54.0,,,2019,2019-07
+444,2019-06-28,The Dead Don't Die,Jim Jarmusch,2019.0,Cinestar Kulturbrauerei,Kino,67.0,,,2019,2019-06
+449,2019-06-07,"Yes, Man",Peyton Reed,2008.0,Marienburger,Netflix,68.0,,,2019,2019-06
+450,2019-06-06,Lommbock,Christian Zübert,2017.0,Marienburger,Blu Ray,79.0,,,2019,2019-06
+452,2019-06-01,The Girl on the train,Tate Taylor,2016.0,Marienburger,Blu Ray,65.0,,,2019,2019-06
+453,2019-05-31,Taxi Driver,Martin Scorsese,1976.0,Babylon Mitte,Kino,89.0,,,2019,2019-05
+454,2019-05-30,The Hours,Stephen Daldry,2002.0,Marienburger,Netflix,70.0,,,2019,2019-05
+456,2019-05-28,Alien,Ridley Scott,1979.0,Babylon Mitte,Kino,91.0,,,2019,2019-05
+457,2019-05-27,La Hora de los hornos,Octavio Getino,1968.0,Marienburger,DVD,60.0,,,2019,2019-05
+458,2019-05-25,The Thing,John Carpenter,1982.0,Marienburger,Netflix,69.0,,,2019,2019-05
+460,2019-05-22,Avengers: Endgame,Anthony Russo,2019.0,Cinestar Potsdamer Platz,Kino,59.0,,,2019,2019-05
+461,2019-05-21,Rear Window,Alfred Hitchcock,1954.0,Marienburger,Blu Ray,91.0,,,2019,2019-05
+462,2019-05-18,Blues Brothers,John Landis,1980.0,Eglharting,Netflix,79.0,,,2019,2019-05
+464,2019-05-11,Fitzcarraldo,Werner Herzog,1982.0,Marienburger,DVD,69.0,,,2019,2019-05
+465,2019-05-10,Verachtung,Christoffer Boe,2018.0,UCI Colosseum,Kino,49.0,,Sneak,2019,2019-05
+468,2019-05-03,Fight Club,David Fincher,1999.0,Marienburger,DVD,98.0,,,2019,2019-05
+469,2019-05-01,Demolition,Jean-Marc Vallée,2016.0,Marienburger,Netflix,61.0,,,2019,2019-05
+470,2019-04-29,Climax,Gaspard Noé,2018.0,Marienburger,Blu Ray,73.0,,,2019,2019-04
+471,2019-04-27,Zodiac,David Fincher,2007.0,Marienburger,Netflix,78.0,,,2019,2019-04
+472,2019-04-24,Patong Girl,Susanna Salonen,2014.0,Marienburger,Netflix,71.0,,,2019,2019-04
+473,2019-04-23,At Eternity's Gate,Julian Schnabel,2018.0,Cinestar Kulturbrauerei,Kino,76.0,,,2019,2019-04
+475,2019-04-20,Anchorman,Adam McKay,2004.0,Marienburger,Netflix,69.0,,,2019,2019-04
+476,2019-04-15,The Old Man & the Gun,David Lowery,2018.0,Cinestar Kulturbrauerei,Kino,56.0,,,2019,2019-04
+478,2019-04-11,Der goldene Handschuh,Fatih Akin,2019.0,B-Ware Ladenkino,Kino,70.0,,,2019,2019-04
+479,2019-04-10,Green Book,Peter Farrelly,2018.0,Hackesche Hoefe Kino,Kino,75.0,,,2019,2019-04
+480,2019-04-09,Free Solo,Jimmy Chin,2018.0,Rollberg Kinos,Kino,70.0,,,2019,2019-04
+482,2019-03-30,There is nothing out there,Rolfe Kanefsky,1991.0,Bei Benni,DVD,63.0,,,2019,2019-03
+483,2019-03-29,Taken,Pierre Morel,2008.0,Eglharting,Netflix,69.0,,,2019,2019-03
+484,2019-03-26,Twarz,Malgorzata Szumowska,2018.0,Hackesche Hoefe Kino,Kino,51.0,,,2019,2019-03
+485,2019-03-23,127 Hours,Danny Boyle,2010.0,Eglharting,Netflix,77.0,,,2019,2019-03
+486,2019-03-22,Sully,Clint Eastwood,2016.0,Eglharting,Netflix,74.0,,,2019,2019-03
+487,2019-03-19,Captain Marvel,Anna Boden,2019.0,Cinestar Kulturbrauerei,Kino,69.0,,,2019,2019-03
+488,2019-03-18,The Mule,Clint Eastwood,2018.0,Cinestar Kulturbrauerei,Kino,65.0,,,2019,2019-03
+489,2019-03-15,8 Mile,Curtis Hanson,2002.0,Eglharting,Netflix,70.0,,,2019,2019-03
+490,2019-03-09,Hanami,Dorris Doerie,2008.0,Eglharting,Fernsehen,100.0,,,2019,2019-03
+491,2019-03-07,Moonlight,Barry Jenkins,2016.0,Eglharting,Netflix,74.0,,,2019,2019-03
+492,2019-03-06,Rush,Ron Howard,2013.0,Eglharting,Netflix,74.0,,,2019,2019-03
+493,2019-03-03,Vice,Adam McKay,2018.0,Kino International,Kino,79.0,,,2019,2019-03
+495,2019-02-24,The Godfather: Part II,Francis Ford Coppola,1974.0,Marienburger,Amazon Prime,92.0,,,2019,2019-02
+496,2019-02-22,The Godfather,Francis Ford Coppola,1972.0,Marienburger,Amazon Prime,95.0,,,2019,2019-02
+497,2019-02-22,Un chien andalou,Luis Bunuel,1929.0,Marienburger,Amazon Prime,63.0,,,2019,2019-02
+498,2019-02-17,Black Swan,Darren Aronofsky,2010.0,Marienburger,Netflix,85.0,,,2019,2019-02
+499,2019-02-16,Dawn of the Dead,Zack Snyder,2004.0,Marienburger,Netflix,76.0,,,2019,2019-02
+500,2019-02-15,Schindler's List,Steven Spielberg,1993.0,Marienburger,Amazon Prime,79.0,,,2019,2019-02
+501,2019-02-13,The Big Short,Adam McKay,2015.0,Marienburger,Blu Ray,97.0,,,2019,2019-02
+503,2019-02-10,By the name of Tania,,2019.0,Haus der Kulturen der Welt,Kino,60.0,,Berlinale,2019,2019-02
+504,2019-02-09,Capernaum,Nadine Labaki,2018.0,FSK,Kino,95.0,,,2019,2019-02
+505,2019-02-06,BlackkKlansman,Spike Lee,2018.0,Marienburger,Blu Ray,85.0,,,2019,2019-02
+507,2019-02-01,Face/Off,John Woo,1997.0,Porto,Netflix,76.0,,,2019,2019-02
+508,2019-01-28,The Ballad of Buster Scruggs,Coen Brueder,2018.0,Marienburger,Netflix,70.0,,,2019,2019-01
+509,2019-01-25,The Favourite,Yorgos Lanthimos,2018.0,Hackesche Hoefe Kino,Kino,71.0,,,2019,2019-01
+510,2019-01-24,Black Mirror: Bandersnatch,,2018.0,Marienburger,Netflix,73.0,,,2019,2019-01
+511,2019-01-18,Relatos salvajes,Damián Szifron,2014.0,Marienburger,Blu Ray,83.0,,,2019,2019-01
+513,2019-01-12,The House That Jack Built,Lars von Trier,2018.0,B-Ware Ladenkino,Kino,76.0,,,2019,2019-01
+514,2019-01-11,Shaun of the Dead,Edgar Wright,2004.0,Bei Markus,Netflix,85.0,,,2019,2019-01
+515,2019-01-10,Capernaum,Nadine Labaki,2018.0,Babylon Mitte,Kino,95.0,,Film des Jahres?,2019,2019-01
+517,2019-01-08,Bird Box,Susanne Bier,2018.0,Marienburger,Netflix,41.0,,Urgs,2019,2019-01
+518,2019-01-06,Metropolis,Fritz Lang,1927.0,Babylon Mitte,Kino,70.0,,Mit Live-Orchester,2019,2019-01
+521,2018-12-29,Roma,Alfonso Cuarón,2018.0,Torbole,Netflix,79.0,,,2018,2018-12
+522,2018-12-28,Sideways,Alexander Payne,2004.0,Bei Olli,DVD,69.0,,,2018,2018-12
+523,2018-12-27,Fantastic Beasts: The Crimes of Grindelwald,David Yates,2018.0,Mathaeser Muenchen,Kino,35.0,,,2018,2018-12
+524,2018-12-26,The Florida Project,Sean Baker,2017.0,Bei Lukas,Blu Ray,92.0,,,2018,2018-12
+525,2018-12-25,Ödipussi,Loriot,1988.0,Eglharting,DVD,92.0,,,2018,2018-12
+526,2018-12-23,Miracle on 34th Street,Les Mayfield,1994.0,Eglharting,Netflix,79.0,,,2018,2018-12
+528,2018-12-19,National Lampoon's Christmas Vacation,Jeremiah Chechik,1989.0,Eglharting,DVD,80.0,,,2018,2018-12
+529,2018-12-19,O Palmenbaum,Xaver Schwarzenberg,2000.0,Eglharting,DVD,83.0,,,2018,2018-12
+530,2018-12-18,Single Bells,Xaver Schwarzenberg,1998.0,Eglharting,DVD,79.0,,,2018,2018-12
+531,2018-12-16,Coco,Lee Unkrich,2017.0,Marienburger,Blu Ray,55.0,,,2018,2018-12
+532,2018-12-16,The Lord of the Rings: The Return of the King,Peter Jackson,2003.0,Marienburger,Blu Ray,96.0,,,2018,2018-12
+533,2018-12-13,Interstellar,Christopher Nolan,2014.0,Marienburger,Blu Ray,99.0,,,2018,2018-12
+534,2018-12-12,Blade Runner 2049,Denis Villeneuve,2017.0,Marienburger,Blu Ray,98.0,,,2018,2018-12
+537,2018-12-08,The Lord of the Rings: The Two Towers,Peter Jackson,2002.0,Marienburger,Blu Ray,98.0,,,2018,2018-12
+538,2018-12-08,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,2001.0,Marienburger,Blu Ray,93.0,,,2018,2018-12
+540,2018-12-02,Source Code,Duncan Jones,2011.0,Granada,Netflix,79.0,,,2018,2018-12
+541,2018-12-01,Nocturnal Animals,Tom Ford,2016.0,Granada,Netflix,72.0,,,2018,2018-12
+542,2018-12-01,Snatch,Guy Ritchie,2000.0,Granada,Netflix,70.0,,,2018,2018-12
+543,2018-11-28,Pi,Darren Aronofsky,1998.0,Bei Markus,DVD,79.0,,,2018,2018-11
+544,2018-11-20,The Machinist,Brad Anderson,2004.0,Marienburger,Netflix,77.0,,,2018,2018-11
+545,2018-11-18,Nosferatu,Friedrich Wilhelm Murnau,1922.0,Babylon Mitte,Kino,65.0,,"Mit Live-Orchester ""Metropolis""",2018,2018-11
+546,2018-11-14,The World's End,Edgar Wright,2013.0,Bei Markus,DVD,80.0,,,2018,2018-11
+547,2018-11-14,Das weiße Band - Eine deutsche Kindergeschichte,Michael Haneke,2009.0,Marienburger,Blu Ray,75.0,,,2018,2018-11
+548,2018-11-13,First Man,Damien Chazelle,2018.0,Hackesche Hoefe Kino,Kino,78.0,,,2018,2018-11
+549,2018-11-11,Catch me if you can,Steven Spielberg,2002.0,Marienburger,Netflix,81.0,,,2018,2018-11
+550,2018-11-09,Cabros de Mierda,Gonzalo Justiniano,2017.0,Babylon Mitte,Kino,63.0,,,2018,2018-11
+551,2018-11-04,Apocalypse Now,Francis Ford Coppola,1979.0,Marienburger,Blu Ray,98.0,,,2018,2018-11
+552,2018-11-02,Johnny English Strikes Again,David Kerr,2018.0,Cinestar Potsdamer Platz,Kino,51.0,,,2018,2018-11
+554,2018-10-21,Same Same But Different,Detlev Buck,2009.0,Marienburger,DVD,65.0,,,2018,2018-10
+555,2018-10-20,Deadpool 2,David Leitch,2018.0,KLM,Flugzeug,73.0,,Flug von BKK - AMS,2018,2018-10
+556,2018-10-20,Jurassic World: Fallen Kingdom,J.A. Bayona,2018.0,KLM,Flugzeug,53.0,,Flug von BKK - AMS,2018,2018-10
+557,2018-10-20,Jumanji: Welcome to the Jungle,Jake Kasdan,2017.0,KLM,Flugzeug,55.0,,Flug von BKK - AMS,2018,2018-10
+558,2018-10-20,Frozen,Chris Buck,2013.0,KLM,Flugzeug,56.0,,Flug von BKK - AMS,2018,2018-10
+559,2018-10-15,Iron Man,Jon Favreau,2008.0,Koh Rong Samloen,Netflix,78.0,,,2018,2018-10
+560,2018-10-04,Solo: A Star Wars Story,Ron Howard,2018.0,KLM,Flugzeug,60.0,,Flug AMS - BKK,2018,2018-10
+561,2018-10-04,Ready Player One,Steven Spielberg,2018.0,KLM,Flugzeug,80.0,,Flug AMS - BKK,2018,2018-10
+563,2018-09-28,The Man Who Killed Don Quixote,Terry Gilliam,2018.0,Hackesche Hoefe Kino,Kino,45.0,,,2018,2018-09
+566,2018-09-13,Paradies: Hoffnung,Ulrich Seidl,2013.0,Marienburger,Netflix,74.0,,,2018,2018-09
+567,2018-09-09,Germania anno zero,Roberto Rossellini,1948.0,Marienburger,DVD,71.0,,,2018,2018-09
+568,2018-09-08,Ex Machina,Alex Garland,2014.0,Marienburger,Blu Ray,93.0,,,2018,2018-09
+569,2018-09-05,Paradies: Glaube,Ulrich Seidl,2012.0,Marienburger,Netflix,72.0,,,2018,2018-09
+570,2018-09-04,Breaking Bad: Pilot,,1.0,Marienburger,Netflix,49.0,,,2018,2018-09
+571,2018-09-03,Mad Max: Fury Road,George Miller,2015.0,Marienburger,Blu Ray,95.0,,,2018,2018-09
+572,2018-09-15,Dark - Staffel 1,,1.0,Marienburger,Netflix,36.0,,,2018,2018-09
+573,2018-09-15,Das Leben der Anderen,Florian Henckel von Donnersmarck,2006.0,Marienburger,Netflix,86.0,,,2018,2018-09
+574,2018-08-26,The Great Gatsby,Baz Luhrmann,2013.0,Marienburger,Netflix,67.0,,,2018,2018-08
+575,2018-08-20,Life of Brian,Terry Jones,1979.0,Marienburger,Netflix,78.0,,,2018,2018-08
+576,2018-08-18,Watchmen,Zack Snyder,2009.0,Marienburger,Netflix,74.0,,,2018,2018-08
+577,2018-08-16,Train to Busan,Sang-ho Yeon,2016.0,Marienburger,Netflix,74.0,,,2018,2018-08
+578,2018-08-14,The Big Lebowski,Coen Brueder,1998.0,Babylon Mitte,Kino,92.0,,,2018,2018-08
+580,2018-08-03,Avatar,James Cameron,2009.0,Marienburger,Blu Ray,91.0,,Erster Film mit neuem Blu Ray Player,2018,2018-08
+581,2018-07-21,Back to the Future Part III,Robert Zemeckis,1990.0,Marienburger,Netflix,92.0,,,2018,2018-07
+582,2018-07-15,The Secret Life of Walter Mitty,Ben Stiller,2013.0,Marienburger,Netflix,86.0,,,2018,2018-07
+584,2018-07-06,2001: A Space Odyssey,Stanley Kubrick,1968.0,Freiluftkino Pompeji,Freiluftkino,96.0,,,2018,2018-07
+586,2018-06-10,Isle Of Dogs,Wes Anderson,2018.0,Hackesche Hoefe Kino,Kino,89.0,,Film des Jahres?,2018,2018-06
+592,2018-05-15,The Incredible Hulk,Louis Leterrier,2008.0,Rodenbergstrasse,Netflix,68.0,,,2018,2018-05
+593,2018-05-11,Avengers: Infinity War,Joe Russo,2018.0,Cinestar Potsdamer Platz,Kino,95.0,,Film des Jahres?,2018,2018-05
+594,2018-05-09,Robin Hood,Ridley Scott,2010.0,Rodenbergstrasse,Netflix,59.0,,,2018,2018-05
+596,2018-05-04,A Quiet Place,John Krasinski,2018.0,B-Ware Ladenkino,Kino,70.0,,,2018,2018-05
+597,2018-04-30,Son of Saul,László Nemes,2015.0,Rodenbergstrasse,Blu Ray,78.0,,,2018,2018-04
+598,2018-04-28,The People vs. Larry Flynt,Milos Forman,1996.0,Pirna,Netflix,75.0,,,2018,2018-04
+599,2018-04-26,The Motorcycle Diaries,Walter Salles,2004.0,Rodenbergstrasse,Netflix,68.0,,,2018,2018-04
+600,2018-04-22,Paradies: Liebe,Ulrich Seidl,2012.0,Rodenbergstrasse,Netflix,73.0,,,2018,2018-04
+601,2018-04-20,Lady Bird,Greta Gerwig,2017.0,Hackesche Hoefe Kino,Kino,70.0,,,2018,2018-04
+603,2018-04-13,Avatar,James Cameron,2009.0,Rodenbergstrasse,Blu Ray,91.0,,,2018,2018-04
+604,2018-04-09,Centurion,Neil Marshall,2010.0,Rodenbergstrasse,Netflix,63.0,,,2018,2018-04
+606,2018-04-06,Annihilation,Alex Garland,2018.0,Rodenbergstrasse,Netflix,79.0,,,2018,2018-04
+607,2018-04-01,Death on the Nile,John Guillermin,1978.0,Eglharting,Fernsehen,90.0,,,2018,2018-04
+608,2018-04-01,Breakfast at Tiffany's,Blake Edwards,1961.0,Eglharting,Fernsehen,85.0,,,2018,2018-04
+610,2018-03-30,All is Lost,J. C. Chandor,2013.0,Eglharting,Fernsehen,79.0,,,2018,2018-03
+611,2018-03-30,The Green Mile,Frank Darabont,1999.0,Eglharting,Fernsehen,89.0,,teilweise mit Mami,2018,2018-03
+613,2018-03-28,The Florida Project,Sean Baker,2017.0,Hackesche Hoefe Kino,Kino,89.0,,,2018,2018-03
+615,2018-03-24,Wir Wunderkinder,Kurt Hoffmann,1958.0,Eglharting,DVD,79.0,,,2018,2018-03
+616,2018-03-21,Wonder Woman,Patty Jenkins,2017.0,Rodenbergstrasse,Blu Ray,70.0,,,2018,2018-03
+617,2018-03-19,Paul,Greg Mottola,2011.0,Bei Markus,DVD,61.0,,,2018,2018-03
+619,2018-03-18,Loving Vincent,"Dorota Kobiela, Hugh Welchman",2017.0,Cinestar Kulturbrauerei,Kino,92.0,,,2018,2018-03
+620,2018-03-17,Rear Window,Alfred Hitchcock,1954.0,Rodenbergstrasse,DVD,93.0,,,2018,2018-03
+621,2018-03-16,The Mummy Returns,Stephen Sommers,2001.0,Rodenbergstrasse,DVD,74.0,,,2018,2018-03
+622,2018-03-15,The Mummy,Stephen Sommers,1999.0,Rodenbergstrasse,DVD,77.0,,,2018,2018-03
+623,2018-03-14,Arthur and Claire,Miguel Alexandre,2017.0,Hackesche Hoefe Kino,Kino,70.0,,,2018,2018-03
+624,2018-03-10,Symphonie einer Weltstadt,Leo de Laforgue,1950.0,Passionskirche,Kino,70.0,,,2018,2018-03
+625,2018-03-08,The Post,Steven Spielberg,2017.0,Hackesche Hoefe Kino,Kino,71.0,,,2018,2018-03
+626,2018-03-07,La La Land,Damien Chazelle,2016.0,Rodenbergstrasse,Blu Ray,83.0,,,2018,2018-03
+627,2018-03-06,Interstellar,Christopher Nolan,2014.0,Rodenbergstrasse,Blu Ray,97.0,,,2018,2018-03
+628,2018-02-23,The Disaster Artist,James Franco,2017.0,Hackesche Hoefe Kino,Kino,92.0,,,2018,2018-02
+629,2018-02-22,The Shape of Water,Guillermo del Toro,2017.0,Babylon Kreuzberg,Kino,79.0,,,2018,2018-02
+630,2018-02-09,Phantom Thread,Paul Thomas Anderson,2017.0,Hackesche Hoefe Kino,Kino,73.0,,,2018,2018-02
+632,2018-02-04,"Three Billboards outside Ebbing, Missouri",Martin McDonagh,2017.0,Hackesche Hoefe Kino,Kino,94.0,,Film des Jahres?,2018,2018-02
+633,2018-01-29,The Fountain,Darren Aronofsky,2006.0,Rodenbergstrasse,DVD,76.0,,,2018,2018-01
+635,2018-01-24,Solaris,Andrej Tarkowski,1972.0,Babylon Mitte,Kino,85.0,,,2018,2018-01
+636,2018-01-21,Eyes Wide Shut,Stanley Kubrick,1999.0,Rodenbergstrasse,Blu Ray,75.0,,,2018,2018-01
+637,2018-01-19,The Host,Bong Joon-Ho,2006.0,Rodenbergstrasse,DVD,90.0,,,2018,2018-01
+638,2018-01-18,Loving Vincent,"Dorota Kobiela, Hugh Welchman",2017.0,Hackesche Hoefe Kino,Kino,89.0,,,2018,2018-01
+639,2018-01-08,Dogtooth,Yorgos Lanthimos,2009.0,Babylon Mitte,Kino,79.0,,,2018,2018-01
+640,2018-01-07,(500) Days of Summer,Marc Webb,2009.0,Rodenbergstrasse,Netflix,75.0,,,2018,2018-01
+641,2018-01-06,Modern Times,Charlie Chaplin,1936.0,Babylon Mitte,Kino,75.0,,,2018,2018-01
+642,2018-01-05,The Killing of a Sacred Deer,Yorgos Lanthimos,2017.0,Cinestar Kulturbrauerei,Kino,85.0,,,2018,2018-01
+644,2018-01-04,Soul Kitchen,Fatih Akin,2009.0,Rodenbergstrasse,Netflix,85.0,,,2018,2018-01
+645,2018-01-02,Stand by Me,Rob Reiner,1986.0,Rodenbergstrasse,DVD,81.0,,,2018,2018-01
+646,2018-01-01,Cloud Atlas,"Tom Tykwer, Lana Wachowski, Lilly Wachowski",2012.0,Rodenbergstrasse,Blu Ray,79.0,,,2018,2018-01
+647,2018-03-13,Interstellar,Christopher Nolan,2014.0,Rodenbergstrasse,Blu Ray,100.0,,,2018,2018-03
+648,2017-05-05,Jurassic World,Colin Trevorrow,2015.0,Rodenbergstrasse,Blu Ray,78.0,,,2017,2017-05
+649,2017-12-27,Star Wars: Episode VIII - The Last Jedi,Rian Johnson,2017.0,Mathaeser Muenchen,Kino,65.0,,,2017,2017-12
+650,2017-12-28,Mad Max: Fury Road,George Miller,2015.0,Bei Lukas,Blu Ray,90.0,,,2017,2017-12
+653,2017-12-15,Inside Out,Pete Docter,2015.0,Rodenbergstrasse,Netflix,60.0,,,2017,2017-12
+654,2017-12-08,The Lord of the Rings: The Return of the King,Peter Jackson,2003.0,Rodenbergstrasse,Blu Ray,95.0,,,2017,2017-12
+655,2017-12-05,Manifesto,Julian Rosefeldt,2015.0,Hackesche Hoefe Kino,Kino,67.0,,,2017,2017-12
+656,2017-12-04,Aus dem Nichts,Fatih Akin,2017.0,Hackesche Hoefe Kino,Kino,85.0,,,2017,2017-12
+658,2017-12-01,Detroit,Kathryn Bigelow,2017.0,Hackesche Hoefe Kino,Kino,92.0,,,2017,2017-12
+661,2017-11-29,Stranger Things Staffel 2,,1.0,Rodenbergstrasse,Netflix,52.0,,,2017,2017-11
+662,2017-11-26,The Lord of the Rings: The Two Towers,Peter Jackson,2002.0,Rodenbergstrasse,DVD,97.0,,,2017,2017-11
+663,2017-11-25,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,2001.0,Rodenbergstrasse,Blu Ray,96.0,,,2017,2017-11
+664,2017-11-14,Fear and Loathing in Las Vegas,Terry Gilliam,1998.0,Rodenbergstrasse,Blu Ray,85.0,,,2017,2017-11
+665,2017-11-12,The Dark Knight,Christopher Nolan,2008.0,Rodenbergstrasse,Blu Ray,98.0,,Premiere des Beamers,2017,2017-11
+666,2017-11-10,Simpel,Markus Goller,2017.0,UCI Colosseum,Kino,59.0,,Sneak,2017,2017-11
+668,2017-11-04,Stranger Things Staffel 1,,1.0,Rodenbergstrasse,Netflix,65.0,,,2017,2017-11
+669,2017-10-29,Mother!,Darren Aronofsky,2017.0,Kino Zukunft,Kino,74.0,,,2017,2017-10
+670,2017-10-15,La grande bellezza,Paolo Sorrentino,2013.0,Rodenbergstrasse,Blu Ray,65.0,,,2017,2017-10
+671,2017-10-27,Baby Driver,Edgar Wright,2017.0,UCI Colosseum,Kino,65.0,,Sneak,2017,2017-10
+672,2017-06-06,The Square,Ruben Östlund,2017.0,Hackesche Hoefe Kino,Kino,85.0,,,2017,2017-06
+673,2017-10-23,Blade Runner 2049,Denis Villeneuve,2017.0,Hackesche Hoefe Kino,Kino,95.0,,,2017,2017-10
+674,2017-10-22,Happy End,Michael Haneke,2017.0,Hackesche Hoefe Kino,Kino,64.0,,,2017,2017-10
+675,2017-10-19,La Strada,Federico Fellini,1954.0,Babylon Mitte,,73.0,,,2017,2017-10
+676,2017-10-18,Elle,Paul Verhoeven,2016.0,Rodenbergstrasse,Blu Ray,76.0,,,2017,2017-10
+677,2017-09-15,It: Chapter One,Andres Muschietti,2017.0,Cinestar Potsdamer Platz,Kino,76.0,,,2017,2017-09
+678,2017-08-15,Dunkirk,Christopher Nolan,2017.0,Cinestar Potsdamer Platz,Kino,84.0,,,2017,2017-08
+679,2017-08-27,The Lobster,Yorgos Lanthimos,2015.0,Rodenbergstrasse,DVD,87.0,,,2017,2017-08
+680,2017-08-23,Valerian and the City of a Thousand Planets,Luc Besson,2017.0,Cinestar Potsdamer Platz,Kino,65.0,,,2017,2017-08
+681,2017-08-21,"Maria, ihm schmeckt's nicht!",Neele Vollmar,2009.0,Rodenbergstrasse,Netflix,60.0,,,2017,2017-08
+682,2017-08-14,The Party,Ben Falcone,2018.0,Cinestar Kulturbrauerei,Kino,73.0,,,2017,2017-08
+684,2017-07-23,300: Rise of an Empire,Noam Murro,2014.0,Rodenbergstrasse,Blu Ray,70.0,,,2017,2017-07
+685,2017-07-22,The Beguiled,Sophia Coppola,2017.0,Hackesche Hoefe Kino,Kino,65.0,,,2017,2017-07
+686,2017-07-21,300,Zack Snyder,2007.0,Rodenbergstrasse,Blu Ray,85.0,,,2017,2017-07
+687,2017-07-16,Der Himmel ueber Berlin,Wim Wenders,1987.0,Lichtblick-Kino,Kino,79.0,,,2017,2017-07
+688,2017-07-12,Blade Runner,Ridley Scott,1982.0,Cassiopeia,Freiluftkino,94.0,,,2017,2017-07
+689,2017-07-15,War for the Planet of the Apes,Matt Reeves,2017.0,Rodenbergstrasse,Blu Ray,81.0,,,2017,2017-07
+690,2017-07-15,Rise of the Planet of the Apes,Rupert Wyatt,2011.0,Rodenbergstrasse,Blu Ray,84.0,,,2017,2017-07
+691,2017-07-15,Dawn of the Planet of the Apes,Matt Reeves,2014.0,Rodenbergstrasse,Blu Ray,83.0,,,2017,2017-07
+692,2017-07-15,Get Out,Jordan Peele,2017.0,Babylon Mitte,Kino,75.0,,,2017,2017-07
+696,2017-05-25,Wall-E,Andrew Stanton,2008.0,British Airways,Flugzeug,70.0,,,2017,2017-05
+697,2017-05-25,Suicide Squad,David Ayer,2016.0,British Airways,Flugzeug,60.0,,,2017,2017-05
+698,2017-05-15,Alien: Covenant,Ridley Scott,2017.0,Kino in Punta Arenas,Kino,71.0,,,2017,2017-05
+699,2017-05-15,Batman Begins,Christopher Nolan,2005.0,Ushuaia,Fernsehen,79.0,,,2017,2017-05
+700,2017-05-15,Inside Man,Spike Lee,2006.0,Ushuaia,Fernsehen,86.0,,,2017,2017-05
+701,2017-05-15,Logan,James Mangold,2017.0,Im Bus in Patagonien,Fernsehen,70.0,,,2017,2017-05
+702,2017-05-15,X-Men Origins: Wolverine,Gavin Hood,2009.0,Im Bus in Patagonien,Fernsehen,65.0,,,2017,2017-05
+703,2017-04-11,Doctor Strange,Scott Derrickson,2016.0,British Airways,Flugzeug,69.0,,,2017,2017-04
+704,2017-04-11,The Lego Batman Movie,,2017.0,British Airways,Flugzeug,65.0,,,2017,2017-04
+705,2017-04-11,Passengers,Morten Tyldum,2016.0,British Airways,Flugzeug,69.0,,,2017,2017-04
+706,2017-04-11,The Day The Earth Stood Still,Scott Derrickson,2008.0,British Airways,Flugzeug,65.0,,,2017,2017-04
+707,2017-03-15,Trainspotting,Danny Boyle,1996.0,Rodenbergstrasse,DVD,87.0,,,2017,2017-03
+708,2017-03-08,The Wrestler,Darren Aronofsky,2008.0,Rodenbergstrasse,DVD,85.0,,,2017,2017-03
+710,2017-03-06,Inception,Christopher Nolan,2010.0,Rodenbergstrasse,DVD,94.0,,,2017,2017-03
+711,2017-02-18,No Country for old Men,Coen Brueder,2007.0,Rodenbergstrasse,DVD,89.0,,,2017,2017-02
+712,2017-02-16,Manchester by the Sea,David Lowery,2016.0,Babylon Kreuzberg,Kino,83.0,,,2017,2017-02
+713,2017-02-06,Night on Earth,Jim Jarmusch,1991.0,Babylon Mitte,Kino,83.0,,,2017,2017-02
+714,2017-02-15,T2 Trainspotting,Danny Boyle,2017.0,Kino Central,Kino,74.0,,,2017,2017-02
+715,2017-01-21,Split,M. Night Shyamalan,2016.0,Kino Central,Kino,75.0,,,2017,2017-01
+716,2017-01-15,Arrival,Denis Villeneuve,2016.0,Kino Central,Kino,80.0,,,2017,2017-01
+717,2017-01-15,Wild,Jean-Marc Vallée,2014.0,Rodenbergstrasse,Blu Ray,72.0,,,2017,2017-01
+718,2017-01-15,Brazil,Terry Gilliam,1985.0,Rodenbergstrasse,DVD,87.0,,,2017,2017-01
+719,2017-01-15,Aliens,James Cameron,1986.0,Rodenbergstrasse,Blu Ray,95.0,,,2017,2017-01
+720,2017-01-15,Alien 3,David Fincher,1992.0,Rodenbergstrasse,Blu Ray,91.0,,,2017,2017-01
+721,2017-01-15,Alien: Resurrection,Jean-Pierre Jeunet,1997.0,Rodenbergstrasse,Blu Ray,73.0,,,2017,2017-01
+722,2017-01-15,Prometheus,Ridley Scott,2012.0,Rodenbergstrasse,Blu Ray,80.0,,,2017,2017-01
+723,2016-12-16,Interstellar,Christopher Nolan,2014.0,Zug,Blu Ray,99.0,,,2016,2016-12
+724,2016-12-30,Alien,Ridley Scott,1979.0,Rodenbergstrasse,DVD,95.0,,,2016,2016-12
+725,2016-12-28,Star Wars: Episode II - Attack of the Clones,George Lucas,2002.0,Eglharting,DVD,75.0,,,2016,2016-12
+726,2016-12-26,Rogue One,Gareth Edwards,2016.0,Cinemaxx Muenchen,Kino,70.0,,,2016,2016-12
+728,2016-12-15,La Piel Que Habito,Pedro Almodovar,2011.0,Bei Lukas,Netflix,79.0,,,2016,2016-12
+729,2016-12-15,Ex Machina,Alex Garland,2014.0,Bei Lukas,Blu Ray,96.0,,,2016,2016-12
+730,2016-12-17,Single Bells,Xaver Schwarzenberg,1998.0,Eglharting,DVD,85.0,,,2016,2016-12
+731,2016-12-17,O Palmenbaum,Xaver Schwarzenberg,2000.0,Eglharting,DVD,84.0,,,2016,2016-12
+732,2016-12-01,Money Monster,Jodie Foster,2016.0,British Airways,Flugzeug,75.0,,,2016,2016-12
+733,2016-12-15,The Lord of the Rings: The Return of the King,Peter Jackson,2003.0,Rodenbergstrasse,Blu Ray,97.0,,,2016,2016-12
+734,2016-12-15,The Lord of the Rings: The Two Towers,Peter Jackson,2002.0,Rodenbergstrasse,DVD,96.0,,,2016,2016-12
+735,2016-12-15,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,2001.0,Rodenbergstrasse,DVD,95.0,,,2016,2016-12
+736,2016-11-27,X-Men Origins: Wolverine,Gavin Hood,2009.0,British Airways,Flugzeug,65.0,,,2016,2016-11
+738,2016-11-01,Schneider vs. Bax,Alex van Warmerdam,2015.0,B-Ware Ladenkino,Kino,65.0,,,2016,2016-11
+739,2016-10-02,The Big Short,Adam McKay,2015.0,Stockholm,Netflix,95.0,,,2016,2016-10
+740,2016-10-01,Pulp Fiction,Quentin Tarantino,1994.0,Stockholm,Netflix,96.0,,,2016,2016-10
+741,2016-09-01,Cars,John Lasseter,2006.0,KLM,Flugzeug,70.0,,Flug nach Manila,2016,2016-09
+742,2016-09-01,The Jungle Book,Jon Favreau,2016.0,KLM,Flugzeug,60.0,,Flug nach Manila,2016,2016-09
+743,2016-09-01,The Jungle Book,Wolfgang Reitherman,1967.0,KLM,Flugzeug,80.0,,Flug nach Manila,2016,2016-09
+744,2016-08-01,Batman v Superman: Dawn of Justice,Zack Snyder,2016.0,KLM,Flugzeug,81.0,,,2016,2016-08
+745,2016-08-01,Man of Steel,Zack Snyder,2013.0,KLM,Flugzeug,80.0,,,2016,2016-08
+746,2016-08-01,Captain America: Civil War,Joe Russo,2016.0,KLM,Flugzeug,84.0,,,2016,2016-08
+747,2016-08-01,Iron Man,Jon Favreau,2008.0,KLM,Flugzeug,83.0,,,2016,2016-08
+748,2016-08-01,X-Men Apocalypse,Bryan Singer,2016.0,KLM,Flugzeug,76.0,,,2016,2016-08
+749,2016-07-22,Colonia,Florian Gallenberger,2015.0,Freiluftkino Kreuzberg,Freiluftkino,74.0,,,2016,2016-07
+750,2016-07-14,Warcraft,Duncan Jones,2016.0,UCI Colosseum,Kino,70.0,,,2016,2016-07
+751,2016-03-29,a pigeon sat on a branch reflecting on existence,Roy Andersson,2014.0,Bologna,other Streaming,83.0,,,2016,2016-03
+752,2016-03-25,Angst Essen Seele auf,Rainer Werner Fassbinder,1974.0,Rodenbergstrasse,other Streaming,83.0,,,2016,2016-03
+753,2016-03-19,Room,Lenny Abrahamson,2015.0,Hackesche Hoefe Kino,Kino,84.0,,,2016,2016-03
+754,2016-03-18,The Finest Hours,Craig Gillespie,2016.0,UCI Colosseum,Kino,59.0,,Sneak,2016,2016-03
+755,2016-03-11,Criminal Activities,Jackie Earle Haley,2015.0,UCI Colosseum,Kino,42.0,,Sneak,2016,2016-03
+756,2016-03-07,"Hail, Caesar!",Coen Brueder,2016.0,Cinestar Kulturbrauerei,Kino,64.0,,,2016,2016-03
+757,2016-03-05,Spotlight,Tom McCarthy,2015.0,Kino Central,Kino,70.0,,,2016,2016-03
+758,2016-02-20,The Martian,Ridley Scott,2015.0,SAS,Flugzeug,80.0,,,2016,2016-02
+759,2016-02-20,Steve Jobs,Danny Boyle,2015.0,SAS,Flugzeug,75.0,,,2016,2016-02
+760,2016-02-20,Pixels,Chris Columbus,2015.0,SAS,Flugzeug,65.0,,,2016,2016-02
+762,2016-02-07,Fight Club,David Fincher,1999.0,Bei Markus,DVD,95.0,,,2016,2016-02
+763,2016-01-29,The Hateful Eight,Quentin Tarantino,2015.0,Hackesche Hoefe Kino,Kino,97.0,,,2016,2016-01
+764,2016-01-29,Festen,Thomas Vinterberg,1998.0,Bei Markus,DVD,91.0,,,2016,2016-01
+765,2016-01-22,Victor Frankenstein,Paul McGuigan,2015.0,UCI Colosseum,Kino,61.0,,Sneak,2016,2016-01
+766,2016-01-18,Le tout nouveau testament,Jaco Van Dormael,2015.0,Kino Zukunft,Kino,60.0,,,2016,2016-01
+767,2016-01-17,The Big Short,Adam McKay,2015.0,Kino Central,Kino,95.0,,,2016,2016-01
+769,2016-01-09,Snowpiercer,Bong Joon-Ho,2013.0,Bei Andrea,DVD,86.0,,,2016,2016-01
+770,2016-01-15,Goosebumps,Rob Letterman,2015.0,UCI Colosseum,Kino,65.0,,Sneak,2016,2016-01
+771,2016-01-12,Carol,Todd Haynes,2015.0,Kino am Friedrichshain,Kino,74.0,,,2016,2016-01
+772,2016-01-10,The Revenant,Guillermo del Toro,2015.0,Kino am Friedrichshain,Kino,81.0,,,2016,2016-01
+774,2016-08-24,Seefeuer,Gianfranco Rosi,2016.0,Freiluftkino Friedrichshain,Freiluftkino,75.0,,,2016,2016-08
+777,2015-12-15,a pigeon sat on a branch reflecting on existence,Roy Andersson,2014.0,Babylon Kreuzberg,Kino,83.0,,,2015,2015-12
+778,2015-12-20,National Lampoon's Christmas Vacation,Jeremiah S. Chechik,1989.0,Eglharting,DVD,80.0,,,2015,2015-12
+779,2015-12-28,Ex Machina,Alex Garland,2014.0,Bei Lukas,Blu Ray,95.0,,,2015,2015-12
+780,2015-12-27,Star Wars: Episode VII - The Force Awakens,J.J. Abrams,2015.0,Mathaeser Muenchen,Kino,73.0,,,2015,2015-12
+782,2015-12-16,Back to the Future Part III,Robert Zemeckis,1990.0,Berchtesgaden,DVD,95.0,,,2015,2015-12
+783,2015-12-16,Back to the Future Part II,Robert Zemeckis,1989.0,Berchtesgaden,DVD,90.0,,,2015,2015-12
+784,2015-12-16,Back to the Future,Robert Zemeckis,1985.0,Berchtesgaden,DVD,96.0,,,2015,2015-12
+785,2015-12-14,Jurassic Park,Steven Spielberg,1993.0,Berchtesgaden,DVD,93.0,,,2015,2015-12
+787,2015-11-15,The Lord of the Rings: The Return of the King,Peter Jackson,2003.0,Rodenbergstrasse,Blu Ray,95.0,,,2015,2015-11
+788,2015-11-15,The Lord of the Rings: The Two Towers,Peter Jackson,2002.0,Rodenbergstrasse,Blu Ray,98.0,,,2015,2015-11
+789,2015-11-15,The Lord of the Rings: The Fellowship of the Ring,Peter Jackson,2001.0,Rodenbergstrasse,Blu Ray,93.0,,,2015,2015-11
+790,2015-08-20,A Fish called Wanda,Charles Crichton,1988.0,Bei Andrea,DVD,89.0,,,2015,2015-08
+791,2015-05-14,Mad Max: Fury Road,George Miller,2015.0,Kino am Friedrichshain,Kino,95.0,,,2015,2015-05
+792,2015-02-23,Iwans Kindheit,Andrej Tarkowski,1962.0,Rodenbergstrasse,other Streaming,71.0,,,2015,2015-02
+793,2015-03-11,Ida,Pawel Pawlikowski,2013.0,Rodenbergstrasse,other Streaming,65.0,,,2015,2015-03
+794,2015-03-25,Turist,Ruben Östlund,2014.0,Rodenbergstrasse,other Streaming,85.0,,,2015,2015-03
+795,2015-08-08,Das Salz der Erde,Wim Wenders,2014.0,Freiluftkino Rehberge,Freiluftkino,83.0,,,2015,2015-08
+797,2015-11-11,Turtles,Jonathan Liebesman,2014.0,UCI Colosseum,Kino,56.0,,,2015,2015-11
+800,2014-12-30,Avatar,James Cameron,2009.0,Eglharting,Blu Ray,92.0,,,2014,2014-12
+801,2014-12-28,Children of Men,Alfonso Cuaron,2006.0,Eglharting,Blu Ray,85.0,,,2014,2014-12
+803,2014-11-14,Interstellar,Christopher Nolan,2014.0,Cinestar Potsdamer Platz,Kino,99.0,,,2014,2014-11
+804,2014-08-12,Jeder für sich und Gott gegen alle,Werner Herzog,1974.0,Rodenbergstrasse,DVD,65.0,,,2014,2014-08
+805,2014-08-26,Magnolia,Paul Thomas Anderson,1999.0,Rodenbergstrasse,DVD,100.0,,,2014,2014-08
+806,2014-08-04,2001: A Space Odyssey,Stanley Kubrick,1968.0,Freiluftkino Friedrichshain,Freiluftkino,99.0,,,2014,2014-08
+808,2014-01-13,All is Lost,J. C. Chandor,2013.0,Hackesche Hoefe Kino,Kino,82.0,,,2014,2014-01
+809,2014-04-30,Snowpiercer,Bong Joon-Ho,2013.0,Kino International,Kino,85.0,,,2014,2014-04
+810,2014-08-12,Boyhood,Richard Linklater,2014.0,Freiluftkino Rehberge,Freiluftkino,70.0,,,2014,2014-08
+812,2013-11-12,Tanz der Teufel 2 - Jetzt wird noch mehr getanzt,Sam Raimi,1987.0,Rodenbergstrasse,DVD,81.0,,,2013,2013-11
+813,2013-08-11,The Shining,Stanley Kubrick,1980.0,Lichtblick-Kino,Kino,89.0,,,2013,2013-08
+814,2013-08-11,Kohlhaas oder die Verhältnismäßigkeit der Mittel,Aron Lehmann,2013.0,Lichtblick-Kino,Kino,65.0,,,2013,2013-08
+815,2013-06-11,"Dude, where's my car?",Danny Leiner,2000.0,Bei Dagmar,DVD,80.0,,,2013,2013-06
+816,2013-11-05,Inglourious Basterds,Quentin Tarantino,2009.0,Rodenbergstrasse,DVD,95.0,,,2013,2013-11
+817,2013-11-03,Evil Dead,Aaron Morton,2013.0,Rodenbergstrasse,DVD,75.0,,,2013,2013-11
+818,2013-03-12,Tropa de Elite 2,José Padilha,2010.0,Brasilien,Cuevana,80.0,,,2013,2013-03
+819,2013-03-12,Tropa de Elite,José Padilha,2007.0,Brasilien,Cuevana,90.0,,,2013,2013-03
+820,2013-03-10,The Shawshank Redemption,Frank Darabont,1994.0,Brasilien,Cuevana,99.0,,,2013,2013-03
+821,2013-02-04,Amour,Michael Haneke,2012.0,Chile,Kino,82.0,,,2013,2013-02
+823,2014-12-28,The Hobbit: The Battle of the Five Armies,Peter Jackson,2014.0,Mathaeser Muenchen,Kino,70.0,,,2014,2014-12
+824,2013-12-28,The Hobbit: The Desolation of Smaug,Peter Jackson,2013.0,Mathaeser Muenchen,Kino,70.0,,,2013,2013-12
+825,2012-12-28,The Hobbit: An Unexpected Journey,Peter Jackson,2012.0,Mathaeser Muenchen,Kino,70.0,,,2012,2012-12
+827,2012-02-01,Kill Bill: Vol. 2,Quentin Tarantino,2004.0,Eglharting,DVD,94.0,,,2012,2012-02
+828,2012-02-01,Kill Bill: Vol. 1,Quentin Tarantino,2003.0,Eglharting,DVD,96.0,,,2012,2012-02
+829,2012-11-13,Napoleon Dynamite,Jared Hess,2004.0,Bei Andrea,DVD,77.0,,,2012,2012-11
+830,2012-09-05,Amour,Michael Haneke,2012.0,Kant Kino,Kino,82.0,,,2012,2012-09
+831,2012-09-06,Salo o le 120 giornate di Sodoma,Pier Paolo Pasolini,1975.0,Filmrauschpalast,Kino,70.0,,,2012,2012-09
+832,2012-06-15,The Dark Knight Rises,Christopher Nolan,2012.0,Odeon,Kino,75.0,,,2012,2012-06
+833,2012-08-25,Idioterne,Lars von Trier,1998.0,Bei Andrea,DVD,75.0,,,2012,2012-08
+834,2012-08-12,Y también la lluvia,Icíar Bollaín,2010.0,Freiluftkino Hasenheide,Freiluftkino,65.0,,,2012,2012-08
+839,2012-05-12,Mulholland Dr.,David Lynch,2001.0,Bei Andrea,DVD,95.0,,,2012,2012-05
+841,2011-01-01,The Ides of March,George Clooney,2011.0,,Kino,75.0,,,2011,2011-01
+843,2011-08-11,Donnie Darko,Richard Kelly,2001.0,Eglharting,DVD,95.0,,,2011,2011-08
+844,2011-02-02,Black Swan,Darren Aronofsky,2010.0,Hackesche Hoefe Kino,Kino,85.0,,,2011,2011-02
+849,2011-01-20,Drive,Nicolas Winding Refn,2011.0,,Kino,75.0,,,2011,2011-01
+851,2010-09-24,Machuca,Andrés Wood,2004.0,Bei Dali,DVD,80.0,,,2010,2010-09
+852,2010-05-09,Inglourious Basterds,Quentin Tarantino,2009.0,Bei Dali,DVD,95.0,,,2010,2010-05
+853,2010-09-12,Das weiße Band - Eine deutsche Kindergeschichte,Michael Haneke,2009.0,Chile,Kino,85.0,,,2010,2010-09
+854,2010-07-13,Irreversible,Gaspard Noé,2002.0,Bei Dali,DVD,63.0,,,2010,2010-07
+855,2010-04-16,Avatar,James Cameron,2009.0,Capitol Grafing,Kino,87.0,,,2010,2010-04
+856,2010-02-01,Avatar,James Cameron,2009.0,Cinemaxx Passau,Kino,87.0,,,2010,2010-02
+857,2010-02-01,Magnolia,Paul Thomas Anderson,1999.0,Passau,DVD,100.0,,,2010,2010-02
+858,2010-02-08,Magnolia,Paul Thomas Anderson,1999.0,Passau,DVD,100.0,,,2010,2010-02
+859,2010-02-26,Shutter Island,Martin Scorsese,2010.0,Cinemaxx Passau,Kino,92.0,,,2010,2010-02
+861,2009-11-11,La Buena Vida,Andrés Wood,2008.0,Normandie,Kino,67.0,,,2009,2009-11
+862,2009-08-02,Solaris,Andrej Tarkowski,1972.0,Passau,Kino,83.0,,,2009,2009-08
+863,2008-10-04,Lisbon Story,Wim Wenders,1994.0,Bei Dali,DVD,60.0,,,2008,2008-10
+864,2008-09-05,Eternal Sunshine of a Spotless Mind,Michael Gondry,2004.0,Bei Dali,DVD,84.0,,,2008,2008-09
+865,2008-09-28,Die Fälscher,Stefan Ruzowitzky,2007.0,Normandie,Kino,75.0,,,2008,2008-09
+866,2008-09-17,Fight Club,David Fincher,1999.0,Bei Dali,DVD,97.0,,,2008,2008-09
+867,2008-09-19,Le scaphandre et le papillon,Julian Schnabel,2007.0,,Kino,89.0,,,2008,2008-09
+868,2008-07-15,The Darjeeling Limited,Wes Anderson,2007.0,Eglharting,DVD,83.0,,,2008,2008-07
+869,2008-06-19,Magnolia,Paul Thomas Anderson,1999.0,Passau,DVD,100.0,,,2008,2008-06
+870,2008-06-06,Funny Games U.S.,Michael Haneke,2007.0,Passau,Kino,67.0,,,2008,2008-06
+871,2008-07-06,The Man Who Knew Too Much,Alfred Hitchcock,1956.0,Eglharting,DVD,85.0,,,2008,2008-07
+872,2008-08-06,Psycho,Alfred Hitchcock,1960.0,Eglharting,DVD,80.0,,,2008,2008-08
+873,2008-08-06,Vertigo,Alfred Hitchcock,1958.0,Eglharting,DVD,80.0,,,2008,2008-08
+874,2008-06-06,The Birds,Alfred Hitchcock,1963.0,Eglharting,DVD,80.0,,,2008,2008-06
+875,2006-10-29,Down by Law,Jim Jarmusch,1986.0,Passau,Kino,65.0,,,2006,2006-10
+876,2006-03-16,28 Days Later,Danny Boyle,2002.0,Ebersberg,DVD,83.0,,,2006,2006-03
+877,2005-11-24,Blade Runner,Ridley Scott,1982.0,Spiegelau,DVD,91.0,,,2005,2005-11
+878,2004-04-19,Kill Bill: Vol. 2,Quentin Tarantino,2004.0,Muenchen,Kino,94.0,,,2004,2004-04
+879,2003-10-17,Kill Bill: Vol. 1,Quentin Tarantino,2003.0,Muenchen,Kino,96.0,,,2003,2003-10
+888,2002-03-05,A Beautiful Mind,Ron Howard,2001.0,Cinemaxx Muenchen,Kino,90.0,,,2002,2002-03
