@@ -96,7 +96,7 @@ preparing the tables.
 
 
 ## <a class="anchor" id="author">Author</a>
-Maximilian Müller, Development Manager, Consultant and Account Executive for the smart energy transition. Now diving into the field of Data Science.
+Maximilian Müller, Development Manager, Consultant and Account Executive for the smart energy transition. Strong interest in movies, opera and Data Science.
 
 
 ## <a class="anchor" id="license">License</a>
