@@ -115,7 +115,7 @@ def knowing_the_directors_oevre(df):
         }).reset_index()
 
     # Return the DataFrame
-    return df.sort_values('title', ascending = False).head(10)
+    return df.round(2).sort_values('title', ascending = False).head(10)
 
 
 
