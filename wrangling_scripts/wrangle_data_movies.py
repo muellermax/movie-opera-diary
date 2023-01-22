@@ -288,7 +288,7 @@ def return_figures_movies():
     # The sixth plot shows the evaluation for each unique movie for each director
     graph_six = []
 
-    df = knowing_the_directors_oevre(df_movies_tmdb)
+    df = knowing_the_directors_oevre(df_movies)
     
     for item in df['creator'].unique():
         graph_six.append(
