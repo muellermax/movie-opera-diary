@@ -87,6 +87,38 @@ def genres_evaluation_views(df):
 
 
 
+def knowing_the_directors_oevre(df):
+    """
+    A function that allows me to show how I evaluated the directors whole oevre and
+    shows me which director I evaluate best over the total oevre - there are some
+    directors who have a few movies that I have evaluated extremely good and other 
+    movies not so good. 
+
+    Input: 
+        df (DataFrame): The diary_tmdb_genres DataFrame
+    
+    Output: 
+        knowing_the_directors_oevre (DataFrame): A DataFrame with the mean 
+        evaluation and the number of unique views
+    """
+
+    # Groupby creator and title, to get the mean evaluation for each item. 
+    df = df.groupby(['creator', 'title']).agg({
+            'date': 'count',
+            'evaluation': 'mean'
+        }).reset_index()
+
+    # Now Groupby creator to get the overall overview
+    df = df.groupby(['creator']).agg({
+            'title': 'nunique',
+            'evaluation': 'mean'
+        }).reset_index()
+
+    # Return the DataFrame
+    return df.sort_values('title', ascending = False).head(10)
+
+
+
 def return_figures_movies():
     """
     Creates the plotly visualizations
@@ -252,6 +284,39 @@ def return_figures_movies():
                     )
 
 
+
+    # The sixth plot shows the evaluation for each unique movie for each director
+    graph_six = []
+
+    df = knowing_the_directors_oevre(df_movies_tmdb)
+    
+    for item in df['creator'].unique():
+        graph_six.append(
+            go.Scatter(
+                x=df.loc[df['creator'] == item, 'title'],
+                y=df.loc[df['creator'] == item, 'evaluation'],
+                mode='markers',
+                marker=dict(
+                    size=df.loc[df['creator'] == item, 'evaluation'],
+                    sizemode='area',
+                    sizeref=2.*max(df['evaluation'].tolist())/(40.**2),
+                    sizemin=4),
+                name=item
+            )
+            )
+
+    layout_six = dict(title='Mean evaluation and count for each director, based on unique items',
+                    xaxis=dict(title='Number of unique items'),
+                    yaxis=dict(title='Average evaluation'),
+                    colorway = colorway_diary,
+                        hoverlabel = dict(
+                        namelength = -1 # To show the whole label name
+                        ),
+                        plot_bgcolor = '#E8E8E8'
+                    )
+
+
+
     # append all charts to the figures list
     figures_movies = []
     figures_movies.append(dict(data=graph_one, layout=layout_one))
@@ -259,6 +324,7 @@ def return_figures_movies():
     figures_movies.append(dict(data=graph_three, layout=layout_three))
     figures_movies.append(dict(data=graph_four, layout=layout_four))
     figures_movies.append(dict(data=graph_five, layout=layout_five))
+    figures_movies.append(dict(data=graph_six, layout=layout_six))
 
     return figures_movies
 
