@@ -226,7 +226,7 @@ def return_figures_movies():
     # The fourth plot shows the 10 most viewed creators, their average evaluation and number of views
     graph_four = []
 
-    df = show_item_vs_count(df_movies, 'creator', 15)
+    df = show_item_vs_count(df_movies, 'creator', 10)
 
     for item in df['creator'].unique():
         graph_four.append(
@@ -243,7 +243,7 @@ def return_figures_movies():
            )
          )
     
-    layout_four = dict(title='The 15 most viewed directors',
+    layout_four = dict(title='The 10 most viewed directors',
                     xaxis=dict(title='Number of views'),
                     yaxis=dict(title='Average evaluation'),
                     colorway = colorway_diary,
@@ -305,7 +305,7 @@ def return_figures_movies():
             )
             )
 
-    layout_six = dict(title='Mean evaluation and count for each director, based on unique items',
+    layout_six = dict(title='Views of different movies for each Director',
                     xaxis=dict(title='Number of unique items'),
                     yaxis=dict(title='Average evaluation'),
                     colorway = colorway_diary,
