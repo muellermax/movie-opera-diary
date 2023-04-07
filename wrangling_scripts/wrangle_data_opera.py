@@ -55,6 +55,38 @@ def show_item_vs_count(df, input_var, m):
     return df_all
 
 
+def knowing_the_creators_oevre(df):
+    """
+    A function that allows me to show how I evaluated the creators whole oevre and
+    shows me which creators I evaluate best over the total oevre - there are some
+    creators who have a few operas that I have evaluated extremely good and other 
+    operas not so good. 
+
+    Input: 
+        df (DataFrame): The DataFrame with the opera data
+    
+    Output: 
+        knowing_the_directors_oevre (DataFrame): A DataFrame with the mean 
+        evaluation and the number of unique views
+    """
+
+    # Groupby creator and title, to get the mean evaluation for each item. 
+    df = df.groupby(['creator', 'title']).agg({
+            'date': 'count',
+            'evaluation': 'mean'
+        }).reset_index()
+
+    # Now Groupby creator to get the overall overview
+    df = df.groupby(['creator']).agg({
+            'title': 'nunique',
+            'evaluation': 'mean'
+        }).reset_index()
+
+    # Return the DataFrame
+    return df.round(2).sort_values('title', ascending = False).head(10)
+
+
+
 def return_figures_opera():
     """
     Creates the plotly visualizations
@@ -186,11 +218,46 @@ def return_figures_opera():
                       plot_bgcolor = '#E8E8E8'
                     )
 
+
+    # The sixth plot shows the evaluation for each unique mopera for each creator
+    graph_five = []
+
+    df = knowing_the_creators_oevre(df_operas)
+    
+    for item in df['creator'].unique():
+        graph_five.append(
+            go.Scatter(
+                x=df.loc[df['creator'] == item, 'title'],
+                y=df.loc[df['creator'] == item, 'evaluation'],
+                mode='markers',
+                marker=dict(
+                    size=df.loc[df['creator'] == item, 'evaluation'],
+                    sizemode='area',
+                    sizeref=2.*max(df['evaluation'].tolist())/(40.**2),
+                    sizemin=4),
+                name=item
+            )
+            )
+
+    layout_five = dict(title='Views of different movies for each Director',
+                    xaxis=dict(title='Number of unique items'),
+                    yaxis=dict(title='Average evaluation'),
+                    colorway = colorway_diary,
+                        hoverlabel = dict(
+                        namelength = -1 # To show the whole label name
+                        ),
+                        plot_bgcolor = '#E8E8E8'
+                    )
+
+
+
+
     # append all charts to the figures list
     figures_opera = []
     figures_opera.append(dict(data=graph_one, layout=layout_one))
     figures_opera.append(dict(data=graph_two, layout=layout_two))
     figures_opera.append(dict(data=graph_three, layout=layout_three))
     figures_opera.append(dict(data=graph_four, layout=layout_four))
+    figures_opera.append(dict(data=graph_five, layout=layout_five))
 
     return figures_opera
