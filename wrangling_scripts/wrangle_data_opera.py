@@ -239,7 +239,7 @@ def return_figures_opera():
             )
             )
 
-    layout_five = dict(title='Views of different movies for each Director',
+    layout_five = dict(title='Views of different works for each composer',
                     xaxis=dict(title='Number of unique items'),
                     yaxis=dict(title='Average evaluation'),
                     colorway = colorway_diary,
